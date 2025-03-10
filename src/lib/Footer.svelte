@@ -1,4 +1,3 @@
-<hr/>
 <footer class="bg-white dark:bg-gray-900 ">
 	<div class="mx-auto max-w-screen-xl px-4 pt-16 pb-6 sm:px-6 lg:px-8 lg:pt-24">
 		<div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
@@ -320,7 +319,7 @@
 						/>
 
 						<button
-							class="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-blue-600 px-5 py-3 text-sm btn-primary text- transition hover:bg-blue-700"
+							class="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-orange-600 px-5 py-3 text-sm text-white btn-primary text- transition hover:bg-orange-600"
 						>
 							Subscribe
 						</button>
