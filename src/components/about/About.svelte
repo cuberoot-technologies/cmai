@@ -26,7 +26,7 @@
 </div>
 <div class="mx-auto max-w-screen-xl px-4 py-12 lg:flex lg:items-center">
 	<div
-		class="relative flex flex-col items-center overflow-hidden rounded-4xl bg-[url('./images/banner.jpg')] bg-cover bg-center shadow-lg md:flex-row"
+		class="relative flex flex-col items-center overflow-hidden rounded-4xl bg-[url('/images/banner.jpg')] bg-cover bg-center shadow-lg md:flex-row"
 	>
 		<div
 			class="absolute inset-0 z-0 bg-black opacity-50 transition-opacity duration-300 group-hover:opacity-50"
@@ -50,7 +50,7 @@
 
 <div class="mx-auto max-w-screen-xl px-4 py-12 lg:flex lg:items-center">
 	<div
-		class="relative flex flex-col items-center overflow-hidden rounded-4xl bg-[url('./images/banner.jpg')] bg-cover bg-center shadow-lg md:flex-row"
+		class="relative flex flex-col items-center overflow-hidden rounded-4xl bg-[url('/images/banner.jpg')] bg-cover bg-center shadow-lg md:flex-row"
 	>
 		<div
 			class="absolute inset-0 z-0 bg-black opacity-50 transition-opacity duration-300 group-hover:opacity-50"
@@ -74,7 +74,7 @@
 
 <div class="mx-auto max-w-screen-xl px-4 py-12 lg:flex lg:items-center">
 	<div
-		class="relative flex flex-col items-center overflow-hidden rounded-4xl bg-[url('./images/banner.jpg')] bg-cover bg-center shadow-lg md:flex-row"
+		class="relative flex flex-col items-center overflow-hidden rounded-4xl bg-[url('/images/banner.jpg')] bg-cover bg-center shadow-lg md:flex-row"
 	>
 		<div
 			class="absolute inset-0 z-0 bg-black opacity-50 transition-opacity duration-300 group-hover:opacity-50"
