@@ -1,10 +1,8 @@
-import adapter from '@sveltejs/adapter-node';
+import adapter from '@sveltejs/adapter-auto';
 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
+export default {
 	kit: {
+		// default options are shown
 		adapter: adapter()
 	}
 };
-
-export default config;
