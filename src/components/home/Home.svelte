@@ -1,5 +1,4 @@
 <script>
-  import HomeBanner from "./HomeBanner.svelte";
   import HomeAbout from "./HomeAbout.svelte";
   import HomeOffer from "./HomeOffer.svelte";
   import HomeJoin from "./HomeJoin.svelte";
