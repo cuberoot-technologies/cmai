@@ -1,8 +1,8 @@
 <script>
 	import Navbar from '$lib/Navbar.svelte';
 	import Footer from '$lib/Footer.svelte';
-	import ClimateActionUrgencyBanner from '../../components/Climateactionurgency/ClimateActionUrgencyBanner.svelte';
-	import ClimateActionUrgency from '../../components/Climateactionurgency/ClimateActionUrgency.svelte';
+	import ClimateActionUrgencyBanner from '../../components/climateactionurgency/ClimateActionUrgencyBanner.svelte';
+	import ClimateActionUrgency from '../../components/climateactionurgency/ClimateActionUrgency.svelte';
 </script>
 
 <section class="relative bg-[url('./images/banner.jpg')] bg-cover bg-center">
