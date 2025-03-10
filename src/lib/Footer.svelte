@@ -1,13 +1,13 @@
-<footer class="bg-white dark:bg-gray-900 ">
+<footer class=" bg-gray-900 ">
 	<div class="mx-auto max-w-screen-xl px-4 pt-16 pb-6 sm:px-6 lg:px-8 lg:pt-24">
 		<div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
 			<div>
-				<div class="flex justify-center text-teal-600 sm:justify-start dark:text-teal-300">
-					  <img src="../src/images/logo.png" alt=""  width="300px"/>
+				<div class="flex justify-center  sm:justify-start text-teal-300">
+					  <img src="/images/logo.png" alt=""  width="300px"/>
 				</div>
 
 				<p
-					class="mt-6 max-w-md text-center leading-relaxed text-secondary sm:max-w-xs sm:text-left dark:text-gray-400"
+					class="mt-6 max-w-md text-center leading-relaxed text-secondary sm:max-w-xs sm:text-left text-gray-400"
 				>
 					India’s climate goal is the pillar of our existence. We aim to enable and facilitate the country’s transition to a net-zero future.
 				</p>
@@ -18,7 +18,7 @@
 							href="#"
 							rel="noreferrer"
 							target="_blank"
-							class="text-teal-700 transition hover:text-teal-700/75 dark:text-teal-500 dark:hover:text-teal-500/75"
+							class=" transition  text-teal-500 hover:text-teal-500/75"
 						>
 							<span class="sr-only">Facebook</span>
 							<svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -36,7 +36,7 @@
 							href="#"
 							rel="noreferrer"
 							target="_blank"
-							class="text-teal-700 transition hover:text-teal-700/75 dark:text-teal-500 dark:hover:text-teal-500/75"
+							class=" transition  text-teal-500 hover:text-teal-500/75"
 						>
 							<span class="sr-only">Instagram</span>
 							<svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -54,7 +54,7 @@
 							href="#"
 							rel="noreferrer"
 							target="_blank"
-							class="text-teal-700 transition hover:text-teal-700/75 dark:text-teal-500 dark:hover:text-teal-500/75"
+							class="transition  text-teal-500 hover:text-teal-500/75"
 						>
 							<span class="sr-only">Twitter</span>
 							<svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -70,7 +70,7 @@
 							href="#"
 							rel="noreferrer"
 							target="_blank"
-							class="text-teal-700 transition hover:text-teal-700/75 dark:text-teal-500 dark:hover:text-teal-500/75"
+							class="transition  text-teal-500 hover:text-teal-500/75"
 						>
 							<span class="sr-only">GitHub</span>
 							<svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -88,7 +88,7 @@
 							href="#"
 							rel="noreferrer"
 							target="_blank"
-							class="text-teal-700 transition hover:text-teal-700/75 dark:text-teal-500 dark:hover:text-teal-500/75"
+							class="transition  text-teal-500 hover:text-teal-500/75"
 						>
 							<span class="sr-only">Dribbble</span>
 							<svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -106,12 +106,12 @@
 			<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:col-span-2">
 				
 				<div class="text-center sm:text-left">
-					<p class="text-lg font-medium text-gray-900 dark:text-white">Our Services</p>
+					<p class="text-lg font-medium  text-white">Our Services</p>
 
 					<ul class="mt-8 space-y-4 text-sm">
 						<li>
 							<a
-								class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+								class=" transition  text-white hover:text-white/75"
 								href="#"
 							>
 								Web Development
@@ -120,7 +120,7 @@
 
 						<li>
 							<a
-								class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+								class=" transition  text-white hover:text-white/75"
 								href="#"
 							>
 								Web Design
@@ -129,7 +129,7 @@
 
 						<li>
 							<a
-								class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+								class=" transition  text-white hover:text-white/75"
 								href="#"
 							>
 								Marketing
@@ -138,7 +138,7 @@
 
 						<li>
 							<a
-								class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+								class=" transition  text-white hover:text-white/75"
 								href="#"
 							>
 								Google Ads
@@ -148,12 +148,12 @@
 				</div>
 
 				<div class="text-center sm:text-left">
-					<p class="text-lg font-medium text-gray-900 dark:text-white">Helpful Links</p>
+					<p class="text-lg font-medium  text-white">Helpful Links</p>
 
 					<ul class="mt-8 space-y-4 text-sm">
 						<li>
 							<a
-								class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+								class=" transition  text-white hover:text-white/75"
 								href="#"
 							>
 								FAQs
@@ -162,7 +162,7 @@
 
 						<li>
 							<a
-								class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+								class=" transition  text-white hover:text-white/75"
 								href="#"
 							>
 								Support
@@ -175,7 +175,7 @@
 								href="#"
 							>
 								<span
-									class="text-gray-700 transition group-hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+									class=" transition  text-white hover:text-white/75"
 								>
 									Live Chat
 								</span>
@@ -192,7 +192,7 @@
 				</div>
 
 				<div class="text-center sm:text-left">
-					<p class="text-lg font-medium text-secondary dark:text-white">Contact Information</p>
+					<p class=" font-medium text-secondary text-white">Contact Information</p>
 
 					<ul class="mt-8 space-y-4 text-sm">
 						<li>
@@ -202,7 +202,7 @@
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									class="size-5 shrink-0 text-gray-900 dark:text-white"
+									class="size-5 shrink-0 text-white"
 									fill="none"
 									viewBox="0 0 24 24"
 									stroke="currentColor"
@@ -215,7 +215,7 @@
 									/>
 								</svg>
 
-								<span class="flex-1 text-gray-700 dark:text-gray-300"> Secretary@cma-india.in </span>
+								<span class="flex-1 text-gray-300"> Secretary@cma-india.in </span>
 							</a>
 						</li>
 
@@ -226,7 +226,7 @@
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									class="size-5 shrink-0 text-gray-900 dark:text-white"
+									class="size-5 shrink-0 text-white"
 									fill="none"
 									viewBox="0 0 24 24"
 									stroke="currentColor"
@@ -239,37 +239,11 @@
 									/>
 								</svg>
 
-								<span class="flex-1 text-gray-700 dark:text-gray-300">+91 9811779580</span>
+								<span class="flex-1  text-gray-300">+91 9811779580</span>
 							</a>
 						</li>
 
-						<li
-							class="flex items-start justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-						>
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								class="size-5 shrink-0 text-gray-900 dark:text-white"
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke="currentColor"
-								stroke-width="2"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-								/>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-								/>
-							</svg>
-
-							<address class="-mt-0.5 flex-1 text-gray-700 not-italic dark:text-gray-300">
-								Office Address : 511, World Trade Centre, Connaught Place, New Delhi - 110001
-							</address>
-						</li>
+					
 
 
 						
@@ -278,7 +252,7 @@
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
-								class="size-5 shrink-0 text-gray-900 dark:text-white"
+								class="size-5 shrink-0 text-white"
 								fill="none"
 								viewBox="0 0 24 24"
 								stroke="currentColor"
@@ -296,7 +270,7 @@
 								/>
 							</svg>
 
-							<address class="-mt-0.5 flex-1 text-gray-700 not-italic dark:text-gray-300">
+							<address class="-mt-0.5 flex-1  not-italic text-gray-300">
 								Office Address : 511, World Trade Centre, Connaught Place, New Delhi - 110001
 							</address>
 						</li>
