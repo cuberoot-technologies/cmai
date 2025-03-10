@@ -10,7 +10,7 @@
 				<div
 					class="group relative p-4 transition-all duration-300 hover:border-gray-600 hover:shadow-[0px_0px_12px_2px_rgba(0,0,0,0.7)] sm:w-[400px] md:w-[450px]"
 				>
-					<a href="#" class="text-green-700 underline group-hover:no-underline">
+					<a href="#" class="text-green-700 ">
 						<div class="flex flex-col items-center group-hover:bg-white">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@
 				<div
 					class="group relative p-4 transition-all duration-300 hover:border-gray-600 hover:shadow-[0px_0px_12px_2px_rgba(0,0,0,0.7)] sm:w-[400px] md:w-[450px]"
 				>
-					<a href="#" class="text-green-700 underline group-hover:no-underline">
+					<a href="#" class="text-green-700 ">
 						<div class="flex flex-col items-center group-hover:bg-white">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +83,7 @@
 
 							<span
 								class="sm:text-[16px ] w-full w-full text-center text-2xl transition-colors duration-300 group-hover:text-neutral-500"
-								>1. Empowering India’s Carbon Market</span
+								>2. Policy research and advocacy</span
 							>
 						</div>
 					</a>
@@ -92,7 +92,7 @@
 				<div
 					class="group relative p-4 transition-all duration-300 hover:border-gray-600 hover:shadow-[0px_0px_12px_2px_rgba(0,0,0,0.7)] sm:w-[400px] md:w-[450px]"
 				>
-					<a href="#" class="text-green-700 underline group-hover:no-underline">
+					<a href="#" class="text-green-700 ">
 						<div class="flex flex-col items-center group-hover:bg-white">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -124,7 +124,8 @@
 
 							<span
 								class="sm:text-[16px ] 5 w-full w-full text-center text-2xl transition-colors duration-300 group-hover:text-neutral-500"
-								>1. Empowering India’s Carbon Market</span
+								>3. 
+								Innovative Interventions</span
 							>
 						</div>
 					</a>
@@ -135,7 +136,7 @@
 				<div
 					class="group relative p-4 transition-all duration-300 hover:border-gray-600 hover:shadow-[0px_0px_12px_2px_rgba(0,0,0,0.7)] sm:w-[400px] md:w-[450px]"
 				>
-					<a href="#" class="text-green-700 underline group-hover:no-underline">
+					<a href="#" class="text-green-700 ">
 						<div class="flex flex-col items-center group-hover:bg-white">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -167,7 +168,7 @@
 
 							<span
 								class="sm:text-[16px ] 5 w-full w-full text-center text-2xl transition-colors duration-300 group-hover:text-neutral-500"
-								>1. Empowering India’s Carbon Market</span
+								>4. Capacity Building</span
 							>
 						</div>
 					</a>
@@ -176,7 +177,7 @@
 				<div
 					class="group relative p-4 transition-all duration-300 hover:border-gray-600 hover:shadow-[0px_0px_12px_2px_rgba(0,0,0,0.7)] sm:w-[400px] md:w-[450px]"
 				>
-					<a href="#" class="text-green-700 underline group-hover:no-underline">
+					<a href="#" class="text-green-700 ">
 						<div class="flex flex-col items-center group-hover:bg-white">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -208,7 +209,7 @@
 
 							<span
 								class="sm:text-[16px ] 5 w-full w-full text-center text-2xl transition-colors duration-300 group-hover:text-neutral-500"
-								>1. Empowering India’s Carbon Market</span
+								>5. Community Initiatives</span
 							>
 						</div>
 					</a>
@@ -217,7 +218,7 @@
 				<div
 					class="group relative p-4 transition-all duration-300 hover:border-gray-600 hover:shadow-[0px_0px_12px_2px_rgba(0,0,0,0.7)] sm:w-[400px] md:w-[450px]"
 				>
-					<a href="#" class="text-green-700 underline group-hover:no-underline">
+					<a href="#" class="text-green-700 ">
 						<div class="flex flex-col items-center group-hover:bg-white">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -249,7 +250,7 @@
 
 							<span
 								class="sm:text-[16px ] 5 w-full w-full text-center text-2xl transition-colors duration-300 group-hover:text-blue-200"
-								>1. Empowering India’s Carbon Market</span
+								>6. Partnerships</span
 							>
 						</div>
 					</a>
