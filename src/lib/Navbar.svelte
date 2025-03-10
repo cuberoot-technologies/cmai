@@ -158,7 +158,7 @@
 	<div class="mx-auto max-w-screen-xl px-4 py-6 sm:px-6 lg:px-8">
 		<div class="flex h-16 items-center justify-between">
 			<a href="/" class="text-teal-400">
-				<img src="../src/images/logo.png" alt="Logo" width="200px" />
+				<img src="/images/logo.png" alt="Logo" width="200px" />
 			</a>
 
 			<nav class="hidden items-center space-x-6 md:flex">
