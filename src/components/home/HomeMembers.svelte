@@ -2,9 +2,7 @@
 	<div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
 		<div class="md:flex md:items-end md:justify-between">
 			<div class="max-w-xl">
-				<h2 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-					  Our Members
-				</h2>
+				<h2 class="text-4xl font-bold tracking-tight text-sky-800 sm:text-5xl">Our Members</h2>
 
 				<p class="mt-6 max-w-lg leading-relaxed text-gray-700">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur praesentium natus
@@ -15,7 +13,7 @@
 
 			<a
 				href="#"
-				class="mt-6 inline-flex shrink-0 items-center gap-2 rounded-full border border-rose-600 px-5 py-3 text-rose-600 transition hover:bg-rose-600 hover:text-white md:mt-0"
+				class="mt-6 inline-flex shrink-0 items-center gap-2 rounded-full border border-orange-600 px-5 py-3 text-orange-600 transition hover:bg-orange-600 hover:text-white md:mt-0"
 			>
 				<span class="font-medium"> See All Members </span>
 
@@ -40,8 +38,7 @@
 				<blockquote class="rounded-lg bg-gray-50 p-6 shadow-xs sm:p-8">
 					<div class="flex items-center gap-4">
 						<div>
-							<p class="mt-0.5 text-lg font-medium text-gray-900">Eki Energy
-              </p>
+							<p class="mt-0.5 text-lg font-medium text-gray-900">Eki Energy</p>
 						</div>
 					</div>
 				</blockquote>
@@ -51,8 +48,7 @@
 				<blockquote class="rounded-lg bg-gray-50 p-6 shadow-xs sm:p-8">
 					<div class="flex items-center gap-4">
 						<div>
-							<p class="mt-0.5 text-lg font-medium text-gray-900">Fortum India Pvt Ltd
-              </p>
+							<p class="mt-0.5 text-lg font-medium text-gray-900">Fortum India Pvt Ltd</p>
 						</div>
 					</div>
 				</blockquote>
@@ -62,8 +58,7 @@
 				<blockquote class="rounded-lg bg-gray-50 p-6 shadow-xs sm:p-8">
 					<div class="flex items-center gap-4">
 						<div>
-							<p class="mt-0.5 text-lg font-medium text-gray-900">Glencore
-              </p>
+							<p class="mt-0.5 text-lg font-medium text-gray-900">Glencore</p>
 						</div>
 					</div>
 				</blockquote>
@@ -73,8 +68,7 @@
 				<blockquote class="rounded-lg bg-gray-50 p-6 shadow-xs sm:p-8">
 					<div class="flex items-center gap-4">
 						<div>
-							<p class="mt-0.5 text-lg font-medium text-gray-900">Grownet
-              </p>
+							<p class="mt-0.5 text-lg font-medium text-gray-900">Grownet</p>
 						</div>
 					</div>
 				</blockquote>
@@ -84,8 +78,9 @@
 				<blockquote class="rounded-lg bg-gray-50 p-6 shadow-xs sm:p-8">
 					<div class="flex items-center gap-4">
 						<div>
-							<p class="mt-0.5 text-lg font-medium text-gray-900">Gujchem Distillers India Limited (Zr2 Group)
-              </p>
+							<p class="mt-0.5 text-lg font-medium text-gray-900">
+								Gujchem Distillers India Limited (Zr2 Group)
+							</p>
 						</div>
 					</div>
 				</blockquote>
@@ -95,8 +90,7 @@
 				<blockquote class="rounded-lg bg-gray-50 p-6 shadow-xs sm:p-8">
 					<div class="flex items-center gap-4">
 						<div>
-							<p class="mt-0.5 text-lg font-medium text-gray-900">Humana People To People India
-              </p>
+							<p class="mt-0.5 text-lg font-medium text-gray-900">Humana People To People India</p>
 						</div>
 					</div>
 				</blockquote>
@@ -106,8 +100,7 @@
 				<blockquote class="rounded-lg bg-gray-50 p-6 shadow-xs sm:p-8">
 					<div class="flex items-center gap-4">
 						<div>
-							<p class="mt-0.5 text-lg font-medium text-gray-900">Indian Oil Corporate Limited
-              </p>
+							<p class="mt-0.5 text-lg font-medium text-gray-900">Indian Oil Corporate Limited</p>
 						</div>
 					</div>
 				</blockquote>
@@ -117,8 +110,7 @@
 				<blockquote class="rounded-lg bg-gray-50 p-6 shadow-xs sm:p-8">
 					<div class="flex items-center gap-4">
 						<div>
-							<p class="mt-0.5 text-lg font-medium text-gray-900">Nayara Energy Limited
-              </p>
+							<p class="mt-0.5 text-lg font-medium text-gray-900">Nayara Energy Limited</p>
 						</div>
 					</div>
 				</blockquote>
@@ -128,8 +120,9 @@
 				<blockquote class="rounded-lg bg-gray-50 p-6 shadow-xs sm:p-8">
 					<div class="flex items-center gap-4">
 						<div>
-							<p class="mt-0.5 text-lg font-medium text-gray-900">Railway Energy Management Company Limited
-              </p>
+							<p class="mt-0.5 text-lg font-medium text-gray-900">
+								Railway Energy Management Company Limited
+							</p>
 						</div>
 					</div>
 				</blockquote>

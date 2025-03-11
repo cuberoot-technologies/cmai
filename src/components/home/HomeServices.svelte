@@ -35,7 +35,7 @@
 <section class="bg-gray-50">
 	<div class="mx-auto mb-10 max-w-screen-xl px-4 py-12">
 		<div class="max-w-7xl items-end justify-between sm:flex sm:pe-6 lg:pe-8">
-			<h2 class="max-w-xl text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+			<h2 class="max-w-xl text-4xl font-bold tracking-tight text-sky-800 sm:text-5xl">
 				Read trusted our services
 			</h2>
 
@@ -43,7 +43,7 @@
 				<button
 					aria-label="Previous slide"
 					bind:this={prevButton}
-					class="rounded-full border border-rose-600 p-3 text-rose-600 transition hover:bg-rose-600 hover:text-white"
+					class="rounded-full border border-orange-600 p-3 text-orange-600 transition hover:bg-orange-600 hover:text-white"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@
 				<button
 					aria-label="Next slide"
 					bind:this={nextButton}
-					class="rounded-full border border-rose-600 p-3 text-rose-600 transition hover:bg-rose-600 hover:text-white"
+					class="rounded-full border border-orange-600 p-3 text-orange-600 transition hover:bg-orange-600 hover:text-white"
 				>
 					<svg
 						class="size-5 rtl:rotate-180"
@@ -89,7 +89,7 @@
 						<div>
 							<div class="flex gap-0.5 text-green-500">01</div>
 							<div class="mt-4">
-								<p class="text-2xl font-bold text-rose-600 sm:text-3xl">
+								<p class="text-2xl font-bold text-black sm:text-3xl">
 									Capacity Building/Skilling
 								</p>
 
@@ -111,7 +111,7 @@
 						<div>
 							<div class="flex gap-0.5 text-green-500">02</div>
 							<div class="mt-4">
-								<p class="text-2xl font-bold text-rose-600 sm:text-3xl">
+								<p class="text-2xl font-bold text-black-200 sm:text-3xl">
 									Policy Advocacy
 								</p>
 
@@ -130,7 +130,7 @@
 						<div>
 							<div class="flex gap-0.5 text-green-500">03</div>
 							<div class="mt-4">
-								<p class="text-2xl font-bold text-rose-600 sm:text-3xl">
+								<p class="text-2xl font-bold text-black-200 sm:text-3xl">
 									End-to-End Project Consultancy
 								</p>
 
@@ -148,7 +148,7 @@
 						<div>
 							<div class="flex gap-0.5 text-green-500">04</div>
 							<div class="mt-4">
-								<p class="text-2xl font-bold text-rose-600 sm:text-3xl">
+								<p class="text-2xl font-bold text-black-200 sm:text-3xl">
 									Sustainability & Carbon Neutrality Services
 								</p>
 
@@ -166,7 +166,7 @@
 						<div>
 							<div class="flex gap-0.5 text-green-500">05</div>
 							<div class="mt-4">
-								<p class="text-2xl font-bold text-rose-600 sm:text-3xl">
+								<p class="text-2xl font-bold text-black-200 sm:text-3xl">
 									Fostering Climate Dialogues
 								</p>
 
@@ -184,7 +184,7 @@
 						<div>
 							<div class="flex gap-0.5 text-green-500">06</div>
 							<div class="mt-4">
-								<p class="text-2xl font-bold text-rose-600 sm:text-3xl">
+								<p class="text-2xl font-bold text-black-200 sm:text-3xl">
 									Knowledge Report
 								</p>
 

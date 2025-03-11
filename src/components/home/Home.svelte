@@ -6,14 +6,20 @@
 	import HomePartner from "./HomePartner.svelte";
 	import HomeMembers from "./HomeMembers.svelte";
 	import HomeServices from "./HomeServices.svelte";
+	import HomeHightlights from "./HomeHightlights.svelte";
+	import HomeUpcommingEvents from "./HomeUpcommingEvents.svelte";
+	import HomePolicy from "./HomePolicy.svelte";
 </script>
 
 <HomeAbout/>
+<HomeServices/>
+<HomeHightlights/>
+<HomeUpcommingEvents/>
+<HomeOffer/>
 <HomePartner/>
 
-<HomeOffer/>
-<HomeServices/>
 <HomeMembers/>
 <HomeJoin/>
 <HomeTestimonial/>
+<HomePolicy/>
 
