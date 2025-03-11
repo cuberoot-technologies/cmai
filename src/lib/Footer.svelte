@@ -112,7 +112,23 @@
 								class=" transition  text-white hover:text-white/75"
 								href="#"
 							>
-								Web Development
+							About Us
+							</a>
+						</li>
+						<li>
+							<a
+								class=" transition  text-white hover:text-white/75"
+								href="#"
+							>
+							Initiatives
+							</a>
+						</li>
+						<li>
+							<a
+								class=" transition  text-white hover:text-white/75"
+								href="#"
+							>
+							Services
 							</a>
 						</li>
 
@@ -121,7 +137,7 @@
 								class=" transition  text-white hover:text-white/75"
 								href="#"
 							>
-								Web Design
+							Events
 							</a>
 						</li>
 
@@ -130,7 +146,7 @@
 								class=" transition  text-white hover:text-white/75"
 								href="#"
 							>
-								Marketing
+							How to become a member
 							</a>
 						</li>
 
@@ -139,7 +155,7 @@
 								class=" transition  text-white hover:text-white/75"
 								href="#"
 							>
-								Google Ads
+							Media Room
 							</a>
 						</li>
 					</ul>
@@ -167,25 +183,7 @@
 							</a>
 						</li>
 
-						<li>
-							<a
-								class="group flex justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-								href="#"
-							>
-								<span
-									class=" transition  text-white hover:text-white/75"
-								>
-									Live Chat
-								</span>
-
-								<span class="relative flex size-2">
-									<span
-										class="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"
-									></span>
-									<span class="relative inline-flex size-2 rounded-full bg-teal-500"></span>
-								</span>
-							</a>
-						</li>
+					
 					</ul>
 				</div>
 
@@ -307,5 +305,5 @@
 </footer>
 
 <footer class="bg-gray-800 p-4 text-center text-white">
-	<p>© {new Date().getFullYear()} Copyright © 2025 CMA-India. All rights reserved.</p>
+	<p>Copyright © {new Date().getFullYear()}   CMA-India. All rights reserved.</p>
 </footer>

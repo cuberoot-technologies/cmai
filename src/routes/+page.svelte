@@ -5,13 +5,28 @@
 	import HomeBanner from '../components/home/HomeBanner.svelte';
 </script>
 
-<section class="relative bg-[url('/images/banner.jpg')] bg-cover bg-center">
-	<div
-		class="absolute inset-0 z-0 bg-black opacity-50 transition-opacity duration-300 group-hover:opacity-50"
-	></div>
-	<Navbar />
-	<HomeBanner />
+<section class="relative w-full h-screen overflow-hidden">
+	<!-- Background Video -->
+	<video
+		class="absolute inset-0 w-full h-full object-cover"
+		src="/images/video.mp4"
+		autoplay
+		loop
+		muted
+		playsinline
+	></video>
+
+	<!-- Overlay -->
+	<div class="absolute inset-0 bg-black opacity-50"></div>
+
+	<!-- Navbar and Content -->
+	<div class="relative z-10">
+		<Navbar />
+		<HomeBanner />
+	</div>
 </section>
+
+<!-- Main Content -->
 <Home />
 
 <Footer />

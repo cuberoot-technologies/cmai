@@ -33,7 +33,7 @@
 <section class="px-4 py-12">
 	<div class="mx-auto max-w-screen-xl">
 		<div class="flex items-center justify-between">
-			<h2 class="text-4xl font-bold text-sky-800 sm:text-5xl">Our Partners</h2>
+			<h2 class="text-4xl font-bold text-sky-800 sm:text-5xl">Partnerships and Collaborations</h2>
 			<div class="flex gap-4">
 				<button
 					on:click={prevSlide}
@@ -80,7 +80,7 @@
 							class="flex h-[200px] flex-col items-center justify-around bg-white p-4 shadow-xs transition hover:shadow-lg"
 						>
 							<span class="flex w-full justify-center p-2">
-								<img src={imageSrc} alt={imageSrc} width="200px" height="80px" />
+								<img src={imageSrc} alt={imageSrc} width="60%" />
 							</span>
 						</article>
 					</div>
