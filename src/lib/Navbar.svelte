@@ -254,7 +254,7 @@
 				</li>
 				<div class="justify-center sm:flex sm:gap-4">
 					<button
-						class="border-text-secondary w-4xs border-orange-600 bg-orange-600 px-6 py-2 text-lg font-semibold text-white transition-all duration-300 ease-in-out hover:border-orange-700 hover:bg-orange-700 hover:text-white hover:no-underline"
+						class="border-text-secondary w-4xs border-orange-600 bg-orange-600 px-6 py-2 text-lg font-semibold text-white transition-all duration-300 ease-in-out hover:border-orange-700 hover:bg-orange-700 hover:text-white "
 					>
 						ICW 2025
 					</button>
