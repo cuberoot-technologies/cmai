@@ -11,15 +11,15 @@
 	import HomePolicy from "./HomePolicy.svelte";
 </script>
 
-<HomeAbout/>
-<HomeServices/>
+<!-- <HomeAbout/> -->
 <HomeHightlights/>
 <HomeUpcommingEvents/>
-<HomeOffer/>
+<HomeServices/>
+<!-- <HomeOffer/> -->
 <HomePartner/>
 
 <HomeMembers/>
-<HomeJoin/>
+<!-- <HomeJoin/> -->
 <HomeTestimonial/>
 <HomePolicy/>
 

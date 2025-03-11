@@ -16,7 +16,7 @@
 			loop: true,
 			slides: {
 				origin: 'center',
-				perView: 2,
+				perView: 1,
 				spacing: 16
 			},
 			breakpoints: {
@@ -40,9 +40,10 @@
 		<div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:items-center lg:gap-16">
 			<div class="max-w-xl text-center sm:text-left">
 				<h2 class="text-3xl font-bold tracking-tight text-sky-800 sm:text-4xl">
-					Don't just take our word for it...
+					Testimonials
+
 				</h2>
-				<p class="mt-4 text-gray-700">Hear what our customers have to say about our services.</p>
+				<p class="mt-4 text-gray-700">Building a Greener Tomorrow – Hear How CMAI is Driving Change Across Industries.</p>
 
 				<div class="hidden lg:mt-8 lg:flex lg:gap-4">
 					<button

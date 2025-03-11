@@ -27,8 +27,8 @@
 			]
 		},
 		{
-			name: 'Offerings',
-			key: 'offerings',
+			name: 'Initiatives',
+			key: 'Initiatives',
 			links: [
 				{ path: '/carbon-markets', label: 'Empowering India’s Carbon Credit Market' },
 				{ path: '/innovation-support', label: 'Policy research and advocacy' },
@@ -39,8 +39,8 @@
 			]
 		},
 		{
-			name: 'Climate Information',
-			key: 'climate',
+			name: 'Services',
+			key: 'Services',
 			links: [
 				{ path: '/climate-sciences', label: 'Climate Sciences' },
 				{ path: '/history-of-climate-action', label: 'History of Climate Action' },
@@ -51,8 +51,13 @@
 			]
 		},
 		{
-			name: 'Knowledge Hub',
-			key: 'knowledge',
+			name: 'Events',
+			key: 'Events',
+			links: [{ path: '/research-material', label: 'Research Material' }]
+		},
+		{
+			name: 'become a member',
+			key: 'become a member',
 			links: [{ path: '/research-material', label: 'Research Material' }]
 		}
 	];
@@ -254,7 +259,7 @@
 				</li>
 				<div class="justify-center sm:flex sm:gap-4">
 					<button
-						class="border-text-secondary w-4xs border-orange-600 bg-orange-600 px-6 py-2 text-lg font-semibold text-white transition-all duration-300 ease-in-out hover:border-orange-700 hover:bg-orange-700 hover:text-white "
+						class="border-text-secondary w-4xs border-orange-600 bg-orange-600 px-6 py-2 text-lg font-semibold text-white transition-all duration-300 ease-in-out hover:border-orange-700 hover:bg-orange-700 hover:text-white"
 					>
 						ICW 2025
 					</button>

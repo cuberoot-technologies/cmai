@@ -4,10 +4,8 @@
 			<div class="max-w-xl">
 				<h2 class="text-4xl font-bold tracking-tight text-sky-800 sm:text-5xl">Our Members</h2>
 
-				<p class="mt-6 max-w-lg leading-relaxed text-gray-700">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur praesentium natus
-					sapiente commodi. Aliquid sunt tempore iste repellendus explicabo dignissimos placeat,
-					autem harum dolore reprehenderit quis! Quo totam dignissimos earum.
+				<p class="mt-6 max-w-xl leading-relaxed text-gray-700">
+					CMAI has a diverse membership base, including industry leaders, corporates, government institutions, and academic institutes. Together, we collaborate to promote sustainable practices, advocate for impactful policies, and develop innovative solutions aimed at reducing carbon emissions.
 				</p>
 			</div>
 
