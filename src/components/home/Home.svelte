@@ -92,6 +92,8 @@
 				>
 					<img src="/images/center.png" alt="" class=" w-[320px] rounded-lg" />
 				</div>
+				<div class="shadow mt-5 p-5"><HomePolicy /></div>
+
 			</div>
 
 			<!-- Main Content (larger) -->
