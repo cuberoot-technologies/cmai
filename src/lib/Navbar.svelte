@@ -20,11 +20,7 @@
 		{
 			name: 'About Us',
 			key: 'about',
-			links: [
-				{ path: '/about-us', label: 'About US' },
-				{ path: '/our-team', label: 'Our Team' },
-				{ path: '/members', label: 'Members' }
-			]
+			
 		},
 		{
 			name: 'Initiatives',
@@ -63,40 +59,14 @@
 	];
 </script>
 
-<header class="relative z-10 text-white">
+<header class="relative z-10 text-white bg-gray-900">
 	<div class=" hidden lg:block">
-		<div class="mx-auto flex max-w-screen-xl items-center gap-2 px-6 pb-2">
-			<div class="flex size-full h-16 w-full max-w-screen-xl items-center gap-2">
-				<a class="block flex gap-2 text-sm text-white" href="mailto:secretary@cma-india.in">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="24"
-						height="24"
-						viewBox="0 0 24 24"
-						fill="currentColor"
-					>
-						<path
-							d="M2 4c-.55 0-1 .45-1 1v14c0 .55.45 1 1 1h20c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1H2zm18 2v.01L12 13 4 6.01V6h16zM4 18V8l8 7 8-7v10H4z"
-						/>
-					</svg> secretary@cma-india.in
-				</a>
-				<a
-					class="block flex gap-2 text-sm text-white"
-					href="https://maps.app.goo.gl/jvy6GRmjSP45weN96"
-					target="_blank"
-				>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="24"
-						height="24"
-						viewBox="0 0 24 24"
-						fill="currentColor"
-					>
-						<path
-							d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
-						/>
-					</svg>
-					Working Office: 511, World Trade Centre, Barakhamba Road, New Delhi- 110001
+		<div class="mx-auto flex max-w-screen-xl items-center justify-between ">
+			<div class="d-none"></div>
+			<div class="">
+				
+				<a href="/" class="text-teal-400">
+					<img src="/images/logo.png" alt="Logo" width="130px" />
 				</a>
 			</div>
 
@@ -174,13 +144,10 @@
 		</div>
 	</div>
 	<hr class="text-red-100" />
-	<div class="mx-auto max-w-screen-xl px-4 py-6 sm:px-6 lg:px-8">
-		<div class="flex h-16 items-center justify-between">
-			<a href="/" class="text-teal-400">
-				<img src="/images/logo.png" alt="Logo" width="200px" />
-			</a>
+	<div class="mx-auto max-w-screen-xl px-4 py-2 sm:px-6 lg:px-8">
+			
 
-			<nav class="hidden items-center space-x-6 md:flex">
+			<nav class="hidden items-center justify-center space-x-6 md:flex">
 				{#each menuItems as menu}
 					<div class="relative cursor-pointer">
 						<button
@@ -200,14 +167,7 @@
 						{/if}
 					</div>
 				{/each}
-				<a href="contact-us" class="cursor-pointer hover:text-green-400">Contact Us</a>
-				<div class="sm:flex sm:gap-4">
-					<button
-						class="border-text-secondary w-4xs border-orange-600 bg-orange-600 px-6 py-2 text-lg font-semibold text-white transition-all duration-300 ease-in-out hover:border-orange-700 hover:bg-orange-700 hover:text-white hover:no-underline"
-					>
-						ICW 2025
-					</button>
-				</div>
+				
 			</nav>
 
 			<div class="md:hidden">
@@ -228,7 +188,6 @@
 					</svg>
 				</button>
 			</div>
-		</div>
 	</div>
 
 	{#if showMobileMenu}

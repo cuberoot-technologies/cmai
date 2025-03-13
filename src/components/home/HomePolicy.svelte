@@ -1,18 +1,11 @@
-<!--
-  Heads up! 👋
-
-  Plugins:
-    - @tailwindcss/forms
--->
-
-<section class="relative mx-auto flex h-[900px] max-w-screen-xl flex-wrap lg:items-center">
-	<div class="w-full py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:py-24">
+<section class="relative mx-auto  lg:items-center">
+	<div class="w-full w-full ">
 		<div class="mx-auto max-w-lg text-center">
-			<h1 class="text-2xl font-bold sm:text-3xl">Submit Your Policy Recommendations
-            </h1>
+			<h1 class="text-xl font-bold ">Submit Your Policy Recommendations</h1>
 
-			<p class="mt-4 text-gray-500">
-				Be a Part of the Solution – Submit Your Policy Recommendations and Help Drive Sustainable Change.
+			<p class="mt-2 text-xs text-gray-500 ">
+				Be a Part of the Solution – Submit Your Policy Recommendations and Help Drive Sustainable
+				Change.
 			</p>
 		</div>
 
@@ -23,26 +16,11 @@
 				<div class="relative">
 					<input
 						type="email"
-						class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-xs"
+						class="w-full  border-gray-200 p-3 text-sm pe-12 placeholder:text-xs text-sm shadow-xs bg-white"
 						placeholder="Enter Full Name"
 					/>
 
-					<span class="absolute inset-y-0 end-0 grid place-content-center px-4">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							class="size-4 text-gray-400"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
-							/>
-						</svg>
-					</span>
+					
 				</div>
 			</div>
 
@@ -52,32 +30,11 @@
 				<div class="relative">
 					<input
 						type="email"
-						class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-xs"
+						class="w-full bg-white border-gray-200 p-3 text-sm pe-12 placeholder:text-xs text-sm shadow-xs"
 						placeholder="Enter email"
 					/>
 
-					<span class="absolute inset-y-0 end-0 grid place-content-center px-4">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							class="size-4 text-gray-400"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-							/>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
-							/>
-						</svg>
-					</span>
+					
 				</div>
 			</div>
 
@@ -88,36 +45,36 @@
 					<select
 						name=""
 						id=""
-						class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-xs"
+						class="w-full  border-gray-200 p-3 text-sm pe-12 placeholder:text-xs text-sm shadow-xs bg-white"
 					>
-						<option class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-xs">
+						<option class="w-full  border-gray-200 p-3 text-sm pe-12 placeholder:text-xs text-sm shadow-xs bg-white">
 							Select Policy Recommendation Category</option
 						>
-						<option class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-xs">
+						<option class="w-full  border-gray-200 p-3 text-sm pe-12 placeholder:text-xs text-sm shadow-xs bg-white">
 							Indian Carbon Market
 						</option>
-						<option class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-xs"
+						<option class="w-full  border-gray-200 p-3 text-sm pe-12 placeholder:text-xs text-sm shadow-xs bg-white"
 							>Indian Voluntary Carbon Market</option
 						>
-						<option class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-xs"
+						<option class="w-full  border-gray-200 p-3 text-sm pe-12 placeholder:text-xs text-sm shadow-xs bg-white"
 							>International Voluntary Carbon Market</option
 						>
-						<option class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-xs"
+						<option class="w-full  border-gray-200 p-3 text-sm pe-12 placeholder:text-xs text-sm shadow-xs bg-white"
 							>Article 6.2
 						</option>
-						<option class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-xs"
+						<option class="w-full  border-gray-200 p-3 text-sm pe-12 placeholder:text-xs text-sm shadow-xs bg-white"
 							>Article 6.4
 						</option>
-						<option class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-xs"
+						<option class="w-full  border-gray-200 p-3 text-sm pe-12 placeholder:text-xs text-sm shadow-xs bg-white"
 							>Article 6.8
 						</option>
-						<option class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-xs"
+						<option class="w-full  border-gray-200 p-3 text-sm pe-12 placeholder:text-xs text-sm shadow-xs bg-white"
 							>Green Credit Program
 						</option>
-						<option class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-xs"
+						<option class="w-full  border-gray-200 p-3 text-sm pe-12 placeholder:text-xs text-sm shadow-xs bg-white"
 							>Carbon Market
 						</option>
-						<option class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-xs"
+						<option class="w-full  border-gray-200 p-3 text-sm pe-12 placeholder:text-xs text-sm shadow-xs bg-white"
 							>Any other
 						</option>
 					</select>
@@ -128,9 +85,9 @@
 				<label class="sr-only" for="message">Message</label>
 
 				<textarea
-					class="w-full rounded-lg border-gray-200 p-3 text-sm"
+					class="w-full  border-gray-200 p-3 text-sm placeholder:text-xs"
 					placeholder="Brief Description of Your Policy Recommendation"
-					rows="3"
+					rows="2"
 					id="message"
 				></textarea>
 			</div>
@@ -138,9 +95,9 @@
 				<label class="sr-only" for="message">Message</label>
 
 				<textarea
-					class="w-full rounded-lg border-gray-200 p-3 text-sm"
+					class="w-full  border-gray-200 p-3 text-sm placeholder:text-xs"
 					placeholder=" Key Benefits of Your Policy Recommendations"
-					rows="3"
+					rows="2"
 					id="message"
 				></textarea>
 			</div>
@@ -150,26 +107,18 @@
 				<div class="relative">
 					<input
 						type="file"
-						class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-xs"
+						class="w-full  border-gray-200 p-3 text-sm pe-12 placeholder:text-xs text-sm shadow-xs bg-white"
 					/>
 				</div>
 			</div>
 			<div class="flex items-center justify-center">
 				<button
 					type="submit"
-					class="border-text-secondary w-4xs w-full border-orange-600 bg-orange-600 px-6 py-2 text-lg font-semibold text-white transition-all duration-300 ease-in-out hover:border-orange-700 hover:bg-orange-700 hover:text-white"
+					class="border-text-secondary w-4xs w-full border-orange-600 bg-orange-600 px-2 py-2 text-base  text-white cursor-pointer transition-all duration-300 ease-in-out hover:border-orange-700 hover:bg-orange-700 hover:text-white"
 				>
-					Sign in
+				Submit
 				</button>
 			</div>
 		</form>
-	</div>
-
-	<div class="relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2 hidden md:block">
-		<img
-			alt=""
-			src="https://images.unsplash.com/photo-1630450202872-e0829c9d6172?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-			class="absolute inset-0 h-full w-full object-cover"
-		/>
 	</div>
 </section>
