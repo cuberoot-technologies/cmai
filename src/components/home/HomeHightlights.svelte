@@ -71,12 +71,10 @@
 					<div
 						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center justify-center bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
 					>
-						<div class=" text-center text-white">
-							<h1 class="text-sm font-bold text-white sm:text-sm">Launch of India SAF Alliance</h1>
+						<div class=" text-left text-white">
 
 							<p class="mt-2 mb-2 text-xs text-white">
-								India SAF Alliance was launched at the India Climate Week 2025 by Hon’ble Shri.
-								Nitin Gadkari, Minister of Road Transport and Highways, Government of India
+								CMAI in policy discussions with Indian Minister of Power and Minister of Housing and Urban Affairs, Shri Manohar Lal Khattar
 							</p>
 						</div>
 					</div>
@@ -90,13 +88,11 @@
 					<div
 						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center justify-center bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
 					>
-						<div class=" text-center text-white">
+						<div class=" text-left text-white">
 							<h1 class="text-sm font-bold text-white sm:text-sm">India Climate Week 2025</h1>
 
 							<p class="mt-2 mb-2 text-xs text-white">
-								India Climate Week (ICW) 2025, organized by CMAI and held from 3rd to 7th February
-								2025, brought together global experts, policymakers, and industry leaders to drive
-								climate action
+								Fostering climate dialogue in global Collaboration with ambassadors of various countries to India 
 							</p>
 						</div>
 					</div>
@@ -109,14 +105,11 @@
 					<div
 						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center justify-center bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
 					>
-						<div class=" text-center text-white">
+						<div class=" text-left text-white">
 							<h1 class="text-sm font-bold text-white sm:text-sm">Launch of India EPR Alliance</h1>
 
 							<p class="mt-4 text-white">
-								India EPR Alliance was launched at the India Climate Week 2025 by Shri Jitin
-								Prasada, Hon’ble Minister of State, Ministry of Commerce & Industry, Ministry of
-								Electronics and Information Technology and Shri Praveen Khandelwal, Member of
-								Parliament and the Founder and General Secretary, CAIT
+								Carbon Policy Discussions with Joint Secretary, Indian Ministry of Environment, Forest and Climate Change, Naresh Pal Gangwar
 							</p>
 						</div>
 					</div>
@@ -129,14 +122,13 @@
 					<div
 						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center justify-center bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
 					>
-						<div class=" text-center text-white">
+						<div class=" text-left text-white">
 							<h1 class="text-sm font-bold text-white sm:text-sm">
 								Global Cooperation in Carbon Markets
 							</h1>
 
 							<p class="mt-2 mb-2 text-xs text-white">
-								Session on "Global Cooperation in Carbon Markets" during India Climate Week 2025 was
-								attended by more than 25 Embassies.
+								CMAI as a knowledge partner with Indian Minister of New and Renewable Energy, Pralhad Joshi during a national workshop on carbon markets
 							</p>
 						</div>
 					</div>
@@ -149,14 +141,13 @@
 					<div
 						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center justify-center bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
 					>
-						<div class=" text-center text-white">
+						<div class=" text-left text-white">
 							<h1 class="text-sm font-bold text-white sm:text-sm">
 								Partnerships and Collaborations
 							</h1>
 
 							<p class="mt-2 mb-2 text-xs text-white">
-								1. CMAI signed MOU with Indian Institute of Corporate Affairs (IICA) at the India
-								Climate Week 2025 to drive sustainability and decarbonization in India.
+								At a panel discussion organised by the Global Biofuel Alliance at COP29 Baku
 							</p>
 						</div>
 					</div>
@@ -169,14 +160,13 @@
 					<div
 						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center justify-center bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
 					>
-						<div class=" text-center text-white">
+						<div class=" text-left text-white">
 							<h1 class="text-sm font-bold text-white sm:text-sm">
 								Partnerships and Collaborations
 							</h1>
 
 							<p class="mt-2 mb-2 text-xs text-white">
-								2. CMAI signed MOU with IIT Kharagpur at the India Climate Week 2025 to drive
-								decarbonization of the industries.
+								CMAI at a panel discussion organised by the International Solar Alliance at COP29 Baku
 							</p>
 						</div>
 					</div>
@@ -188,14 +178,13 @@
 					<div
 						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center justify-center bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
 					>
-						<div class=" text-center text-white">
+						<div class=" text-left text-white">
 							<h1 class="text-sm font-bold text-white sm:text-sm">
 								Partnerships and Collaborations
 							</h1>
 
 							<p class="mt-2 mb-2 text-xs text-white">
-								3. CMAI signed MOU with ICT Academy at the India Climate Week 2025 to advance Net
-								Zero targets.
+								MoU with Indian Institute of Corporate Affairs to train professionals, policymakers, and academicians on carbon markets.
 							</p>
 						</div>
 					</div>
@@ -208,7 +197,7 @@
 					<div
 						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center justify-center bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
 					>
-						<div class=" text-center text-white">
+						<div class=" text-left text-white">
 							<h1 class="text-sm font-bold text-white sm:text-sm">Site Visit</h1>
 
 							<p class="mt-2 mb-2 text-xs text-white">
@@ -233,7 +222,7 @@
 					<div
 						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center justify-center bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
 					>
-						<div class=" text-center text-white">
+						<div class=" text-left text-white">
 							<h1 class="text-sm font-bold text-white sm:text-sm">India Climate Samman</h1>
 
 							<p class="mt-2 mb-2 text-xs text-white">
