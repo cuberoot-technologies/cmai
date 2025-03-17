@@ -5,6 +5,25 @@
 
 
 @theme {
-    --font-sans: "Inter", sans-serif;
+    --font-sans: "Barlow Condensed", sans-serif;
+    --color-dblue-light : #002dd1;
+    --color-dblue : #002145;
+    --bg-light: #dce4ed;
 }
 
+
+.text-dblue{
+    color: var(--color-dblue);
+}
+.text-dblue-light{
+    color: var(--color-dblue-light);
+}
+.bg-light{
+    background-color: var(--bg-light);
+}
+.bg-dblue{
+    background-color: var(--color-dblue);
+}
+.bg-dblue-light{
+    background-color: var(--color-dblue-light);
+}

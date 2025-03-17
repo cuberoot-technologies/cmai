@@ -32,11 +32,11 @@
 </script>
 
 <section>
-	<div class="relative  mx-auto mb-10 max-w-screen-xl">
+	<div class="relative mx-auto mb-10 max-w-screen-xl">
 		<div class="absolute top-[42%] z-10 flex w-[100%] items-center justify-between gap-4 px-5">
 			<button
 				id="keen-slider-previous"
-				class="rounded-full border border-orange-600  text-orange-600 transition hover:bg-orange-600 hover:text-white"
+				class="rounded-full border border-white text-white transition hover:bg-blue-700 hover:text-white"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@
 			</button>
 			<button
 				id="keen-slider-next"
-				class="rounded-full border border-orange-600  text-orange-600 transition hover:bg-orange-600 hover:text-white"
+				class="rounded-full border border-white text-white transition hover:bg-blue-700 hover:text-white"
 			>
 				<svg
 					class="size-5 rtl:rotate-180"
@@ -67,13 +67,12 @@
 		<div id="keen-slider" class="keen-slider w-full">
 			<div class="keen-slider__slide relative w-full">
 				<div class="group relative overflow-hidden">
-					<img alt="" src="/images/highb.JPG" class=" inset-0 h-[500px] w-[100%] w-full" />
+					<img alt="" src="/images/ligha.jpg" class="inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center justify-center bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
 					>
 						<div class=" text-left text-white">
-
-							<p class="mt-2 mb-2 text-xs text-white">
+							<p class="mt-2 mb-2 text-lg text-white">
 								CMAI in policy discussions with Indian Minister of Power and Minister of Housing and Urban Affairs, Shri Manohar Lal Khattar
 							</p>
 						</div>
@@ -83,16 +82,15 @@
 
 			<div class="keen-slider__slide relative w-full">
 				<div class="group relative overflow-hidden">
-					<img alt="" src="/images/high.JPG" class=" inset-0 h-[500px] w-[100%]" />
+					<img alt="" src="/images/lighb.JPG" class=" inset-0 h-[500px] w-[100%]" />
 					<!-- </div> -->
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center justify-center bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
 					>
 						<div class=" text-left text-white">
-							<h1 class="text-sm font-bold text-white sm:text-sm">India Climate Week 2025</h1>
 
-							<p class="mt-2 mb-2 text-xs text-white">
-								Fostering climate dialogue in global Collaboration with ambassadors of various countries to India 
+							<p class="mt-2 mb-2 text-lg text-white">
+								Fostering climate dialogue in global Collaboration with ambassadors of various countries to India
 							</p>
 						</div>
 					</div>
@@ -101,13 +99,11 @@
 
 			<div class="keen-slider__slide relative w-full">
 				<div class="group relative overflow-hidden">
-					<img alt="" src="/images/highc.JPG" class=" inset-0 h-[500px] w-[100%] w-full" />
+					<img alt="" src="/images/lighc.jpg" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center justify-center bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
 					>
 						<div class=" text-left text-white">
-							<h1 class="text-sm font-bold text-white sm:text-sm">Launch of India EPR Alliance</h1>
-
 							<p class="mt-4 text-white">
 								Carbon Policy Discussions with Joint Secretary, Indian Ministry of Environment, Forest and Climate Change, Naresh Pal Gangwar
 							</p>
@@ -118,16 +114,14 @@
 
 			<div class="keen-slider__slide relative w-full">
 				<div class="group relative overflow-hidden">
-					<img alt="" src="/images/highd.JPG" class=" inset-0 h-[500px] w-[100%] w-full" />
+					<img alt="" src="/images/lighd.png" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center justify-center bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
 					>
 						<div class=" text-left text-white">
-							<h1 class="text-sm font-bold text-white sm:text-sm">
-								Global Cooperation in Carbon Markets
-							</h1>
+							
 
-							<p class="mt-2 mb-2 text-xs text-white">
+							<p class="mt-2 mb-2 text-lg text-white">
 								CMAI as a knowledge partner with Indian Minister of New and Renewable Energy, Pralhad Joshi during a national workshop on carbon markets
 							</p>
 						</div>
@@ -137,16 +131,13 @@
 
 			<div class="keen-slider__slide relative w-full">
 				<div class="group relative overflow-hidden">
-					<img alt="" src="/images/highe.JPG" class=" inset-0 h-[500px] w-[100%] w-full" />
+					<img alt="" src="/images/lighe.jpg" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center justify-center bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
 					>
 						<div class=" text-left text-white">
-							<h1 class="text-sm font-bold text-white sm:text-sm">
-								Partnerships and Collaborations
-							</h1>
 
-							<p class="mt-2 mb-2 text-xs text-white">
+							<p class="mt-2 mb-2 text-lg text-white">
 								At a panel discussion organised by the Global Biofuel Alliance at COP29 Baku
 							</p>
 						</div>
@@ -156,16 +147,13 @@
 
 			<div class="keen-slider__slide relative w-full">
 				<div class="group relative overflow-hidden">
-					<img alt="" src="/images/highf.jpg" class=" inset-0 h-[500px] w-[100%] w-full" />
+					<img alt="" src="/images/lighf.jpg" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center justify-center bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
 					>
 						<div class=" text-left text-white">
-							<h1 class="text-sm font-bold text-white sm:text-sm">
-								Partnerships and Collaborations
-							</h1>
-
-							<p class="mt-2 mb-2 text-xs text-white">
+						
+							<p class="mt-2 mb-2 text-lg text-white">
 								CMAI at a panel discussion organised by the International Solar Alliance at COP29 Baku
 							</p>
 						</div>
@@ -174,16 +162,14 @@
 			</div>
 			<div class="keen-slider__slide relative w-full">
 				<div class="group relative overflow-hidden">
-					<img alt="" src="/images/highg.JPG" class=" inset-0 h-[500px] w-[100%] w-full" />
+					<img alt="" src="/images/lighg.JPG" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center justify-center bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
 					>
 						<div class=" text-left text-white">
-							<h1 class="text-sm font-bold text-white sm:text-sm">
-								Partnerships and Collaborations
-							</h1>
+						
 
-							<p class="mt-2 mb-2 text-xs text-white">
+							<p class="mt-2 mb-2 text-lg text-white">
 								MoU with Indian Institute of Corporate Affairs to train professionals, policymakers, and academicians on carbon markets.
 							</p>
 						</div>
@@ -193,16 +179,103 @@
 
 			<div class="keen-slider__slide relative w-full">
 				<div class="group relative overflow-hidden">
-					<img alt="" src="/images/highg.JPG" class=" inset-0 h-[500px] w-[100%] w-full" />
+					<img alt="" src="/images/lighh.jpg" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center justify-center bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
 					>
 						<div class=" text-left text-white">
-							<h1 class="text-sm font-bold text-white sm:text-sm">Site Visit</h1>
 
-							<p class="mt-2 mb-2 text-xs text-white">
-								Day 1 and Day 5 of the India Climate Week witnessed site visits to Article 6
-								technology facilities in Hapur and Indian Oil, respectively.
+							<p class="mt-2 mb-2 text-lg text-white">
+								MoU with IIT KGP to accelerate the development of low-carbon industrial solutions in India
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<div class="keen-slider__slide relative w-full">
+				<div class="group relative overflow-hidden">
+					<img alt="" src="/images/lighi.png" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
+					<div
+						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+					>
+						<div class=" text-left text-white">
+
+							<p class="mt-2 mb-2 text-lg text-white">
+								Capacity building workshop with Indian Oil Corporation Ltd
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="keen-slider__slide relative w-full">
+				<div class="group relative overflow-hidden">
+					<img alt="" src="/images/lighj.JPG" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
+					<div
+						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+					>
+						<div class=" text-left text-white">
+
+							<p class="mt-2 mb-2 text-lg text-white">
+								Honouring Dr. V.K. Saraswat for his service in climate action and clean energy innovation
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="keen-slider__slide relative w-full">
+				<div class="group relative overflow-hidden">
+					<img alt="" src="/images/lighk.jpg" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
+					<div
+						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+					>
+						<div class=" text-left text-white">
+
+							<p class="mt-2 mb-2 text-lg text-white">
+								Bilateral global collaboration for fostering climate dialogue with Brazilian Ambassador, H.E. Mr. Kenneth Félix
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+			<div class="keen-slider__slide relative w-full">
+				<div class="group relative overflow-hidden">
+					<img alt="" src="/images/lighl.jpg" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
+					<div
+						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+					>
+						<div class=" text-left text-white">
+							
+
+							<p class="mt-2 mb-2 text-lg text-white">
+								Capacity building and upskilling of members via site visits
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<div class="keen-slider__slide relative w-full">
+				<div class="group relative overflow-hidden">
+					<img alt="" src="/images/lighm.jpg" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
+					<div
+						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+					>
+						<div class=" text-left text-white">
+
+							<p class="mt-2 mb-2 text-lg text-white">
+								Fostering climate dialogues at Carbon Policy Development Conclave 2024
 							</p>
 						</div>
 					</div>
@@ -211,29 +284,22 @@
 
 			<div class="keen-slider__slide relative w-full">
 				<div class="group relative overflow-hidden">
-					<div class="grid grid-cols-2 gap-4 p-5 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3">
-						<img alt="" src="/images/highj.jpg" class="h-[220px] w-[100%] w-full object-cover" />
-						<img alt="" src="/images/highk.jpg" class="h-[220px] w-[100%] w-full object-cover" />
-						<img alt="" src="/images/highl.jpg" class="h-[220px] w-[100%] w-full object-cover" />
-						<img alt="" src="/images/highm.jpg" class="h-[220px] w-[100%] w-full object-cover" />
-						<img alt="" src="/images/highn.jpg" class="h-[220px] w-[100%] w-full object-cover" />
-						<img alt="" src="/images/higho.jpg" class="h-[220px] w-[100%] w-full object-cover" />
-					</div>
+					<img alt="" src="/images/lighn.jpg" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center justify-center bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
 					>
 						<div class=" text-left text-white">
-							<h1 class="text-sm font-bold text-white sm:text-sm">India Climate Samman</h1>
 
-							<p class="mt-2 mb-2 text-xs text-white">
-								CMAI successfully hosted the India Climate Samman 2025 awards, celebrating
-								exceptional contributions to climate leadership, carbon market innovation, and
-								sustainability.
+							<p class="mt-2 mb-2 text-lg text-white">
+								CMAI as a stakeholder committee member for ecomark rules at the CPCB advocating industry voice 
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
+
+
+
 		</div>
 	</div>
 </section>

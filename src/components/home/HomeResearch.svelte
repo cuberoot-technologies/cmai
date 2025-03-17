@@ -2,14 +2,14 @@
 	<div class="mx-auto max-w-screen-xl bg-gray-50">
 		<div class="max-w-full">
 			<h2
-				class="relative inline-block w-full border-b-2 border-dotted border-sky-800 bg-gradient-to-r from-blue-100 via-blue-200 to-blue-100 px-4 py-2 text-xl font-bold text-sky-800"
+				class="relative inline-block w-full border-b-2 border-dotted border-sky-800 bg-light px-4 py-2 text-xl font-bold text-dblue"
 			>
 				Research Reports
 			</h2>
 
 			<a
 				href="#"
-				class="group relative inline-flex w-full items-center justify-end p-4 pt-0 text-sm text-gray-700 transition-all duration-300 hover:text-orange-600"
+				class="group relative inline-flex w-full items-center justify-end p-4 pt-0 text-base text-gray-700 transition-all duration-300 hover:text-dblue"
 			>
 				 More
 				<span
