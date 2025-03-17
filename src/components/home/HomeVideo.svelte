@@ -1,35 +1,35 @@
-
-
-
 <section>
-	<div class="mx-auto max-w-screen-xl   ">
+	<div class="mx-auto max-w-screen-xl">
 		<div class="max-w-full">
-			<h2 class="relative font-bold text-sky-800 text-xl px-4 py-2 bg-gradient-to-r w-full from-blue-100 via-blue-200 to-blue-100 border-b-2 border-dotted border-sky-800 inline-block">
+			<h2
+				class="relative inline-block w-full border-b-2 border-dotted border-sky-800 bg-light px-4 py-2 text-xl font-bold text-dblue-light"
+			>
 				CMAI Video
-			  </h2>
-			  
+			</h2>
 
-				
-
-              <blockquote class="">
-                <div style="padding:100% 0 0 0;position:relative;">
-                    <iframe
-                        src="https://player.vimeo.com/video/1064588964?h=b731f5a93b&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                        frameborder="0"
-                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-                        style="position:absolute;top:0;left:0;width:100%;height:100%;"
-                        title="11. CLIP"
-                    ></iframe>
-                </div>
-                <script src="https://player.vimeo.com/api/player.js"></script>
-            </blockquote>
-				<a href="#" class="group relative p-4  inline-flex items-center justify-end text-sm w-full text-gray-700 transition-all duration-300 hover:text-orange-600">
-					View More
-					<span class="ml-1 text-sm transform translate-x-0 opacity-100 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100">
-					  →
-					</span>
-				  </a>
+			<blockquote class="">
+				<div class="relative w-full max-w-md mx-auto">
+					<video class="w-full h-auto" src="/images/cmai.mp4" autoplay muted loop></video>
+					
+					<!-- <div class="absolute inset-0 flex items-center justify-center">
+					  <svg class="w-16 h-16 text-white opacity-75" fill="currentColor" viewBox="0 0 24 24">
+						<path d="M8 5v14l11-7z" />
+					  </svg>
+					</div> -->
+				  </div>
 				  
+			</blockquote>
+			<a
+				href="#"
+				class="group hover:text-dblue relative inline-flex w-full items-center justify-end p-4 text-base text-gray-700 transition-all duration-300"
+			>
+				View More
+				<span
+					class="ml-1 translate-x-0 transform text-sm opacity-100 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100"
+				>
+					→
+				</span>
+			</a>
 		</div>
 	</div>
 </section>

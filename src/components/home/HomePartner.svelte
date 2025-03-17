@@ -46,15 +46,26 @@
 
 <section class="">
 	<h2
-				class="relative inline-block w-full border-b-2 border-dotted border-sky-800 bg-gradient-to-r from-blue-100 via-blue-200 to-blue-100 px-4 py-2 text-xl font-bold text-sky-800"
+				class="relative inline-block w-full border-b-2 border-dotted border-sky-800 bg-dblue-light px-4 py-2 text-xl font-bold text-white"
 			>
 				Our Partners
 			</h2>
+			<a
+			href="#"
+			class="group relative inline-flex w-full items-center justify-end p-4 pt-0 text-base text-gray-700 transition-all duration-300 hover:text-dblue"
+		>
+			 More
+			<span
+				class="ml-1 translate-x-0 transform text-sm opacity-100 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100"
+			>
+				→
+			</span>
+		</a>
 	<div class=" relative mx-auto max-w-screen-xl">
 		<div class="absolute top-[40%] z-10 flex w-[100%] items-center justify-between gap-4 p-2">
 			<button
 				on:click={prevSlide}
-				class="rounded-full border border-orange-600 text-orange-600 transition hover:bg-orange-600 hover:text-white"
+				class="rounded-full border border-text-dblue text-dblue transition hover:text-dblue hover:text-white"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +80,7 @@
 			</button>
 			<button
 				on:click={nextSlide}
-				class="rounded-full border border-orange-600 text-orange-600 transition hover:bg-orange-600 hover:text-white"
+				class="rounded-full border border-text-dblue text-dblue transition hover:text-dblue hover:text-white"
 			>
 				<svg
 					class="size-5 rtl:rotate-180"
@@ -97,6 +108,7 @@
 					</div>
 				{/each}
 			</div>
+			
 		</div>
 	</div>
 </section>

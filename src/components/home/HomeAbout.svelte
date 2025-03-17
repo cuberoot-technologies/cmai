@@ -1,8 +1,8 @@
 <section>
 	<div class="mx-auto max-w-screen-xl">
-		<div class="max-w-full">
+		<div class="bg-light max-w-full">
 			<h2
-				class="relative inline-block w-full border-b-2 border-dotted border-sky-800 bg-gradient-to-r from-blue-100 via-blue-200 to-blue-100 px-4 py-2 text-xl font-bold text-sky-800"
+				class="relative inline-block w-full border-b-2 border-dotted border-text-dblue  px-4 py-2 text-xl font-bold text-dblue-light"
 			>
 				About CMAI
 			</h2>

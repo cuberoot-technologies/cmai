@@ -1,7 +1,7 @@
 <footer class=" bg-gray-900">
 	<div class="mx-auto max-w-screen-xl px-4 pt-6 pb-6">
 		<div class="flex flex-wrap justify-between gap-4">
-			<button class="rounded-lg bg-orange-600 px-6 py-2 text-white hover:bg-green-700">
+			<button class="rounded-lg bg-white px-6 py-2 text-dblue font-bold hover:bg-gray-200 ">
 				Contact Us
 			</button>
 			<div class="flex gap-4">
@@ -24,7 +24,7 @@
 						/>
 					</svg>
 
-					<span class="flex-1 text-gray-300"> Secretary@cma-india.in </span>
+					<span class="flex-1 text-white"> Secretary@cma-india.in </span>
 				</a>
 				<a
 					class="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
@@ -45,7 +45,7 @@
 						/>
 					</svg>
 
-					<span class="flex-1 text-gray-300">+91 9811779580</span>
+					<span class="flex-1 text-white">+91 9811779580</span>
 				</a>
 			</div>
 		</div>
