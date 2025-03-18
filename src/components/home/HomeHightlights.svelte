@@ -30,7 +30,7 @@
 
 		// Function to start auto-slide
 		const startAutoSlide = () => {
-			interval = setInterval(() => keenSlider.next(), 3000);
+			interval = setInterval(() => keenSlider.next(), 5000);
 		};
 
 		// Function to stop auto-slide
@@ -87,7 +87,7 @@
 				<div class="group relative overflow-hidden">
 					<img alt="" src="/images/ligha.jpg" class="inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-0 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-dblue p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 					>
 						<div class=" text-left text-white">
 							<p class="mt-2 mb-2 text-lg text-white">
@@ -103,7 +103,7 @@
 					<img alt="" src="/images/lighb.JPG" class=" inset-0 h-[500px] w-[100%]" />
 					<!-- </div> -->
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-0 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-dblue p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 					>
 						<div class=" text-left text-white">
 
@@ -119,7 +119,7 @@
 				<div class="group relative overflow-hidden">
 					<img alt="" src="/images/lighc.jpg" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-0 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-dblue p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 					>
 						<div class=" text-left text-white">
 							<p class="mt-4 text-white">
@@ -134,7 +134,7 @@
 				<div class="group relative overflow-hidden">
 					<img alt="" src="/images/lighd.png" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-0 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-dblue p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 					>
 						<div class=" text-left text-white">
 							
@@ -151,7 +151,7 @@
 				<div class="group relative overflow-hidden">
 					<img alt="" src="/images/lighe.jpg" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-0 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-dblue p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 					>
 						<div class=" text-left text-white">
 
@@ -167,7 +167,7 @@
 				<div class="group relative overflow-hidden">
 					<img alt="" src="/images/lighf.jpg" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-0 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-dblue p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 					>
 						<div class=" text-left text-white">
 						
@@ -182,7 +182,7 @@
 				<div class="group relative overflow-hidden">
 					<img alt="" src="/images/lighg.JPG" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-0 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-dblue p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 					>
 						<div class=" text-left text-white">
 						
@@ -199,7 +199,7 @@
 				<div class="group relative overflow-hidden">
 					<img alt="" src="/images/lighh.jpg" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-0 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-dblue p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 					>
 						<div class=" text-left text-white">
 
@@ -218,7 +218,7 @@
 				<div class="group relative overflow-hidden">
 					<img alt="" src="/images/lighi.png" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-0 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-dblue p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 					>
 						<div class=" text-left text-white">
 
@@ -233,7 +233,7 @@
 				<div class="group relative overflow-hidden">
 					<img alt="" src="/images/lighj.JPG" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-0 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-dblue p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 					>
 						<div class=" text-left text-white">
 
@@ -248,7 +248,7 @@
 				<div class="group relative overflow-hidden">
 					<img alt="" src="/images/lighk.jpg" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-0 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-dblue p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 					>
 						<div class=" text-left text-white">
 
@@ -268,7 +268,7 @@
 				<div class="group relative overflow-hidden">
 					<img alt="" src="/images/lighl.jpg" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-0 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-dblue p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 					>
 						<div class=" text-left text-white">
 							
@@ -288,7 +288,7 @@
 				<div class="group relative overflow-hidden">
 					<img alt="" src="/images/lighm.jpg" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-0 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-dblue p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 					>
 						<div class=" text-left text-white">
 
@@ -304,7 +304,7 @@
 				<div class="group relative overflow-hidden">
 					<img alt="" src="/images/lighn.jpg" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
-						class="bg-opacity-50 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-black p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-80"
+						class="bg-opacity-0 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-dblue p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 					>
 						<div class=" text-left text-white">
 

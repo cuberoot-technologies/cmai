@@ -1,5 +1,5 @@
 
-<div class="text-dblue flex gap-4 sm:justify-between">
+<div class="text-white flex gap-4 sm:justify-between">
 				<a href="https://www.instagram.com/cmai_carbonmarkets/" target="_blank">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -70,9 +70,9 @@
 					</svg>
 				</a>
 			</div>
-<div class="flex  items-center mt-2">
+<div class="flex  items-center justify-center mt-2">
     <input type="text" class="w-full  border-gray-200 p-1 text-base  placeholder:text-sm h-[30px]  shadow-xs bg-white" placeholder="Search here">
-    <button class="bg-dblue text-white cursor-pointer h-[28px] px-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="20px" strokeWidth={1.5} stroke="currentColor" className="size-6">
+    <button class="bg-white text-dblue cursor-pointer h-[30px] px-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="20px" strokeWidth={1.5} stroke="currentColor" className="size-6">
         <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
       </svg>
       </button>

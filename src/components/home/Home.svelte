@@ -42,7 +42,7 @@
 						<div class="space-y-4">
 							<!-- Event 1 -->
 							<div class="mt-2 flex items-center justify-between p-2 shadow-sm">
-								<p class="text-base text-lg text-gray-800">India Climate Week 2026</p>
+								<p class="text-base text-lg text-gray-800">➢ India Climate Week 2026</p>
 								<a
 									href="#"
 									class="bg-dblue rounded-md px-2 py-2 text-xs text-white transition hover:bg-blue-700"
@@ -53,7 +53,7 @@
 
 							<!-- Event 2 -->
 							<div class="flex items-center justify-between p-2 shadow-sm">
-								<p class="text-base text-lg text-gray-800">India SAF Conclave 2025</p>
+								<p class="text-base text-lg text-gray-800">➢ India SAF Conclave 2025</p>
 								<a
 									href="#"
 									class="bg-dblue rounded-md px-2 py-2 text-xs text-white transition hover:bg-blue-700"
@@ -64,7 +64,7 @@
 
 							<!-- Event 3 -->
 							<div class="flex items-center justify-between p-2 shadow-sm">
-								<p class="text-base text-lg text-gray-800">India EPR Conclave 2025</p>
+								<p class="text-base text-lg text-gray-800">➢ India EPR Conclave 2025</p>
 								<a
 									href="#"
 									class="bg-dblue rounded-md px-2 py-2 text-xs text-white transition hover:bg-blue-700"
@@ -76,7 +76,7 @@
 							<!-- Event 4 -->
 							<div class="flex items-center justify-between p-2 shadow-sm">
 								<p class="text-base text-lg text-gray-800">
-									India Carbon Policy <br /> Development Conclave 2025
+									➢ India Carbon Policy <br /> Development Conclave 2025
 								</p>
 								<a
 									href="#"
@@ -111,60 +111,61 @@
 
 			<!-- Right Sidebar (smaller) -->
 			<div class="space-y-4 md:col-span-3">
+				<div class="  items-center justify-between p-2 shadow-sm bg-dblue"><p class="text-base text-lg text-white text-center">Services through Strategic Partners</p></div>
 				<div
 					class="relative flex items-center justify-center bg-gradient-to-r from-blue-100 via-blue-200 to-blue-100 shadow"
 				>
-					<img src="/images/saf.png" alt="" class=" w-[200px] rounded-lg" />
+					<img src="/images/saf.png" alt="" class=" w-[180px] rounded-lg" />
 					<a
 						href="#"
-						class="text-dblue font-bold rounded-md absolute bottom-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
+						class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
 					>
 						Join Now
 					</a>
 				</div>
 
 				<div class="bg-light relative flex items-center justify-center shadow">
-					<img src="/images/epr.png" alt="" class=" w-[160px] rounded-lg" />
+					<img src="/images/epr.png" alt="" class=" w-[150px] rounded-lg" />
 					<a
 						href="#"
-						class="text-dblue font-bold rounded-md absolute bottom-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
+						class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
 					>
 						Join Now
 					</a>
 				</div>
 				<div
-					class="relative flex h-[150px] items-center justify-center bg-gradient-to-r from-stone-100 via-stone-200 to-stone-200 shadow"
+					class="relative flex h-[140px] items-center justify-center bg-gradient-to-r from-stone-100 via-stone-200 to-stone-200 shadow"
 				>
 					<img src="/images/icca.png" alt="" class=" w-[280px] rounded-lg" />
 					<a
 						href="#"
-						class="text-dblue font-bold rounded-md absolute bottom-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
+						class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
 					>
 						Join Now
 					</a>
 				</div>
 				<div
-					class="relative flex h-[150px] items-center justify-center bg-gradient-to-r from-zinc-200 via-zinc-200 to-zinc-100 shadow"
+					class="relative flex h-[140px] items-center justify-center bg-gradient-to-r from-zinc-200 via-zinc-200 to-zinc-100 shadow"
 				>
-					<img src="/images/icla.webp" alt="" class=" w-[150px] rounded-lg" />
+					<img src="/images/icla.webp" alt="" class=" w-[140px] rounded-lg" />
 					<a
 						href="#"
-						class="text-dblue font-bold rounded-md absolute bottom-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
+						class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
 					>
 						Join Now
 					</a>
 				</div>
 				<div class="mt-2  items-center justify-between p-2 shadow-sm bg-dblue">
-					<p class="text-base text-lg text-white text-center">Be A CMAI Member & Visit</p>
+					<p class="text-base text-lg text-white text-center">Be A CMAI Member & Visit COP 30</p>
 					
 				</div>
 				<div
-					class="relative flex h-[170px] items-center justify-center bg-gradient-to-r from-slate-200 via-slate-100 to-slate-100 shadow"
+					class="relative flex h-[140px] items-center justify-center bg-gradient-to-r from-slate-200 via-slate-100 to-slate-100 shadow"
 				>
 					<img src="/images/cop.png" alt="" class=" w-[150px] rounded-lg" />
 					<a
 						href="#"
-						class="text-dblue font-bold rounded-md absolute bottom-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
+						class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
 					>
 						Join Now
 					</a>

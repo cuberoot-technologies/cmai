@@ -10,7 +10,7 @@
 		const lastClosed = localStorage.getItem('popupClosedAt');
 
 		// Show popup if it's the first time or after 5 seconds
-		if (!lastClosed || Date.now() - lastClosed > 50`` * 1000) {
+		if (!lastClosed || Date.now() - lastClosed > 5 * 60 * 1000) {
 			showPopup = true;
 			document.body.classList.add('overflow-hidden'); // Disable scrolling
 		}
@@ -25,7 +25,7 @@
 		setTimeout(() => {
 			showPopup = true;
 			document.body.classList.add('overflow-hidden'); // Disable scrolling again
-		}, 5 * 1000);
+		}, 5 * 60 * 1000);
 	}
 </script>
 
