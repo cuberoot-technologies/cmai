@@ -65,7 +65,7 @@
 		<div class="absolute top-[40%] z-10 flex w-[100%] items-center justify-between gap-4 p-2">
 			<button
 				on:click={prevSlide}
-				class="rounded-full border border-text-dblue text-dblue transition hover:text-dblue hover:text-white"
+				class="rounded-full border border-blue-800 text-blue-800 transition hover:bg-blue-700 hover:text-white"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@
 			</button>
 			<button
 				on:click={nextSlide}
-				class="rounded-full border border-text-dblue text-dblue transition hover:text-dblue hover:text-white"
+				class="rounded-full border border-blue-800 text-blue-800 transition hover:bg-blue-700 hover:text-white"
 			>
 				<svg
 					class="size-5 rtl:rotate-180"
