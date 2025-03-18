@@ -18,6 +18,9 @@
 	}
 
 	onMount(() => {
+		// Ensure keenSliderEl is defined before using it
+		if (!keenSliderEl) return;
+
 		keenSlider = new KeenSlider(keenSliderEl, {
 			loop: true,
 			slides: { perView: 1, spacing: 12 },
@@ -34,6 +37,7 @@
 
 		startAutoSlide(); // Start auto-slide
 
+		// Add event listeners only if keenSliderEl exists
 		keenSliderEl.addEventListener('mouseenter', stopAutoSlide);
 		keenSliderEl.addEventListener('mouseleave', startAutoSlide);
 		window.addEventListener('resize', () => keenSlider.resize());
@@ -41,8 +45,12 @@
 
 	onDestroy(() => {
 		clearInterval(interval);
-		keenSliderEl.removeEventListener('mouseenter', stopAutoSlide);
-		keenSliderEl.removeEventListener('mouseleave', startAutoSlide);
+		
+		// Ensure keenSliderEl exists before removing event listeners
+		if (keenSliderEl) {
+			keenSliderEl.removeEventListener('mouseenter', stopAutoSlide);
+			keenSliderEl.removeEventListener('mouseleave', startAutoSlide);
+		}
 	});
 
 	function prevSlide() {
