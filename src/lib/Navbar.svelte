@@ -3,11 +3,12 @@
 	let menuOpen = false;
 </script>
 
-<header class="relative z-10 bg-stone-200">
+<header class="relative z-10 ">
 	<!-- Header Container -->
+	 <div class="bg-dblue">
 	<div class="mx-auto flex h-[5rem] max-w-screen-xl items-center justify-between px-4 lg:px-0 relative">
 		<!-- Hamburger Button (Mobile Only) -->
-		<button class="md:hidden text-dblue text-lg focus:outline-none absolute left-4" on:click={() => (menuOpen = !menuOpen)}>
+		<button class="md:hidden text-white text-lg focus:outline-none absolute left-4" on:click={() => (menuOpen = !menuOpen)}>
 			{#if menuOpen}
 				✖
 			{:else}
@@ -18,7 +19,7 @@
 		<!-- Logo Centered -->
 		<div class="flex-grow flex justify-center">
 			<a href="/" class="text-teal-400">
-				<img src="/images/cmai.png" alt="Logo" width="170px" />
+				<img src="/images/logo.png" alt="Logo" width="170px" />
 			</a>
 		</div>
 
@@ -32,7 +33,7 @@
 	<div class="block md:hidden flex flex-col items-center px-4 pb-2">
 		<HomeSearch />
 	</div>
-
+</div>
 	<hr class="text-gray-300" />
 
 	<!-- Navigation -->
@@ -40,7 +41,7 @@
 		<nav class="md:flex items-center justify-center">
 			<!-- Mobile Menu -->
 			<ul
-				class="absolute h-[100vh] bg-stone-200 left-0 top-[5rem]  w-full  shadow-md transition-all md:static md:h-full md:flex md:space-x-6 md:bg-transparent md:shadow-none"
+				class="absolute h-[100vh] bg-white left-0 top-[5rem]  w-full  shadow-md transition-all md:static md:h-full md:flex md:space-x-6 md:bg-transparent md:shadow-none"
 				class:hidden={!menuOpen}
 			>
 				<li class="border-b  md:border-none">

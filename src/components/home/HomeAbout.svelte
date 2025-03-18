@@ -8,9 +8,8 @@
 			</h2>
 
 			<p class="mt-2 px-4 text-sm leading-relaxed text-gray-700">
-				Carbon Markets Associaiton of India (CMAl) is an association of industry experts,
-				policymakers, think tanks, and communities. We aim to foster sustainability by offering
-				strategic support for a green economy.
+				The Carbon Markets Association of India (CMAI) works to accelerate the Net Zero Transition of India and the World by facilitating collaboration among stakeholders, including the government, industry, and civil society.
+
 			</p>
 			<a
 				href="#"

@@ -7,32 +7,42 @@
 	let keenSlider;
 	let interval;
 
+	function startAutoSlide() {
+		interval = setInterval(() => {
+			keenSlider.moveToIdx(keenSlider.track.details.abs + 1, true);
+		}, 3000);
+	}
+
+	function stopAutoSlide() {
+		clearInterval(interval);
+	}
+
 	onMount(() => {
 		keenSlider = new KeenSlider(keenSliderEl, {
 			loop: true,
 			slides: { perView: 1, spacing: 12 },
 			breakpoints: {
-				'(min-width: 640px)': { slides: { perView: 3, spacing: 16 } },
-				'(min-width: 1034px)': { slides: { perView: 3, spacing: 24 } }
+				'(min-width: 640px)': { slides: { perView: 2, spacing: 16 } },
+				'(min-width: 1034px)': { slides: { perView: 2, spacing: 24 } }
 			},
 			drag: true,
-			created: (slider) => {
-				// Auto-slide every 3 seconds with smooth animation
-				interval = setInterval(() => {
-					slider.moveToIdx(slider.track.details.abs + 1, true);
-				}, 3000);
-			},
 			animation: {
-				duration: 2500, // Slow animation duration (2.5s)
-				easing: (t) => 1 - Math.pow(1 - t, 3) // Smooth ease-out cubic transition
+				duration: 2500,
+				easing: (t) => 1 - Math.pow(1 - t, 3)
 			}
 		});
 
+		startAutoSlide(); // Start auto-slide
+
+		keenSliderEl.addEventListener('mouseenter', stopAutoSlide);
+		keenSliderEl.addEventListener('mouseleave', startAutoSlide);
 		window.addEventListener('resize', () => keenSlider.resize());
 	});
 
 	onDestroy(() => {
 		clearInterval(interval);
+		keenSliderEl.removeEventListener('mouseenter', stopAutoSlide);
+		keenSliderEl.removeEventListener('mouseleave', startAutoSlide);
 	});
 
 	function prevSlide() {
@@ -48,7 +58,7 @@
 	<h2
 				class="relative inline-block w-full border-b-2 border-dotted border-sky-800 bg-dblue-light px-4 py-2 text-xl font-bold text-white"
 			>
-				Our Partners
+			Associates
 			</h2>
 			<a
 			href="#"
@@ -94,9 +104,9 @@
 			</button>
 		</div>
 
-		<div class="mt-8">
+		<div class="">
 			<div bind:this={keenSliderEl} class="keen-slider w-full">
-				{#each ['/images/life.png', '/images/indian.png', '/images/pa.jpg', '/images/pb.png', '/images/pc.png',  '/images/area.png',   '/images/vcmi.png'] as imageSrc}
+				{#each ['/images/life.png', '/images/indian.png', '/images/pa.png', '/images/pb.png', '/images/pc.png',  '/images/area.png',   '/images/vcmi.png'] as imageSrc}
 					<div class="keen-slider__slide">
 						<article
 							class="flex h-[150px] flex-col items-center justify-around bg-white shadow-xs transition hover:shadow-lg"
