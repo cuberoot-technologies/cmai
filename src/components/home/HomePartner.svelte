@@ -96,13 +96,13 @@
 
 		<div class="mt-8">
 			<div bind:this={keenSliderEl} class="keen-slider w-full">
-				{#each ['/images/life.png', '/images/indian.png', '/images/pa.jpg', '/images/pb.png', '/images/pc.png',  '/images/area.png',   '/images/vcmi.webp'] as imageSrc}
+				{#each ['/images/life.png', '/images/indian.png', '/images/pa.jpg', '/images/pb.png', '/images/pc.png',  '/images/area.png',   '/images/vcmi.png'] as imageSrc}
 					<div class="keen-slider__slide">
 						<article
 							class="flex h-[150px] flex-col items-center justify-around bg-white shadow-xs transition hover:shadow-lg"
 						>
-							<span class="flex w-full justify-center p-2">
-								<img src={imageSrc} alt={imageSrc} width="60%" />
+							<span class="flex w-full justify-center items-center p-2">
+								<img src={imageSrc} alt={imageSrc} class="h-[90px]"/>
 							</span>
 						</article>
 					</div>
