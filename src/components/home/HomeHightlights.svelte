@@ -115,7 +115,7 @@
 				</div>
 			</div>
 
-			<div class="keen-slider__slide relative w-full">
+			<!-- <div class="keen-slider__slide relative w-full">
 				<div class="group relative overflow-hidden">
 					<img alt="" src="/images/lighc.jpg" class=" inset-0 h-[500px] w-[100%] w-full " />
 					<div
@@ -128,7 +128,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 			<div class="keen-slider__slide relative w-full">
 				<div class="group relative overflow-hidden">
@@ -178,7 +178,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="keen-slider__slide relative w-full">
+			<!-- <div class="keen-slider__slide relative w-full">
 				<div class="group relative overflow-hidden">
 					<img alt="" src="/images/lighg.JPG" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
 					<div
@@ -193,7 +193,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 			<div class="keen-slider__slide relative w-full">
 				<div class="group relative overflow-hidden">
@@ -216,7 +216,7 @@
 
 			<div class="keen-slider__slide relative w-full">
 				<div class="group relative overflow-hidden">
-					<img alt="" src="/images/lighi.png" class=" inset-0 h-[500px] w-[100%] w-full object-cover" />
+					<img alt="" src="/images/lighi.png" class=" inset-0 h-[500px] w-[100%] w-full " />
 					<div
 						class="bg-opacity-0 absolute inset-0 top-[84%] flex h-[80px] items-center  bg-dblue p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 					>
