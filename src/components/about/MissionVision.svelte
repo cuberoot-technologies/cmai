@@ -1,3 +1,16 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script>
 	import { onMount, tick } from 'svelte';
 	import KeenSlider from 'keen-slider';
@@ -48,60 +61,57 @@
 		sliderElement?.addEventListener('mouseenter', stopAutoSlide);
 		sliderElement?.addEventListener('mouseleave', startAutoSlide);
 	});
-
-	const socialLinks = [
-    { name: "Facebook", url: "https://cii.in/facebook", icon: "fa-facebook", color: "text-blue-600" },
-    { name: "Twitter", url: "https://cii.in/twitter", icon: "fa-x-twitter", color: "text-black" }, // X (Twitter) in black
-    { name: "LinkedIn", url: "https://cii.in/linkedin", icon: "fa-linkedin", color: "text-blue-500" },
-    { name: "YouTube", url: "https://cii.in/youtube", icon: "fa-youtube", color: "text-red-600" },
-  ];
 </script>
 
 <div>
 	<div class="container mx-auto mt-5 p-4">
-		<div class="grid grid-cols-1  md:grid-cols-12">
+		<div class="grid grid-cols-1 gap-4 md:grid-cols-12">
 			<!-- Left Sidebar (smaller) -->
-			<div class="space-y-9 md:col-span-9 p-4">
-				<h2
-					class="text-dblue relative inline-block w-full border-b-1 border-solid border-gray-200 px-4 py-2 text-xl font-bold"
-				>
-					About Us
-				</h2>
-				<p class="text-base text-gray-800 mb-4">
-					The Carbon Markets Association of India (CMAI) works to accelerate the Net Zero Transition
-					of India and the World by facilitating collaboration among stakeholders, including the
-					government, industry, and civil society.
-				</p>
-				<p class="text-base text-gray-800 mb-4">
-					As a leading non-governmental, not-for-profit, industry-led organization, CMAI has
-					supported over 3,500 projects, resulting in the reduction of 220 million tons of GHG
-					emissions. Our active involvement in global climate negotiations ensures that we remain at
-					the forefront of environmental action.
-				</p>
-				<p class="text-base text-gray-800 mb-4">
-					We aim to ensure that all the stakeholders inclusive of farmers, MSMEs, large industries,
-					think tanks, financial institutions, and policymakers formulate strategic steps that can
-					empower the country’s stride to a net zero future. CMAI works closely with government
-					bodies to influence policy, engage thought leaders, and enhance industry competitiveness
-					through specialized services and strategic global partnerships.
-				</p>
-				<p class="text-base text-gray-800 mb-4">
-					CMAI works closely with key ministries such as Ministry of Environment, Forest and Climate
-					Change (MOEFCC), Ministry of Power (MoP), Ministry of New and Renewable Energy (MNRE), and
-					NITI Aayog, providing policy advocacy and knowledge support. CMAI plays a pivotal role in
-					initiatives like the Carbon Credit Trading Scheme (CCTS) and the Green Credit Programme
-					(GCP), ensuring alignment with global standards and promoting climate justice. We are also
-					a member of the committee for implementation of Extended Producer Responsibility (EPR)
-					guidelines notified under Plastic Waste Management (PWM) Rules of Central Pollution
-					Control Board’s (CPCB) and Technical Committee member for the development of Ecomark
-					Rules. CMAI is the Committee Member of MoEFCC’s Mangroves and Wetlands Program. We are
-					also working as knowledge partner with the Ministry of Railway, Ministry of Agriculture
-					and State Water and Sanitation Mission, UP.
-				</p>
-				<p class="text-base text-gray-800 mb-4">
-					Beyond carbon markets, CMAI champions initiatives like the India SAF Alliance, India EPR
-					Alliance, India Clean Cooking Alliance, India Climate Law Alliance and
-				</p>
+			<div class="space-y-9 md:col-span-9">
+                <div class=" py-10 px-4">
+                    <div class="max-w-5xl mx-auto">
+                      <h2 class="text-2xl font-bold text-dblue border-b-1 border-gray-200 pb-2 mb-10">
+                        Vision & Mission
+                      </h2>
+                  
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Vision Card -->
+                        <div class="bg-white shadow-lg rounded-lg p-6 relative text-center">
+                          <div class="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-dblue mt-5 text-white px-6 py-2 rounded-lg ">
+                            Vision
+                          </div>
+                          <div class="border-2 border-blue-700 p-6 rounded-lg mt-6">
+                            <p class="text-base text-gray-800">
+                              To be a catalyst towards building India as a Developed Nation
+                            </p>
+                          </div>
+                        </div>
+                  
+                        <!-- Mission Card -->
+                        <div class="bg-white shadow-lg rounded-lg p-6 relative text-center">
+                          <div class="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-dblue mt-5 text-white px-6 py-2 rounded-lg ">
+                            Mission
+                          </div>
+                          <div class="border-2 border-blue-700 p-6 rounded-lg mt-6 text-left">
+                            <ul class="text-base text-gray-800 list-decimal list-inside">
+                              <li>One-stop platform for services to industry & society</li>
+                              <li>Customer-focused organization</li>
+                              <li>World-class services</li>
+                              <li>Global thinking and local action</li>
+                              <li>Learning and caring organization</li>
+                              <li>Partnership approach</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                  
+                      <!-- Back Button -->
+                      
+                    </div>
+                  </div>
+                  
+                  
+                  
 			</div>
 
 			<!-- Main Content (larger) -->
@@ -233,30 +243,14 @@
 			</div>
 		</div>
 		<!-- Contact Button -->
+		
+		
 	</section>
 	<div class="container mx-auto mb-10">
 		<div class="flex justify-center">
-			<a
-				href="#"
-				class="flex items-center gap-2 rounded-full bg-blue-800 px-6 py-3 font-semibold text-white shadow-md transition hover:bg-gray-700"
-			>
+			<a href="#" class="bg-blue-800 text-white px-6 py-3 rounded-full font-semibold shadow-md hover:bg-gray-700 transition flex items-center gap-2">
 				Click here to download the brochure <span>⬇️</span>
 			</a>
 		</div>
 	</div>
-
-	<div class="flex justify-center items-center space-x-8 border-t py-4">
-		{#each socialLinks as link}
-		  <div class="flex flex-col items-center">
-			<a href={link.url} target="_blank" rel="noopener noreferrer">
-			  <i class="fab {link.icon} {link.color} text-3xl"></i>
-			</a>
-			<a href={link.url} class="text-gray-600 text-sm mt-2">{link.url}</a>
-		  </div>
-		{/each}
-	  </div>
-	  
-	  <style>
-		@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
-	  </style>
-	  </div>
+</div>

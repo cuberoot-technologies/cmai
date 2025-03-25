@@ -45,7 +45,7 @@
 
 	onDestroy(() => {
 		clearInterval(interval);
-		
+
 		// Ensure keenSliderEl exists before removing event listeners
 		if (keenSliderEl) {
 			keenSliderEl.removeEventListener('mouseenter', stopAutoSlide);
@@ -64,21 +64,21 @@
 
 <section class="">
 	<h2
-				class="relative inline-block w-full border-b-2 border-dotted border-sky-800 bg-dblue-light px-4 py-2 text-xl font-bold text-white"
-			>
-			Associates
-			</h2>
-			<a
-			href="#"
-			class="group relative inline-flex w-full items-center justify-end p-4 pt-0 text-base text-gray-700 transition-all duration-300 hover:text-dblue"
+		class="bg-dblue-light relative inline-block w-full border-b-2 border-dotted border-sky-800 px-4 py-2 text-xl font-bold text-white"
+	>
+		Associates
+	</h2>
+	<a
+		href="#"
+		class="group hover:text-dblue relative inline-flex w-full items-center justify-end p-4 pt-0 text-base text-gray-700 transition-all duration-300"
+	>
+		More
+		<span
+			class="ml-1 translate-x-0 transform text-sm opacity-100 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100"
 		>
-			 More
-			<span
-				class="ml-1 translate-x-0 transform text-sm opacity-100 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100"
-			>
-				→
-			</span>
-		</a>
+			→
+		</span>
+	</a>
 	<div class=" relative mx-auto max-w-screen-xl">
 		<div class="absolute top-[40%] z-10 flex w-[100%] items-center justify-between gap-4 p-2">
 			<button
@@ -114,19 +114,18 @@
 
 		<div class="">
 			<div bind:this={keenSliderEl} class="keen-slider w-full">
-				{#each ['/images/life.png', '/images/indian.png', '/images/pa.png', '/images/pb.png', '/images/pc.png',  '/images/area.png',   '/images/vcmi.png'] as imageSrc}
+				{#each ['/images/life.png', '/images/indian.png', '/images/pa.png', '/images/pb.png', '/images/pc.png', '/images/area.png', '/images/vcmi.png'] as imageSrc}
 					<div class="keen-slider__slide">
 						<article
 							class="flex h-[150px] flex-col items-center justify-around bg-white shadow-xs transition hover:shadow-lg"
 						>
-							<span class="flex w-full justify-center items-center p-2">
-								<img src={imageSrc} alt={imageSrc} class="h-[90px]"/>
+							<span class="flex w-full items-center justify-center p-2">
+								<img src={imageSrc} alt={imageSrc} class="h-[90px]" />
 							</span>
 						</article>
 					</div>
 				{/each}
 			</div>
-			
 		</div>
 	</div>
 </section>

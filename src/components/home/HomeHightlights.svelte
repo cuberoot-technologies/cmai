@@ -210,10 +210,6 @@
 					</div>
 				</div>
 			</div>
-
-
-
-
 			<div class="keen-slider__slide relative w-full">
 				<div class="group relative overflow-hidden">
 					<img alt="" src="/images/lighi.png" class=" inset-0 h-[500px] w-[100%] w-full " />
