@@ -69,6 +69,11 @@
 									>Strategy</a
 								>
 							</li>
+							<li>
+								<a href="/strategy" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+									>CMAI Leadership</a
+								>
+							</li>
 						</ul>
 					</li>
 				</ul>

@@ -50,42 +50,52 @@
 	});
 
 	const socialLinks = [
-    { name: "Facebook", url: "https://cii.in/facebook", icon: "fa-facebook", color: "text-blue-600" },
-    { name: "Twitter", url: "https://cii.in/twitter", icon: "fa-x-twitter", color: "text-black" }, // X (Twitter) in black
-    { name: "LinkedIn", url: "https://cii.in/linkedin", icon: "fa-linkedin", color: "text-blue-500" },
-    { name: "YouTube", url: "https://cii.in/youtube", icon: "fa-youtube", color: "text-red-600" },
-  ];
+		{
+			name: 'Facebook',
+			url: 'https://cii.in/facebook',
+			icon: 'fa-facebook',
+			color: 'text-blue-600'
+		},
+		{ name: 'Twitter', url: 'https://cii.in/twitter', icon: 'fa-x-twitter', color: 'text-black' }, // X (Twitter) in black
+		{
+			name: 'LinkedIn',
+			url: 'https://cii.in/linkedin',
+			icon: 'fa-linkedin',
+			color: 'text-blue-500'
+		},
+		{ name: 'YouTube', url: 'https://cii.in/youtube', icon: 'fa-youtube', color: 'text-red-600' }
+	];
 </script>
 
 <div>
 	<div class="container mx-auto mt-5 p-4">
-		<div class="grid grid-cols-1  md:grid-cols-12">
+		<div class="grid grid-cols-1 md:grid-cols-12">
 			<!-- Left Sidebar (smaller) -->
-			<div class="space-y-9 md:col-span-9 p-4">
+			<div class="space-y-9 p-4 md:col-span-9">
 				<h2
 					class="text-dblue relative inline-block w-full border-b-1 border-solid border-gray-200 px-4 py-2 text-xl font-bold"
 				>
 					About Us
 				</h2>
-				<p class="text-base text-gray-800 mb-4">
+				<p class="mb-4 text-base text-gray-800">
 					The Carbon Markets Association of India (CMAI) works to accelerate the Net Zero Transition
 					of India and the World by facilitating collaboration among stakeholders, including the
 					government, industry, and civil society.
 				</p>
-				<p class="text-base text-gray-800 mb-4">
+				<p class="mb-4 text-base text-gray-800">
 					As a leading non-governmental, not-for-profit, industry-led organization, CMAI has
 					supported over 3,500 projects, resulting in the reduction of 220 million tons of GHG
 					emissions. Our active involvement in global climate negotiations ensures that we remain at
 					the forefront of environmental action.
 				</p>
-				<p class="text-base text-gray-800 mb-4">
+				<p class="mb-4 text-base text-gray-800">
 					We aim to ensure that all the stakeholders inclusive of farmers, MSMEs, large industries,
 					think tanks, financial institutions, and policymakers formulate strategic steps that can
 					empower the country’s stride to a net zero future. CMAI works closely with government
 					bodies to influence policy, engage thought leaders, and enhance industry competitiveness
 					through specialized services and strategic global partnerships.
 				</p>
-				<p class="text-base text-gray-800 mb-4">
+				<p class="mb-4 text-base text-gray-800">
 					CMAI works closely with key ministries such as Ministry of Environment, Forest and Climate
 					Change (MOEFCC), Ministry of Power (MoP), Ministry of New and Renewable Energy (MNRE), and
 					NITI Aayog, providing policy advocacy and knowledge support. CMAI plays a pivotal role in
@@ -98,7 +108,7 @@
 					also working as knowledge partner with the Ministry of Railway, Ministry of Agriculture
 					and State Water and Sanitation Mission, UP.
 				</p>
-				<p class="text-base text-gray-800 mb-4">
+				<p class="mb-4 text-base text-gray-800">
 					Beyond carbon markets, CMAI champions initiatives like the India SAF Alliance, India EPR
 					Alliance, India Clean Cooking Alliance, India Climate Law Alliance and
 				</p>
@@ -107,7 +117,7 @@
 			<!-- Main Content (larger) -->
 			<div class="space-y-3 border-l-1 border-solid border-gray-200 pl-3 md:col-span-3">
 				<div
-					class="relative flex items-center justify-center bg-gradient-to-r from-blue-100 via-blue-200 to-blue-100 shadow"
+					class="relative flex items-center justify-center bg-gradient-to-r from-blue-100 via-blue-200 to-blue-100 shadow mb-10"
 				>
 					<img src="/images/cma.png" alt="" class=" w-[230px] rounded-lg" />
 				</div>
@@ -245,18 +255,18 @@
 		</div>
 	</div>
 
-	<div class="flex justify-center items-center space-x-8 border-t py-4">
+	<div class="flex items-center justify-center space-x-8 border-t py-4">
 		{#each socialLinks as link}
-		  <div class="flex flex-col items-center">
-			<a href={link.url} target="_blank" rel="noopener noreferrer">
-			  <i class="fab {link.icon} {link.color} text-3xl"></i>
-			</a>
-			<a href={link.url} class="text-gray-600 text-sm mt-2">{link.url}</a>
-		  </div>
+			<div class="flex flex-col items-center">
+				<a href={link.url} target="_blank" rel="noopener noreferrer">
+					<i class="fab {link.icon} {link.color} text-3xl"></i>
+				</a>
+				<a href={link.url} class="mt-2 text-sm text-gray-600">{link.url}</a>
+			</div>
 		{/each}
-	  </div>
-	  
-	  <style>
+	</div>
+
+	<style>
 		@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
-	  </style>
-	  </div>
+	</style>
+</div>
