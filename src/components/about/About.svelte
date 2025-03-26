@@ -68,34 +68,34 @@
 </script>
 
 <div>
-	<div class="container mx-auto mt-5 p-4">
+	<div class="container mx-auto mt-5 p-4 pb-0">
 		<div class="grid grid-cols-1 md:grid-cols-12">
 			<!-- Left Sidebar (smaller) -->
-			<div class="space-y-9 p-4 md:col-span-9">
+			<div class="space-y-9 md:col-span-9">
 				<h2
-					class="text-dblue relative inline-block w-full border-b-1 border-solid border-gray-200 px-4 py-2 text-xl font-bold"
+					class="text-dblue relative mb-2 inline-block w-full border-b-1 border-solid border-gray-200 px-4 py-2 text-xl font-bold"
 				>
 					About Us
 				</h2>
-				<p class="mb-4 text-base text-gray-800">
+				<p class="mb-4 text-lg text-gray-800">
 					The Carbon Markets Association of India (CMAI) works to accelerate the Net Zero Transition
 					of India and the World by facilitating collaboration among stakeholders, including the
 					government, industry, and civil society.
 				</p>
-				<p class="mb-4 text-base text-gray-800">
+				<p class="mb-4 text-lg text-gray-800">
 					As a leading non-governmental, not-for-profit, industry-led organization, CMAI has
 					supported over 3,500 projects, resulting in the reduction of 220 million tons of GHG
 					emissions. Our active involvement in global climate negotiations ensures that we remain at
 					the forefront of environmental action.
 				</p>
-				<p class="mb-4 text-base text-gray-800">
+				<p class="mb-4 text-lg text-gray-800">
 					We aim to ensure that all the stakeholders inclusive of farmers, MSMEs, large industries,
 					think tanks, financial institutions, and policymakers formulate strategic steps that can
 					empower the country’s stride to a net zero future. CMAI works closely with government
 					bodies to influence policy, engage thought leaders, and enhance industry competitiveness
 					through specialized services and strategic global partnerships.
 				</p>
-				<p class="mb-4 text-base text-gray-800">
+				<p class="mb-4 text-lg text-gray-800">
 					CMAI works closely with key ministries such as Ministry of Environment, Forest and Climate
 					Change (MOEFCC), Ministry of Power (MoP), Ministry of New and Renewable Energy (MNRE), and
 					NITI Aayog, providing policy advocacy and knowledge support. CMAI plays a pivotal role in
@@ -108,7 +108,7 @@
 					also working as knowledge partner with the Ministry of Railway, Ministry of Agriculture
 					and State Water and Sanitation Mission, UP.
 				</p>
-				<p class="mb-4 text-base text-gray-800">
+				<p class="mb-4 text-lg text-gray-800">
 					Beyond carbon markets, CMAI champions initiatives like the India SAF Alliance, India EPR
 					Alliance, India Clean Cooking Alliance, India Climate Law Alliance and
 				</p>
@@ -117,7 +117,7 @@
 			<!-- Main Content (larger) -->
 			<div class="space-y-3 border-l-1 border-solid border-gray-200 pl-3 md:col-span-3">
 				<div
-					class="relative flex items-center justify-center bg-gradient-to-r from-blue-100 via-blue-200 to-blue-100 shadow mb-10"
+					class="relative mb-10 flex items-center justify-center bg-gradient-to-r from-blue-100 via-blue-200 to-blue-100 shadow"
 				>
 					<img src="/images/cma.png" alt="" class=" w-[230px] rounded-lg" />
 				</div>
@@ -129,121 +129,60 @@
 			</div>
 		</div>
 	</div>
-	<section class="bg-light mt-15 mb-10 py-6 text-center">
-		<div class="container mx-auto mt-5 p-4">
-			<h2 class="text-3xl font-bold md:text-4xl">Why CMAI?</h2>
-
-			<div class="relative mx-auto max-w-screen-xl py-12">
-				<div class="absolute top-[42%] z-10 flex w-[100%] items-center justify-between gap-4 px-5">
-					<button
-						id="keen-slider-previous"
-						class="rounded-full border border-white text-white transition hover:bg-blue-700 hover:text-white"
-					>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							class="size-5 rtl:rotate-180"
-							viewBox="0 0 24 24"
-							fill="none"
-							stroke="currentColor"
-							stroke-width="1.5"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								d="M15.75 19.5L8.25 12l7.5-7.5"
-							/>
-						</svg>
-					</button>
-					<button
-						id="keen-slider-next"
-						class="rounded-full border border-white text-white transition hover:bg-blue-700 hover:text-white"
-					>
-						<svg
-							class="size-5 rtl:rotate-180"
-							fill="none"
-							stroke="currentColor"
-							viewBox="0 0 24 24"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<path
-								d="M9 5l7 7-7 7"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-							/>
-						</svg>
-					</button>
-				</div>
-				<div id="keen-slider" class="keen-slider w-full">
-					<div class="keen-slider__slide relative w-full">
-						<div class="group relative overflow-hidden">
-							<div class="flex flex-col items-center text-center">
-								<div class="mb-4 text-5xl">🏆</div>
-								<h3 class="text-lg font-semibold">Expertise & Experience</h3>
-								<p class="mt-2 max-w-xs text-base">
-									With over 3,500 projects reducing 220 million tons of GHG emissions, CMAI brings
-									deep expertise in carbon markets and sustainability.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="keen-slider__slide relative w-full">
-						<div class="group relative overflow-hidden">
-							<div class="flex flex-col items-center text-center">
-								<div class="mb-4 text-5xl">🤝</div>
-								<h3 class="text-lg font-semibold">Collaborative Approach</h3>
-								<p class="mt-2 max-w-xs text-base">
-									CMAI fosters collaboration between governments, industries, and civil society to
-									drive impactful climate action.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="keen-slider__slide relative w-full">
-						<div class="group relative overflow-hidden">
-							<div class="flex flex-col items-center text-center">
-								<div class="mb-4 text-5xl">🛠️</div>
-								<h3 class="text-lg font-semibold">Comprehensive Services</h3>
-								<p class="mt-2 max-w-xs text-base">
-									From policy advocacy to carbon project consultancy, CMAI offers a full spectrum of
-									services to support businesses and communities in their sustainability journey.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="keen-slider__slide relative w-full">
-						<div class="group relative overflow-hidden">
-							<div class="flex flex-col items-center text-center">
-								<div class="mb-4 text-5xl">🌍</div>
-								<h3 class="text-lg font-semibold">Global & Local Impact</h3>
-								<p class="mt-2 max-w-xs text-base">
-									CMAI combines global expertise with local action, ensuring tailored solutions for
-									India's transition to a net-zero future.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="keen-slider__slide relative w-full">
-						<div class="group relative overflow-hidden">
-							<div class="flex flex-col items-center text-center">
-								<div class="mb-4 text-5xl">🔗</div>
-								<h3 class="text-lg font-semibold">Trusted Partnerships</h3>
-								<p class="mt-2 max-w-xs text-base">
-									CMAI works closely with key ministries, thought leaders, and international
-									organizations, driving climate innovation and policy alignment for lasting change.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
+	<section class="bg-dblue mb-10 py-6 text-center">
+		<div class="container mx-auto mt-5 px-4">
+		  <h2 class="text-3xl font-bold md:text-4xl text-white">Why CMAI?</h2>
+	  
+		  <!-- Responsive Grid -->
+		  <div class="mx-auto max-w-screen-xl py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+			<!-- Expertise & Experience -->
+			<div class="flex flex-col items-center text-center">
+			  <div class="mb-4 text-5xl">🏆</div>
+			  <h3 class="text-lg font-semibold text-white">Expertise & Experience</h3>
+			  <p class="mt-2 max-w-xs text-lg text-white">
+				With over 3,500 projects reducing 220 million tons of GHG emissions, CMAI brings deep expertise in carbon markets and sustainability.
+			  </p>
 			</div>
+	  
+			<!-- Collaborative Approach -->
+			<div class="flex flex-col items-center text-center">
+			  <div class="mb-4 text-5xl">🤝</div>
+			  <h3 class="text-lg font-semibold text-white">Collaborative Approach</h3>
+			  <p class="mt-2 max-w-xs text-lg text-white">
+				CMAI fosters collaboration between governments, industries, and civil society to drive impactful climate action.
+			  </p>
+			</div>
+	  
+			<!-- Comprehensive Services -->
+			<div class="flex flex-col items-center text-center">
+			  <div class="mb-4 text-5xl">🛠️</div>
+			  <h3 class="text-lg font-semibold text-white">Comprehensive Services</h3>
+			  <p class="mt-2 max-w-xs text-lg text-white">
+				From policy advocacy to carbon project consultancy, CMAI offers a full spectrum of services to support businesses and communities in their sustainability journey.
+			  </p>
+			</div>
+	  
+			<!-- Global & Local Impact -->
+			<div class="flex flex-col items-center text-center">
+			  <div class="mb-4 text-5xl">🌍</div>
+			  <h3 class="text-lg font-semibold text-white">Global & Local Impact</h3>
+			  <p class="mt-2 max-w-xs text-lg text-white">
+				CMAI combines global expertise with local action, ensuring tailored solutions for India's transition to a net-zero future.
+			  </p>
+			</div>
+	  
+			<!-- Trusted Partnerships -->
+			<div class="flex flex-col items-center text-center">
+			  <div class="mb-4 text-5xl">🔗</div>
+			  <h3 class="text-lg font-semibold text-white">Trusted Partnerships</h3>
+			  <p class="mt-2 max-w-xs text-lg text-white">
+				CMAI works closely with key ministries, thought leaders, and international organizations, driving climate innovation and policy alignment for lasting change.
+			  </p>
+			</div>
+		  </div>
 		</div>
-		<!-- Contact Button -->
-	</section>
+	  </section>
+	  
 	<div class="container mx-auto mb-10">
 		<div class="flex justify-center">
 			<a

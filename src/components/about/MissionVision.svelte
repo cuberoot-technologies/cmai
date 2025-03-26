@@ -1,16 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
 <script>
 	import { onMount, tick } from 'svelte';
 	import KeenSlider from 'keen-slider';
@@ -65,53 +52,65 @@
 
 <div>
 	<div class="container mx-auto mt-5 p-4">
+		<section class="container mx-auto px-6 py-12"></section>
 		<div class="grid grid-cols-1 gap-4 md:grid-cols-12">
 			<!-- Left Sidebar (smaller) -->
 			<div class="space-y-9 md:col-span-9">
-                <div class=" py-10 px-4">
-                    <div class="max-w-5xl mx-auto">
-                      <h2 class="text-2xl font-bold text-dblue border-b-1 border-gray-200 pb-2 mb-10">
-                        Vision & Mission
-                      </h2>
-                  
-                      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <!-- Vision Card -->
-                        <div class="bg-white shadow-lg rounded-lg p-6 relative text-center">
-                          <div class="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-dblue mt-5 text-white px-6 py-2 rounded-lg ">
-                            Vision
-                          </div>
-                          <div class="border-2 border-blue-700 p-6 rounded-lg mt-6">
-                            <p class="text-base text-gray-800">
-                              To be a catalyst towards building India as a Developed Nation
-                            </p>
-                          </div>
-                        </div>
-                  
-                        <!-- Mission Card -->
-                        <div class="bg-white shadow-lg rounded-lg p-6 relative text-center">
-                          <div class="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-dblue mt-5 text-white px-6 py-2 rounded-lg ">
-                            Mission
-                          </div>
-                          <div class="border-2 border-blue-700 p-6 rounded-lg mt-6 text-left">
-                            <ul class="text-base text-gray-800 list-decimal list-inside">
-                              <li>One-stop platform for services to industry & society</li>
-                              <li>Customer-focused organization</li>
-                              <li>World-class services</li>
-                              <li>Global thinking and local action</li>
-                              <li>Learning and caring organization</li>
-                              <li>Partnership approach</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                  
-                      <!-- Back Button -->
-                      
-                    </div>
-                  </div>
-                  
-                  
-                  
+				
+					<div class="mx-auto ">
+						<h2 class="text-dblue  border-b-1 border-gray-200 pb-2 mb-5 text-2xl font-bold">
+							Vision & Mission
+						</h2>
+
+						<div class="grid grid-cols-1 gap-6">
+							<!-- Vision Card -->
+							<div class="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
+								<div>
+									<img
+										src="https://www.southpole.com/uploads/thumbs/mission-hero_1180x640.jpeg.webp"
+										alt="Mission Image"
+										class="h-auto w-full rounded-lg object-cover shadow-lg"
+									/>
+								</div>
+
+								<!-- Text Content -->
+								<div class="text-left">
+									<h2 class="text-3xl font-bold text-gray-900">Vision</h2>
+									<p class="mt-4 text-lg text-gray-600">
+										To be a catalyst towards building India as a Developed Nation
+									</p>
+								</div>
+							</div>
+
+							<!-- Mission Card -->
+
+							<div class="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
+								<!-- Text Content -->
+								<div class="text-left">
+									<h2 class="text-3xl font-bold text-gray-900">Vision</h2>
+
+									<ul class="list-inside list-decimal text-lg text-gray-600 mt-4">
+										<li>One-stop platform for services to industry & society</li>
+										<li>Customer-focused organization</li>
+										<li>World-class services</li>
+										<li>Global thinking and local action</li>
+										<li>Learning and caring organization</li>
+										<li>Partnership approach</li>
+									</ul>
+								</div>
+								<div>
+									<img
+										src="https://www.southpole.com/uploads/thumbs/home-hero-alternate_600x400.jpg.webp"
+										alt="Mission Image"
+										class="h-auto w-full rounded-lg object-cover shadow-lg"
+									/>
+								</div>
+							</div>
+						
+						</div>
+
+						<!-- Back Button -->
+					</div>
 			</div>
 
 			<!-- Main Content (larger) -->
@@ -129,6 +128,4 @@
 			</div>
 		</div>
 	</div>
-
-	
 </div>
