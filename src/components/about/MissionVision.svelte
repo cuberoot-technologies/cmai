@@ -50,17 +50,13 @@
 	});
 </script>
 
-<div>
 	<div class="container mx-auto mt-5 p-4">
-		<section class="container mx-auto px-6 py-12"></section>
 		<div class="grid grid-cols-1 gap-4 md:grid-cols-12">
 			<!-- Left Sidebar (smaller) -->
 			<div class="space-y-9 md:col-span-9">
 				
 					<div class="mx-auto ">
-						<h2 class="text-dblue  border-b-1 border-gray-200 pb-2 mb-5 text-2xl font-bold">
-							Vision & Mission
-						</h2>
+						
 
 						<div class="grid grid-cols-1 gap-6">
 							<!-- Vision Card -->
@@ -87,7 +83,7 @@
 							<div class="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
 								<!-- Text Content -->
 								<div class="text-left">
-									<h2 class="text-3xl font-bold text-gray-900">Vision</h2>
+									<h2 class="text-3xl font-bold text-gray-900">Mission</h2>
 
 									<ul class="list-inside list-decimal text-lg text-gray-600 mt-4">
 										<li>One-stop platform for services to industry & society</li>
@@ -128,4 +124,3 @@
 			</div>
 		</div>
 	</div>
-</div>
