@@ -144,9 +144,9 @@ import { onMount, onDestroy } from 'svelte';
 			{#each associates as associate}
 				<div class="keen-slider__slide">
 					<article
-						class="flex h-[260px] flex-col items-center justify-around bg-white p-4 shadow-xs transition hover:shadow-lg"
+						class="flex h-[290px] flex-col items-center justify-around bg-white p-4 shadow-xs transition hover:shadow-lg"
 					>
-						<img src={associate.img} alt={associate.title} class="h-[140px] border border-gray-300" />
+						<img src={associate.img} alt={associate.title} class="h-[195px] border border-gray-300" />
 						<p class="text-base text-center text-gray-800">{associate.title}</p>
 					</article>
 				</div>

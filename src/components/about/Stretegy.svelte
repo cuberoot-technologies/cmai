@@ -56,7 +56,7 @@
 			<!-- Left Sidebar (smaller) -->
 			<div class="space-y-9 md:col-span-9">
 				<h2
-					class="text-dblue relative inline-block w-full border-b-1 border-solid border-gray-200 px-4 py-2 text-xl font-bold"
+					class="text-dblue relative inline-block w-full border-b-1 border-solid border-gray-200 px-4 py-2 text-xl font-bold mb-2"
 				>
                 Strategy
 				</h2>
@@ -66,9 +66,9 @@
                       
                       <div class="space-y-8">
                         <!-- Short Term Strategy -->
-                        <section class="bg-blue-100 p-6 rounded-lg">
-                          <h2 class="text-2xl font-semibold text-blue-800">Short Term Strategy</h2>
-                          <ul class="list-disc pl-5 mt-2 text-gray-700">
+                        <section class="bg-dblue p-6 rounded-lg">
+                          <h2 class="text-2xl font-semibold text-white">Short Term Strategy</h2>
+                          <ul class="list-disc pl-5 mt-2 text-white ">
                             <li>Develop structured governance frameworks to ensure transparency, accountability, and alignment with India’s climate objectives.</li>
                             <li>Initiate pilot projects through ICCA, India EPR Alliance, and India SAF Alliance to explore innovative carbon market mechanisms.</li>
                             <li>Collaborate with policymakers, industries, and civil society to synchronize efforts in leveraging the carbon market for sustainable growth.</li>
@@ -76,9 +76,9 @@
                         </section>
                   
                         <!-- Mid Term Strategy -->
-                        <section class="bg-green-100 p-6 rounded-lg">
-                          <h2 class="text-2xl font-semibold text-green-800">Mid Term Strategy</h2>
-                          <ul class="list-disc pl-5 mt-2 text-gray-700">
+                        <section class="bg-dblue-light p-6 rounded-lg">
+                          <h2 class="text-2xl font-semibold text-white">Mid Term Strategy</h2>
+                          <ul class="list-disc pl-5 mt-2 text-white">
                             <li>Expand the influence of CMAI by driving large-scale adoption of successful pilot projects across industries.</li>
                             <li>Position CMAI as a leading policy advisory body to shape India’s regulatory and operational landscape for climate action.</li>
                             <li>Enhance India’s participation in global carbon markets by promoting high-quality, verifiable carbon credits.</li>
@@ -86,8 +86,8 @@
                         </section>
                   
                         <!-- Long Term Strategy -->
-                        <section class="bg-yellow-100 p-6 rounded-lg">
-                          <h2 class="text-2xl font-semibold text-yellow-800">Long Term Strategy</h2>
+                        <section class="bg-light p-6 rounded-lg">
+                          <h2 class="text-2xl font-semibold text-dblue">Long Term Strategy</h2>
                           <ul class="list-disc pl-5 mt-2 text-gray-700">
                             <li>Lead India’s transition to net-zero by 2070 through sustained support for carbon market operations and policy evolution.</li>
                             <li>Leverage CMAI’s expertise to build resilient global partnerships and share best practices.</li>
