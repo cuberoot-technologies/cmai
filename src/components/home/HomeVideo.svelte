@@ -2,22 +2,21 @@
 	<div class="mx-auto max-w-screen-xl">
 		<div class="max-w-full">
 			<h2
-				class="relative inline-block w-full border-b-2 border-dotted border-sky-800 bg-light px-4 py-2 text-xl font-bold text-dblue-light"
+				class="bg-light text-dblue-light relative inline-block w-full border-b-2 border-dotted border-sky-800 px-4 py-2 text-xl font-bold"
 			>
 				CMAI Video
 			</h2>
 
 			<blockquote class="">
-				<div class="relative w-full max-w-md mx-auto">
-					<video class="w-full h-auto" src="/images/cmai.mp4" autoplay muted loop></video>
-					
+				<div class="relative mx-auto w-full max-w-md">
+					<video class="h-auto w-full" src="/images/cmai.mp4" autoplay muted loop></video>
+
 					<!-- <div class="absolute inset-0 flex items-center justify-center">
 					  <svg class="w-16 h-16 text-white opacity-75" fill="currentColor" viewBox="0 0 24 24">
 						<path d="M8 5v14l11-7z" />
 					  </svg>
 					</div> -->
-				  </div>
-				  
+				</div>
 			</blockquote>
 			<a
 				href="#"
