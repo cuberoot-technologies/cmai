@@ -1,53 +1,6 @@
 <script>
-	import { onMount, tick } from 'svelte';
-	import KeenSlider from 'keen-slider';
-	import 'keen-slider/keen-slider.min.css';
-
-	let keenSlider;
-	let interval;
-
-	onMount(async () => {
-		await tick(); // Ensure DOM is fully updated before initializing
-
-		keenSlider = new KeenSlider('#keen-slider', {
-			loop: true,
-			slides: {
-				perView: 1,
-				spacing: 12
-			},
-			breakpoints: {
-				'(min-width: 640px)': { slides: { perView: 3, spacing: 16 } },
-				'(min-width: 1022px)': { slides: { perView: 3, spacing: 24 } }
-			}
-		});
-
-		// Ensure slider resizes properly
-		setTimeout(() => keenSlider.resize(), 100);
-
-		// Navigation buttons
-		document
-			.getElementById('keen-slider-previous')
-			?.addEventListener('click', () => keenSlider.prev());
-		document.getElementById('keen-slider-next')?.addEventListener('click', () => keenSlider.next());
-
-		// Function to start auto-slide
-		const startAutoSlide = () => {
-			interval = setInterval(() => keenSlider.next(), 5000);
-		};
-
-		// Function to stop auto-slide
-		const stopAutoSlide = () => {
-			clearInterval(interval);
-		};
-
-		// Start auto-slide
-		startAutoSlide();
-
-		// Stop auto-slide on hover and resume on leave
-		const sliderElement = document.getElementById('keen-slider');
-		sliderElement?.addEventListener('mouseenter', stopAutoSlide);
-		sliderElement?.addEventListener('mouseleave', startAutoSlide);
-	});
+	
+	
 </script>
 
 	<div class="container mx-auto mt-5 p-4">
@@ -65,7 +18,7 @@
 									<img
 										src="https://www.southpole.com/uploads/thumbs/mission-hero_1180x640.jpeg.webp"
 										alt="Mission Image"
-										class="h-auto w-full rounded-lg object-cover shadow-lg"
+										class="h-[270px] w-full rounded-lg object-cover shadow-lg"
 									/>
 								</div>
 
@@ -98,7 +51,7 @@
 									<img
 										src="https://www.southpole.com/uploads/thumbs/home-hero-alternate_600x400.jpg.webp"
 										alt="Mission Image"
-										class="h-auto w-full rounded-lg object-cover shadow-lg"
+										class="h-[270px] w-full rounded-lg object-cover shadow-lg"
 									/>
 								</div>
 							</div>
