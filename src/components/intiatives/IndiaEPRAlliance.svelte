@@ -11,11 +11,11 @@
 				>
                 India EPR Alliance
 				</h2>
-				<div class="  p-6">
-					<div class="mx-auto max-w-4xl rounded-xl bg-white p-8 shadow-lg">
+				<div class="  ">
+					<div class="mx-auto  rounded-xl bg-white py-6 ">
 						<div class="space-y-8">
 							<!-- Short Term Strategy -->
-							<section class="bg-dblue-light rounded-lg p-6">
+							<section class="bg-dblue-light  p-6">
                           <h2 class="text-2xl font-semibold mb-4 text-white">Introduction</h2>
 
 								<p class="text-2xl text-white">
@@ -32,8 +32,8 @@
 
 			<!-- Main Content (larger) -->
 			<div class="space-y-3 border-l-1 border-solid border-gray-200 pl-3 md:col-span-3">
-				<div class="bg-light relative flex items-center justify-center shadow">
-					<img src="/images/epr.png" alt="" class=" w-[200px] rounded-lg" />
+				<div class=" relative flex items-center justify-center ">
+					<img src="/images/epr.png" alt="" class=" w-[350px] rounded-lg" />
 					<a
 						href="#"
 						class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"

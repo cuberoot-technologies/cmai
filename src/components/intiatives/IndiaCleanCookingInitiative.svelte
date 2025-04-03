@@ -124,9 +124,9 @@
 			<!-- Main Content (larger) -->
 			<div class="space-y-3 border-l-1 border-solid border-gray-200 pl-3 md:col-span-3">
 				<div
-					class="relative flex h-[200px] items-center justify-center bg-gradient-to-r from-stone-100 via-stone-200 to-stone-200 shadow"
+					class="relative flex h-[200px] items-center justify-center "
 				>
-					<img src="/images/icca.png" alt="" class=" w-[290px] rounded-lg" />
+					<img src="/images/icca.png" alt="" class=" w-[350px] rounded-lg" />
 					<a
 						href="#"
 						class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"

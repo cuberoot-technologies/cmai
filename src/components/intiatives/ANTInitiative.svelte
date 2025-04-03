@@ -116,7 +116,7 @@
 
 			<!-- Main Content (larger) -->
 			<div class="space-y-3 border-l-1 border-solid border-gray-200 pl-3 md:col-span-3">
-				<div class="relative flex h-[150px] items-center justify-center shadow">
+				<div class="relative flex h-[150px] items-center justify-center ">
 					<img src="/images/center.png" alt="" class=" w-[350px] rounded-lg" />
 				</div>
 			</div>

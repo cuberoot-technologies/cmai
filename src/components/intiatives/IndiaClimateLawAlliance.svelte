@@ -124,9 +124,9 @@
 			<!-- Main Content (larger) -->
 			<div class="space-y-3 border-l-1 border-solid border-gray-200 pl-3 md:col-span-3">
 				<div
-				class="relative flex h-[190px] items-center justify-center bg-gradient-to-r from-zinc-200 via-zinc-200 to-zinc-100 shadow"
+				class="relative flex h-[190px] items-center justify-center "
 			>
-				<img src="/images/icla.webp" alt="" class=" w-[200px] rounded-lg" />
+				<img src="/images/icla.webp" alt="" class=" w-[350px] " />
 				<a
 					href="#"
 					class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"

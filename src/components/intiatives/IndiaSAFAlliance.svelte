@@ -11,11 +11,11 @@
 				>
 					India SAF Alliance
 				</h2>
-				<div class="  p-6">
-					<div class="mx-auto max-w-4xl rounded-xl bg-white p-8 shadow-lg">
+				<div class=" ">
+					<div class="mx-auto   py-6 ">
 						<div class="space-y-8">
 							<!-- Short Term Strategy -->
-							<section class="bg-dblue rounded-lg p-6">
+							<section class="bg-dblue  p-6">
 								<p class="text-2xl text-white">
 									The India SAF Alliance is dedicated to revolutionising the aviation sector by
 									advancing sustainable aviation fuel (SAF) solutions. Uniting government, industry,
@@ -35,9 +35,9 @@
 			<!-- Main Content (larger) -->
 			<div class="space-y-3 border-l-1 border-solid border-gray-200 pl-3 md:col-span-3">
 				<div
-					class="relative flex items-center justify-center bg-gradient-to-r from-blue-100 via-blue-200 to-blue-100 shadow"
+					class="relative flex items-center justify-center "
 				>
-					<img src="/images/saf.png" alt="" class=" w-[200px] rounded-lg" />
+					<img src="/images/saf.png" alt="" class=" w-[350px] rounded-lg" />
 					<a
 						href="#"
 						class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
