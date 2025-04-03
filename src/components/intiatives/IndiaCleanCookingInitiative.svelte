@@ -124,7 +124,7 @@
 			<!-- Main Content (larger) -->
 			<div class="space-y-3 border-l-1 border-solid border-gray-200 pl-3 md:col-span-3">
 				<div
-					class="relative flex h-[190px] items-center justify-center bg-gradient-to-r from-stone-100 via-stone-200 to-stone-200 shadow"
+					class="relative flex h-[200px] items-center justify-center bg-gradient-to-r from-stone-100 via-stone-200 to-stone-200 shadow"
 				>
 					<img src="/images/icca.png" alt="" class=" w-[290px] rounded-lg" />
 					<a
@@ -134,11 +134,7 @@
 						Join Now
 					</a>
 				</div>
-				<div
-					class="relative flex items-center justify-center bg-gradient-to-r from-blue-100 via-blue-200 to-blue-100 shadow"
-				>
-					<img src="/images/cma.png" alt="" class=" w-[230px] rounded-lg" />
-				</div>
+				
 			</div>
 		</div>
 	</div>
