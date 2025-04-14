@@ -88,13 +88,15 @@
 							class="absolute left-0 mt-0 hidden w-48 rounded-md bg-white shadow-lg group-hover:block"
 						>
 							<li>
-								<a href="/india-saf-alliance" class="hover:bg-dblue block px-4 py-2 hover:text-white"
-									>India SAF Alliance</a
+								<a
+									href="/india-saf-alliance"
+									class="hover:bg-dblue block px-4 py-2 hover:text-white">India SAF Alliance</a
 								>
 							</li>
 							<li>
-								<a href="/india-epr-alliance" class="hover:bg-dblue block px-4 py-2 hover:text-white"
-									>India EPR Alliance</a
+								<a
+									href="/india-epr-alliance"
+									class="hover:bg-dblue block px-4 py-2 hover:text-white">India EPR Alliance</a
 								>
 							</li>
 							<li>
@@ -104,13 +106,17 @@
 							</li>
 
 							<li>
-								<a href="/india-clean-cooking-initiative" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+								<a
+									href="/india-clean-cooking-initiative"
+									class="hover:bg-dblue block px-4 py-2 hover:text-white"
 									>India Clean Cooking Initiative</a
 								>
 							</li>
 
 							<li>
-								<a href="/india-climate-law-alliance" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+								<a
+									href="/india-climate-law-alliance"
+									class="hover:bg-dblue block px-4 py-2 hover:text-white"
 									>India Climate Law Alliance</a
 								>
 							</li>
@@ -123,10 +129,32 @@
 						>Services</a
 					>
 				</li>
-				<li class="border-b md:border-none">
-					<a href="/" class="text-dblue block px-4 py-2 font-semibold hover:text-teal-400">Events</a
-					>
-				</li>
+
+				<ul class="relative">
+					<li class="group border-b md:border-none">
+						<a href="#" class="text-dblue block px-4 py-2 font-semibold hover:text-teal-400"
+							>Events</a
+						>
+
+						<!-- Submenu -->
+						<ul
+							class="absolute left-0 mt-0 hidden w-48 rounded-md bg-white shadow-lg group-hover:block"
+						>
+							<li>
+								<a
+									href="/upcoming-events"
+									class="hover:bg-dblue block px-4 py-2 hover:text-white">Upcomming Events</a
+								>
+							</li>
+							<li>
+								<a
+									href="/past-events"
+									class="hover:bg-dblue block px-4 py-2 hover:text-white">Past Events</a
+								>
+							</li>
+						</ul>
+					</li>
+				</ul>
 				<li>
 					<a href="/" class="text-dblue block px-4 py-2 font-semibold hover:text-teal-400"
 						>Become A Member</a
