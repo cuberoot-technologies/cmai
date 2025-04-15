@@ -2,7 +2,7 @@
     <!-- Image Content -->
     <div class="relative z-10 flex justify-center p-6">
         <img
-            src="/images/India.jpg"
+            src="/images/policy.jpg"
             alt="India Climate Week 2025"
             class="h-[500px] w-[60%] object-contain"
         />

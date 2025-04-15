@@ -3,7 +3,7 @@
     <!-- Image Content -->
     <div class="relative z-10 flex justify-center p-6">
       <img 
-        src="/images/COP.jpg" 
+        src="/images/cop29.jpg" 
         alt="COP29 Event" 
         class="w-[60%] h-[500px] object-contain"
       />
