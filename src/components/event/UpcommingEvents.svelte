@@ -6,10 +6,10 @@
         <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
           <img src="/images/policy.jpg" alt="Card Image" class="w-full h-78 object-cover">
           <div class="p-4">
-            <h2 class="text-xl font-semibold mb-1">India Climate Week 2026
+            <h2 class="text-xl font-semibold mb-1">Carbon Policy Conclave
             </h2>
-            <p class="text-sm text-gray-500 mb-1">📅 10/1/2025</p>
-            <p class="text-gray-600">After the resounding success of its inaugural edition, India Climate Week returns in 2026 with renewed ambition and expanded scope. Organised by the Carbon Market Association of India (CMAI), the...</p>
+            <p class=" text-gray-500 text-base mb-1">📅 October 2025</p>
+            <p class="text-gray-600 text-xl">The India Carbon Policy Conclave 2025, convened by the Carbon Market Association of India (CMAI), will serve as a pivotal forum for steering the evolution of India’s carbon market...</p>
           </div>
         </div>
       </a>
@@ -21,8 +21,8 @@
           <img src="/images/cop3.jpg" alt="Card Image" class="w-full h-78 object-cover">
           <div class="p-4">
             <h2 class="text-xl font-semibold mb-1">COP30</h2>
-            <p class="text-sm text-gray-500 mb-1">📅 10 - 21 November 2025</p>
-            <p class="text-gray-600">As the world prepares for COP30 in Belém, Brazil, the Carbon Market Association of India (CMAI) will lead an Indian delegation to engage in critical negotiations and global climate...</p>
+            <p class=" text-gray-500 text-base mb-1">📅 10 - 21 November 2025</p>
+            <p class="text-gray-600 text-xl">As the world prepares for COP30 in Belém, Brazil, the Carbon Market Association of India (CMAI) will lead an Indian delegation to engage in critical negotiations and global climate...</p>
           </div>
         </div>
       </a>
@@ -33,9 +33,9 @@
         <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
           <img src="/images/icwf.jpg" alt="Card Image" class="w-full h-78 object-cover">
           <div class="p-4">
-            <h2 class="text-xl font-semibold mb-1">ICW 2026</h2>
-            <p class="text-sm text-gray-500 mb-1">📅 2/1/2025</p>
-            <p class="text-gray-600">The India Carbon Policy Development Conclave 2025, convened by the Carbon Market Association of India (CMAI), will serve as a pivotal forum for steering the evolution of India’s carbon market policy...</p>
+            <h2 class="text-xl font-semibold mb-1">India Climate Week 2026</h2>
+            <p class=" text-gray-500 text-base mb-1">📅 February 2026</p>
+            <p class="text-gray-600 text-xl">The Carbon Policy Development Conclave 2025, convened by the Carbon Market Association of India (CMAI), will serve as a pivotal forum for steering the evolution of India’s carbon market policy...</p>
           </div>
         </div>
       </a>

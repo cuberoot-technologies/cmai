@@ -17,7 +17,7 @@
 	<div class="mt-6 rounded-2xl bg-white p-6 shadow-md">
 		<h1 class="mb-4 text-3xl font-bold text-gray-800">India Climate Week (ICW) 2025</h1>
 
-		<p class="mb-4 text-gray-700">
+		<p class="mb-4 text-gray-700 text-xl text-xl">
 			India Climate Week (ICW) 2025, hosted by the Carbon Markets Association of India (CMAI),
 			emerged as a landmark event mobilizing over 30 countries in a united front for climate action.
 			Held under the guiding theme <strong>“प्रकृतिरेव शरणम्”</strong> (Nature is our only refuge), ICW
@@ -30,7 +30,7 @@
 		<h3 class="mt-4 text-xl font-semibold text-gray-800">
 			🔹 Launch of Strategic Climate Alliances
 		</h3>
-		<ul class="mb-4 list-inside list-disc space-y-1 text-gray-700">
+		<ul class="mb-4 list-inside text-xl list-disc space-y-1 text-gray-700">
 			<li>
 				<strong>India Sustainable Aviation Fuel (SAF) Alliance:</strong> Aimed at decarbonizing India’s
 				aviation sector, with targets like 10% SAF blending by 2030.
@@ -44,7 +44,7 @@
 		<h3 class="mt-4 text-xl font-semibold text-gray-800">
 			🔹 Global Cooperation on Carbon Markets
 		</h3>
-		<p class="mb-4 text-gray-700">
+		<p class="mb-4 text-gray-700 text-xl">
 			Delegations from 30+ countries convened for high-level dialogue on Global Cooperation in
 			Carbon Markets.
 		</p>
@@ -52,7 +52,7 @@
 		<h3 class="mt-4 text-xl font-semibold text-gray-800">
 			🔹 Site Visits Showcasing Article 6 Technologies
 		</h3>
-		<p class="mb-4 text-gray-700">
+		<p class="mb-4 text-gray-700 text-xl">
 			Delegates explored India’s leadership in green innovation with visits to a CBG plant in Hapur
 			and the Indian Oil R&D Centre, including a ride on a Green Hydrogen Bus, demonstrating India’s
 			push in clean mobility and waste-to-energy technologies.
@@ -62,13 +62,13 @@
 			🔹 Insightful Policy Panels & Masterclass
 		</h3>
 		<p class="mb-2 text-gray-700">Panel discussions on:</p>
-		<ul class="mb-4 list-inside list-disc space-y-1 text-gray-700">
+		<ul class="mb-4 list-inside text-xl list-disc space-y-1 text-gray-700">
 			<li>Carbon avoidance</li>
 			<li>Carbon removals</li>
 			<li>Aviation decarbonization</li>
 			<li>Environmental commodity markets</li>
 		</ul>
-		<p class="mb-4 text-gray-700">
+		<p class="mb-4 text-gray-700 text-xl">
 			A Masterclass on Carbon Markets by the Indian Institute of Corporate Affairs (IICA) offered
 			strategic insights into global and Indian carbon trading systems.
 		</p>
