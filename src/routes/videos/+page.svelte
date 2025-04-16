@@ -1,9 +1,9 @@
 <script>
 	import Navbar from '$lib/Navbar.svelte';
 	import Footer from '$lib/Footer.svelte';
-	import UpcommingEvents from '../../components/event/UpcommingEvents.svelte';
+	import Video from '../../components/videos/Video.svelte';
 </script>
 
 <Navbar />
-<UpcommingEvents />
+<Video />
 <Footer />

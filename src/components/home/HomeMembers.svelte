@@ -72,7 +72,7 @@
 			</p>
 		</div>
 		<a
-				href="#"
+				href="/members"
 				class="group relative inline-flex w-full items-center justify-end p-4 pb-2 pt-0 text-base text-gray-700 transition-all duration-300 hover:text-dblue"
 			>
 				 See all

@@ -130,7 +130,7 @@
 					>
 				</li>
 
-				<ul class="relative">
+				<ul class="relative z-999">
 					<li class="group border-b md:border-none">
 						<a href="#" class="text-dblue block px-4 py-2 font-semibold hover:text-teal-400"
 							>Events</a
@@ -141,15 +141,13 @@
 							class="absolute left-0 mt-0 hidden w-48 rounded-md bg-white shadow-lg group-hover:block"
 						>
 							<li>
-								<a
-									href="/upcoming-events"
-									class="hover:bg-dblue block px-4 py-2 hover:text-white">Upcomming Events</a
+								<a href="/upcoming-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+									>Upcomming Events</a
 								>
 							</li>
 							<li>
-								<a
-									href="/past-events"
-									class="hover:bg-dblue block px-4 py-2 hover:text-white">Past Events</a
+								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+									>Past Events</a
 								>
 							</li>
 						</ul>
