@@ -153,11 +153,35 @@
 						</ul>
 					</li>
 				</ul>
-				<li>
-					<a href="/" class="text-dblue block px-4 py-2 font-semibold hover:text-teal-400"
-						>Become A Member</a
-					>
-				</li>
+				
+				<ul class="relative z-999">
+					<li class="group border-b md:border-none">
+						<a href="#" class="text-dblue block px-4 py-2 font-semibold hover:text-teal-400"
+							>Become A Member</a
+						>
+
+						<!-- Submenu -->
+						<ul
+							class="absolute left-0 mt-0 hidden w-48 rounded-md bg-white shadow-lg group-hover:block"
+						>
+							<li>
+								<a href="/about-membership" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+									>About Membership</a
+								>
+							</li>
+							<li>
+								<a href="/membership-benefits" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+									>Membership Benefits</a
+								>
+							</li>
+							<li>
+								<a href="/how-to-become-a-member" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+									>How to Become a Member?</a
+								>
+							</li>
+						</ul>
+					</li>
+				</ul>
 			</ul>
 		</nav>
 	</div>
