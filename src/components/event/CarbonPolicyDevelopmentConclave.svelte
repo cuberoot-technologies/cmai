@@ -10,7 +10,6 @@
   </div>
 <div class="container mx-auto mt-8 p-4">
   
-    <!-- Image section with background image -->
  
   
     <!-- Event Content -->

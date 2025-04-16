@@ -19,7 +19,7 @@
 				</div>
 			</blockquote>
 			<a
-				href="#"
+				href="/videos"
 				class="group hover:text-dblue relative inline-flex w-full items-center justify-end p-4 text-base text-gray-700 transition-all duration-300"
 			>
 				View More

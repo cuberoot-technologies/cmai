@@ -2,7 +2,7 @@
 	class=" inset-0 bg-[url('https://www.assocham.org/assets/images/event-detail-banner-bg.jpg')] bg-cover bg-center"
 >
 	<!-- Image Content -->
-	<div class="relative z-10 flex justify-center p-6">
+	<div class="relative  flex justify-center p-6">
 		<img
 			src="/images/policy.jpg"
 			alt="India Climate Week 2025"
