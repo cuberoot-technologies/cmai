@@ -124,12 +124,74 @@
 					</li>
 				</ul>
 
-				<li class="border-b md:border-none">
-					<a href="/" class="text-dblue block px-4 py-2 font-semibold hover:text-teal-400"
-						>Services</a
-					>
-				</li>
-
+				<ul class="relative z-999">
+					<li class="group border-b md:border-none">
+						<a href="#" class="text-dblue block px-4 py-2 font-semibold hover:text-teal-400"
+							>Services</a
+						>
+						<ul
+							class="absolute left-0 mt-0 hidden w-98 rounded-md bg-white shadow-lg group-hover:block"
+						>
+							<li>
+								<a href="/policy-advocacy-to-government-and-regulators" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+									>Policy Advocacy to Government and Regulators</a
+								>
+							</li>
+							<li>
+								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+									>Networking Opportunities with Corporate Leaders, Government Authorities and
+									International Fora</a
+								>
+							</li>
+							<li>
+								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+									>Capacity Building Workshops and Training Programs for Stakeholders</a
+								>
+							</li>
+							<li>
+								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+									>National & International Delegations for Fostering Climate Action</a
+								>
+							</li>
+							<li>
+								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+									>Knowledge Papers and Research Reports</a
+								>
+							</li>
+							<li>
+								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+									>Regular Industry Updates on Policy Development</a
+								>
+							</li>
+							<li>
+								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+									>Explore Collaboration Opportunities with our Strategic Partners</a
+								>
+							</li>
+							<li>
+								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+									>Establish Brand Image through vaious Conferences & Events</a
+								>
+							</li>
+							<li>
+								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+									>Carbon Project Consultancy and Sustainability Services including Carbon Neutral
+									Services</a
+								>
+							</li>
+							<li>
+								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+									>Awards and Recognitions</a
+								>
+							</li>
+							<li>
+								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+									>Various Sectoral Surveys and Feedbacks for Policy Suggestions</a
+								>
+							</li>
+						</ul>
+					</li>
+				</ul>
 				<ul class="relative z-999">
 					<li class="group border-b md:border-none">
 						<a href="#" class="text-dblue block px-4 py-2 font-semibold hover:text-teal-400"
@@ -153,7 +215,7 @@
 						</ul>
 					</li>
 				</ul>
-				
+
 				<ul class="relative z-999">
 					<li class="group border-b md:border-none">
 						<a href="#" class="text-dblue block px-4 py-2 font-semibold hover:text-teal-400"
@@ -170,13 +232,15 @@
 								>
 							</li>
 							<li>
-								<a href="/membership-benefits" class="hover:bg-dblue block px-4 py-2 hover:text-white"
-									>Membership Benefits</a
+								<a
+									href="/membership-benefits"
+									class="hover:bg-dblue block px-4 py-2 hover:text-white">Membership Benefits</a
 								>
 							</li>
 							<li>
-								<a href="/how-to-become-a-member" class="hover:bg-dblue block px-4 py-2 hover:text-white"
-									>How to Become a Member?</a
+								<a
+									href="/how-to-become-a-member"
+									class="hover:bg-dblue block px-4 py-2 hover:text-white">How to Become a Member?</a
 								>
 							</li>
 						</ul>

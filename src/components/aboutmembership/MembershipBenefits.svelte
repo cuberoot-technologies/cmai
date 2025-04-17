@@ -7,6 +7,9 @@
 		<div class="grid grid-cols-1 md:grid-cols-12">
 			<!-- Left Sidebar (smaller) -->
 			<div class="space-y-9 md:col-span-9">
+				<div class="bg-white ">
+					<h2 class="mb-4 text-2xl font-semibold text-dblue">Membership Benefits</h2>
+				</div>
 				<div class="mx-auto bg-white shadow-md">
 					<h2
 						class="bg-light text-dblue relative inline-block w-full border-b-2 border-dotted border-sky-800 px-4 py-2 text-xl font-bold"
@@ -16,12 +19,12 @@
 					<div class="space-y-4">
 						<!-- Event 1 -->
 						<div class="    mb-0 border-b-2 border-dotted border-gray-200 p-3">
-							<p class="text-base text-gray-800">1. Representations on behalf of the industry</p>
+							<p class="text-gray-600 text-xl">1. Representations on behalf of the industry</p>
 						</div>
 
 						<!-- Event 2 -->
 						<div class="   mb-0 p-3">
-							<p class="text-base text-gray-800">
+							<p class="text-gray-600 text-xl">
 								2. Get recognized as the representative body of the concerned sector among all the
 								stakeholders.
 							</p>
@@ -62,19 +65,19 @@
 					<div class="space-y-4">
 						<!-- Event 1 -->
 						<div class="      mb-0 border-b-2 border-dotted border-gray-200 p-3">
-							<p class="text-base text-gray-800">
+							<p class="text-gray-600 text-xl">
 								1. Circulars on policy updates, Govt notifications, govt. schemes etc.
 							</p>
 						</div>
 
 						<!-- Event 2 -->
 						<div class="   mb-0 border-b-2 border-dotted border-gray-200 p-3">
-							<p class="text-base text-gray-800">
+							<p class="text-gray-600 text-xl">
 								2. Newsletters on industry updates / sectoral information
 							</p>
 						</div>
 						<div class="   mb-0 p-3">
-							<p class="text-base text-gray-800">
+							<p class="text-gray-600 text-xl">
 								3. Share and develop robust mitigation and adaptation strategies
 							</p>
 						</div>
@@ -91,18 +94,18 @@
 					<div class="space-y-4">
 						<!-- Event 1 -->
 						<div class="    mb-0 border-b-2 border-dotted border-gray-200 p-3">
-							<p class="text-base text-gray-800">1. Research Study</p>
+							<p class="text-gray-600 text-xl">1. Research Study</p>
 						</div>
 
 						<!-- Event 2 -->
 						<div class="   mb-0 border-b-2 border-dotted border-gray-200 p-3">
-							<p class="text-base text-gray-800">2. Knowledge Reports</p>
+							<p class="text-gray-600 text-xl">2. Knowledge Reports</p>
 						</div>
 						<div class="   mb-0 border-b-2 border-dotted border-gray-200 p-3">
-							<p class="text-base text-gray-800">3. Policy Papers</p>
+							<p class="text-gray-600 text-xl">3. Policy Papers</p>
 						</div>
 						<div class="   mb-0 p-3">
-							<p class="text-base text-gray-800">4. Monthly Newsletter</p>
+							<p class="text-gray-600 text-xl">4. Monthly Newsletter</p>
 						</div>
 					</div>
 				</div>

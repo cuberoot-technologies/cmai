@@ -13,7 +13,7 @@
 			<div class="space-y-9 md:col-span-9">
 				<div class="bg-white ">
 					<h2 class="mb-4 text-2xl font-semibold text-dblue">About Membership</h2>
-					<p class="mb-4 text-lg">
+					<p class="mb-4 text-gray-600 text-xl">
 						The Carbon Markets Association of India (CMAI) works to accelerate the Net Zero
 						Transition of India and the World by facilitating collaboration among stakeholders,
 						including the government, industry, and civil society.
@@ -29,7 +29,7 @@
 					<div class="space-y-4">
 						<!-- Event 1 -->
 						<div class="    border-b-2 border-dotted border-gray-200 mb-0 p-3">
-							<p class="text-base text-gray-800">
+							<p class="text-gray-600 text-xl">
 								1. Develop a resilient carbon market that is inclusive yet dynamic so that a
 								net-zero future can be accomplished sooner than anticipated.
 							</p>
@@ -37,7 +37,7 @@
 
 						<!-- Event 2 -->
 						<div class="   border-b-2 border-dotted border-gray-200 mb-0 p-3">
-							<p class="text-base text-gray-800">
+							<p class="text-gray-600 text-xl">
 								2. Encourage industry participation in policy advocacy and the development of
 								regulatory frameworks to support the expansion of India's carbon credit market.
 							</p>
@@ -45,7 +45,7 @@
 
 						<!-- Event 3 -->
 						<div class="   border-b-2 border-dotted border-gray-200 mb-0 p-3">
-							<p class="text-base text-gray-800">
+							<p class="text-gray-600 text-xl">
 								3. Bring together the entire industry for a shared goal of developing strong policy
 								guidelines and frameworks for the country's carbon market.
 							</p>
@@ -53,7 +53,7 @@
 
 						<!-- Event 4 -->
 						<div class="    mb-0 p-3">
-							<p class="text-base text-gray-800">
+							<p class="text-gray-600 text-xl">
 								4. Suggest industries for cutting-edge green technology interventions to promote
 								rapid market expansion and support the sustainable development of the economy and
 								the market.
@@ -72,14 +72,14 @@
 						<div class="space-y-4">
 							<!-- Event 1 -->
 							<div class="mt-2 flex items-center justify-between p-2 shadow-sm">
-								<p class="text-base text-lg text-gray-800">
+								<p class="text-gray-600 text-xl">
 									➢ Quarterly meetings of the Executive, Managing Committee, and reporting thereof.
 								</p>
 							</div>
 
 							<!-- Event 2 -->
 							<div class="flex items-center justify-between p-2 shadow-sm">
-								<p class="text-base text-lg text-gray-800">
+								<p class="text-gray-600 text-xl">
 									➢ Call on meetings / interactive sessions with Government officials, policymakers,
 									and international institutions/diplomats.
 								</p>
@@ -87,7 +87,7 @@
 
 							<!-- Event 3 -->
 							<div class="flex items-center justify-between p-2 shadow-sm">
-								<p class="text-base text-lg text-gray-800">
+								<p class="text-gray-600 text-xl">
 									➢ Regular representation to government bodies and institutions to develop a
 									holistic carbon market in India.
 								</p>
@@ -95,15 +95,15 @@
 
 							<!-- Event 4 -->
 							<div class="flex items-center justify-between p-2 shadow-sm">
-								<p class="text-base text-lg text-gray-800">➢ Electronic circulation of updates.</p>
+								<p class="text-gray-600 text-xl">➢ Electronic circulation of updates.</p>
 							</div>
 							<div class="flex items-center justify-between p-2 shadow-sm">
-								<p class="text-base text-lg text-gray-800">
+								<p class="text-gray-600 text-xl">
 									➢ Formation of Expert Committees / advisory forums if required.
 								</p>
 							</div>
 							<div class="flex items-center justify-between p-2 shadow-sm">
-								<p class="text-base text-lg text-gray-800">
+								<p class="text-gray-600 text-xl">
 									➢ Regular programs such as roundtables, seminars, webinars, and workshops..
 								</p>
 							</div>
