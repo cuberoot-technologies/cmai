@@ -1,133 +1,187 @@
 <script>
-    let name = '';
-    let designation = '';
-    let organization = '';
-    let email = '';
-    let phone = '';
-
-    const handleSubmit = () => {
-        console.log({
-            name,
-            designation,
-            organization,
-            email,
-            phone
-        });
-        // You can handle form submission logic here (e.g., send data to the backend)
-    };
+	import FormMember from './FormMember.svelte';
 </script>
 
-<main class="bg-gray-100">
-    <!-- Header Section -->
-  
+<div>
+	<div class="container mx-auto mt-5 p-4">
+		<div class="grid grid-cols-1 md:grid-cols-12">
+			<!-- Left Sidebar (smaller) -->
+			<div class="space-y-9 md:col-span-9">
+				<div class="mx-auto bg-white shadow-md">
+					<h2
+						class="bg-light text-dblue relative inline-block w-full border-b-2 border-dotted border-sky-800 px-4 py-2 text-xl font-bold"
+					>
+						Policy Advocacy to Government and Regulators
+					</h2>
+					<div class="space-y-4">
+						<!-- Event 1 -->
+						<div class="    mb-0 border-b-2 border-dotted border-gray-200 p-3">
+							<p class="text-base text-gray-800">1. Representations on behalf of the industry</p>
+						</div>
 
-    <!-- Membership Benefits Section -->
-    <section class="container mx-auto p-8 max-w-6xl">
-        <div class="bg-white p-6 rounded-lg shadow-lg mb-8">
-            <h2 class="text-2xl font-semibold mb-4">Membership Benefits</h2>
+						<!-- Event 2 -->
+						<div class="   mb-0 p-3">
+							<p class="text-base text-gray-800">
+								2. Get recognized as the representative body of the concerned sector among all the
+								stakeholders.
+							</p>
+						</div>
 
-            <div class="space-y-6">
-                <!-- Policy Advocacy Section -->
-                <div>
-                    <h3 class="text-xl font-semibold mb-2">Policy Advocacy to Government and Regulators</h3>
-                    <ul class="list-disc pl-5 space-y-2">
-                        <li>Representations on behalf of the industry</li>
-                        <li>Get recognized as the representative body of the concerned sector among all the stakeholders.</li>
-                    </ul>
-                </div>
+						<!-- Event 4 -->
+					</div>
+				</div>
 
-                <!-- Networking Opportunities Section -->
-                <div>
-                    <h3 class="text-xl font-semibold mb-2">Networking Opportunities with Corporate Leaders, Government Authorities, and International Fora</h3>
-                    <ul class="list-disc pl-5 space-y-2">
-                        <li>Call on meetings</li>
-                        <li>Interactive sessions</li>
-                    </ul>
-                </div>
+				<div class=" shadow">
+					<div class="mx-auto bg-white shadow-md">
+						<h2
+							class="bg-dblue-light relative inline-block w-full border-b-2 border-dotted border-sky-800 px-4 py-2 text-xl font-bold text-white"
+						>
+							Networking Opportunities with Corporate Leaders, Government Authorities and
+							International Fora
+						</h2>
+						<div class="space-y-4">
+							<!-- Event 1 -->
+							<div class="mt-2 flex items-center justify-between p-2 shadow-sm">
+								<p class="text-base text-lg text-gray-800">➢ Call on meetings</p>
+							</div>
 
-                <!-- Advisory Services Section -->
-                <div>
-                    <h3 class="text-xl font-semibold mb-2">Advisory Services to Business</h3>
-                    <ul class="list-disc pl-5 space-y-2">
-                        <li>Circulars on policy updates, Govt notifications, govt schemes, etc.</li>
-                        <li>Newsletters on industry updates/sectoral information</li>
-                        <li>Share and develop robust mitigation and adaptation strategies</li>
-                    </ul>
-                </div>
+							<!-- Event 2 -->
+							<div class="flex items-center justify-between p-2 shadow-sm">
+								<p class="text-base text-lg text-gray-800">➢ Interactive sessions</p>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                <!-- Capacity Building Workshops Section -->
-                <div>
-                    <h3 class="text-xl font-semibold mb-2">Capacity Building Workshops and Trainings for Stakeholders</h3>
-                    <ul class="list-disc pl-5 space-y-2">
-                        <li>Conference/seminars/webinars</li>
-                        <li>Training programs</li>
-                        <li>Exhibitions</li>
-                    </ul>
-                </div>
+				<div class="mx-auto  shadow-md bg-light">
+					<h2
+						class="relative inline-block w-full border-b-2 border-dotted border-sky-800 bg-dblue px-4 py-2 text-xl font-bold text-white"
+					>
+						Advisory Services to Business
+					</h2>
+					<div class="space-y-4">
+						<!-- Event 1 -->
+						<div class="      mb-0 border-b-2 border-dotted border-gray-200 p-3">
+							<p class="text-base text-gray-800">
+								1. Circulars on policy updates, Govt notifications, govt. schemes etc.
+							</p>
+						</div>
 
-                <!-- Knowledge Papers Section -->
-                <div>
-                    <h3 class="text-xl font-semibold mb-2">Knowledge Papers and Research Reports</h3>
-                    <ul class="list-disc pl-5 space-y-2">
-                        <li>Research Studies</li>
-                        <li>Knowledge Reports</li>
-                        <li>Policy Papers</li>
-                        <li>Monthly Newsletter</li>
-                    </ul>
-                </div>
+						<!-- Event 2 -->
+						<div class="   mb-0 border-b-2 border-dotted border-gray-200 p-3">
+							<p class="text-base text-gray-800">
+								2. Newsletters on industry updates / sectoral information
+							</p>
+						</div>
+						<div class="   mb-0 p-3">
+							<p class="text-base text-gray-800">
+								3. Share and develop robust mitigation and adaptation strategies
+							</p>
+						</div>
 
-                <!-- Other Benefits Section -->
-                <div>
-                    <h3 class="text-xl font-semibold mb-2">Other Benefits:</h3>
-                    <ul class="list-disc pl-5 space-y-2">
-                        <li>General Membership access of strategic partners - ISAFA, IEPRA, ICCA & ICLA</li>
-                        <li>Branding in all the events organized by the association</li>
-                        <li>Opportunity to be the Chairperson/Co-Chairperson of different sub-committees</li>
-                        <li>Opportunity to be the keynote speaker in the events</li>
-                        <li>Special mention on the website of CMAI</li>
-                        <li>Social Media recognition</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+						<!-- Event 4 -->
+					</div>
+				</div>
+                <div class="mx-auto bg-white shadow-md">
+					<h2
+						class="bg-light text-dblue relative inline-block w-full border-b-2 border-dotted border-sky-800 px-4 py-2 text-xl font-bold"
+					>
+						Knowledge Papers and Research Reports
+					</h2>
+					<div class="space-y-4">
+						<!-- Event 1 -->
+						<div class="    mb-0 border-b-2 border-dotted border-gray-200 p-3">
+							<p class="text-base text-gray-800">1. Research Study</p>
+						</div>
 
-        <!-- Membership Registration Form -->
-        <div class="bg-white p-6 rounded-lg shadow-lg">
-            <h3 class="text-2xl font-semibold mb-4">Become a Member Now!</h3>
-            <p class="text-lg mb-4">Accelerate your Net Zero journey with CMAI. Register below to express your interest in joining CMAI.</p>
+						<!-- Event 2 -->
+						<div class="   mb-0 border-b-2 border-dotted border-gray-200 p-3">
+							<p class="text-base text-gray-800">2. Knowledge Reports</p>
+						</div>
+						<div class="   mb-0 border-b-2 border-dotted border-gray-200 p-3">
+							<p class="text-base text-gray-800">3. Policy Papers</p>
+						</div>
+						<div class="   mb-0 p-3">
+							<p class="text-base text-gray-800">4. Monthly Newsletter</p>
+						</div>
+					</div>
+				</div>
+				<div class=" shadow">
+					<div class="mx-auto bg-white shadow-md">
+						<h2
+							class="bg-dblue-light relative inline-block w-full border-b-2 border-dotted border-sky-800 px-4 py-2 text-xl font-bold text-white"
+						>
+							Capacity Building Workshops and Trainings for Stakeholders
+						</h2>
+						<div class="space-y-4">
+							<!-- Event 1 -->
+							<div class="mt-2 flex items-center justify-between p-2 shadow-sm">
+								<p class="text-base text-lg text-gray-800">➢ Conference/seminars/webinars</p>
+							</div>
 
-            <form on:submit|preventDefault={handleSubmit} class="space-y-4">
-                <div>
-                    <label for="name" class="block text-lg font-semibold">Name</label>
-                    <input type="text" id="name" bind:value={name} class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" required>
-                </div>
+							<!-- Event 2 -->
+							<div class="flex items-center justify-between p-2 shadow-sm">
+								<p class="text-base text-lg text-gray-800">➢ Training programs</p>
+							</div>
+							<div class="flex items-center justify-between p-2 shadow-sm">
+								<p class="text-base text-lg text-gray-800">➢ Exhibitions</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			
 
-                <div>
-                    <label for="designation" class="block text-lg font-semibold">Designation</label>
-                    <input type="text" id="designation" bind:value={designation} class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" required>
-                </div>
+				<div class=" shadow">
+					<div class="mx-auto bg-light shadow-md">
+						<h2
+							class="relative inline-block w-full border-b-2 border-dotted border-sky-800 bg-dblue px-4 py-2 text-xl font-bold text-white"
+						>
+							Other Benefits
+						</h2>
+						<div class="space-y-4">
+							<!-- Event 1 -->
+							<div class="mt-2 flex items-center justify-between p-2 shadow-sm">
+								<p class="text-base text-lg text-gray-800">
+									➢ General Membership access of strategic partners - ISAFA, IEPRA, ICCA & ICLA
+								</p>
+							</div>
 
-                <div>
-                    <label for="organization" class="block text-lg font-semibold">Organization</label>
-                    <input type="text" id="organization" bind:value={organization} class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" required>
-                </div>
+							<!-- Event 2 -->
+							<div class="flex items-center justify-between p-2 shadow-sm">
+								<p class="text-base text-lg text-gray-800">
+									➢ Branding in all the events organized by the association
+								</p>
+							</div>
+							<div class="flex items-center justify-between p-2 shadow-sm">
+								<p class="text-base text-lg text-gray-800">
+									➢ Opportunity to be the Chairperson/Co-Chairperson of the different sub-committee.
+								</p>
+							</div>
 
-                <div>
-                    <label for="email" class="block text-lg font-semibold">Email ID</label>
-                    <input type="email" id="email" bind:value={email} class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" required>
-                </div>
+							<div class="flex items-center justify-between p-2 shadow-sm">
+								<p class="text-base text-lg text-gray-800">
+									➢ Opportunity to be the keynote speaker in the events
+								</p>
+							</div>
+							<div class="flex items-center justify-between p-2 shadow-sm">
+								<p class="text-base text-lg text-gray-800">
+									➢ Will have special mention on the website of CMA
+								</p>
+							</div>
+							<div class="flex items-center justify-between p-2 shadow-sm">
+								<p class="text-base text-lg text-gray-800">➢ Social Media</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-                <div>
-                    <label for="phone" class="block text-lg font-semibold">Phone Number</label>
-                    <input type="tel" id="phone" bind:value={phone} class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" required>
-                </div>
-
-                <div class="text-center">
-                    <button type="submit" class="bg-green-600 text-white px-6 py-2 rounded-md hover:bg-green-700 transition duration-300">Submit</button>
-                </div>
-            </form>
-
-            <p class="mt-4 text-center text-gray-500">Once registered, our team will contact you within 24 hours.</p>
-        </div>
-    </section>
-</main>
+			<!-- Main Content (larger) -->
+			<div class="space-y-3 border-l-1 border-solid border-gray-200 pl-3 md:col-span-3">
+				<div class="relative flex items-center justify-center">
+					<FormMember />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
