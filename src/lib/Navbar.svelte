@@ -138,54 +138,54 @@
 								>
 							</li>
 							<li>
-								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+								<a href="/networking-opportunities-with-corporate-leaders" class="hover:bg-dblue block px-4 py-2 hover:text-white"
 									>Networking Opportunities with Corporate Leaders, Government Authorities and
 									International Fora</a
 								>
 							</li>
 							<li>
-								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+								<a href="/capacity-building-workshops" class="hover:bg-dblue block px-4 py-2 hover:text-white"
 									>Capacity Building Workshops and Training Programs for Stakeholders</a
 								>
 							</li>
 							<li>
-								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+								<a href="/international-delegations" class="hover:bg-dblue block px-4 py-2 hover:text-white"
 									>National & International Delegations for Fostering Climate Action</a
 								>
 							</li>
 							<li>
-								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+								<a href="/knowledge-papersevents" class="hover:bg-dblue block px-4 py-2 hover:text-white"
 									>Knowledge Papers and Research Reports</a
 								>
 							</li>
 							<li>
-								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+								<a href="/regular-industry" class="hover:bg-dblue block px-4 py-2 hover:text-white"
 									>Regular Industry Updates on Policy Development</a
 								>
 							</li>
 							<li>
-								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+								<a href="/explore-collaboration" class="hover:bg-dblue block px-4 py-2 hover:text-white"
 									>Explore Collaboration Opportunities with our Strategic Partners</a
 								>
 							</li>
 							<li>
-								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+								<a href="/establish-brand" class="hover:bg-dblue block px-4 py-2 hover:text-white"
 									>Establish Brand Image through vaious Conferences & Events</a
 								>
 							</li>
 							<li>
-								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+								<a href="/carbon-project" class="hover:bg-dblue block px-4 py-2 hover:text-white"
 									>Carbon Project Consultancy and Sustainability Services including Carbon Neutral
 									Services</a
 								>
 							</li>
 							<li>
-								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+								<a href="/awards-and-recognitions" class="hover:bg-dblue block px-4 py-2 hover:text-white"
 									>Awards and Recognitions</a
 								>
 							</li>
 							<li>
-								<a href="/past-events" class="hover:bg-dblue block px-4 py-2 hover:text-white"
+								<a href="/various-sectoral-surveys" class="hover:bg-dblue block px-4 py-2 hover:text-white"
 									>Various Sectoral Surveys and Feedbacks for Policy Suggestions</a
 								>
 							</li>
