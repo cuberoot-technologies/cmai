@@ -2,38 +2,38 @@
 	import Navbar from '$lib/Navbar.svelte';
 	import Footer from '$lib/Footer.svelte';
 	import Home from '../components/home/Home.svelte';
-	import { onMount } from 'svelte';
+	// import { onMount } from 'svelte';
 
-	let showPopup = false;
+	// let showPopup = false;
 
-	onMount(() => {
-		const lastClosed = localStorage.getItem('popupClosedAt');
+	// onMount(() => {
+	// 	const lastClosed = localStorage.getItem('popupClosedAt');
 
-		// Show popup if it's the first time or after 5 seconds
-		if (!lastClosed || Date.now() - lastClosed > 5 * 60 * 1000) {
-			showPopup = true;
-			document.body.classList.add('overflow-hidden'); // Disable scrolling
-		}
-	});
+	// 	// Show popup if it's the first time or after 5 seconds
+	// 	if (!lastClosed || Date.now() - lastClosed > 5 * 60 * 1000) {
+	// 		showPopup = true;
+	// 		document.body.classList.add('overflow-hidden'); // Disable scrolling
+	// 	}
+	// });
 
-	function closePopup() {
-		showPopup = false;
-		localStorage.setItem('popupClosedAt', Date.now());
-		document.body.classList.remove('overflow-hidden'); // Re-enable scrolling
+	// function closePopup() {
+	// 	showPopup = false;
+	// 	localStorage.setItem('popupClosedAt', Date.now());
+	// 	document.body.classList.remove('overflow-hidden'); // Re-enable scrolling
 
-		// Reopen the popup after 5 seconds
-		setTimeout(() => {
-			showPopup = true;
-			document.body.classList.add('overflow-hidden'); // Disable scrolling again
-		}, 5 * 60 * 1000);
-	}
+	// 	// Reopen the popup after 5 seconds
+	// 	setTimeout(() => {
+	// 		showPopup = true;
+	// 		document.body.classList.add('overflow-hidden'); // Disable scrolling again
+	// 	}, 5 * 60 * 1000);
+	// }
 </script>
 
 <Navbar />
 <Home />
 <Footer />
 
-{#if showPopup}
+<!-- {#if showPopup}
 	<div class="popup relative">
 		<div class="popup-content">
 			<img src="https://i.pinimg.com/736x/58/2b/90/582b905c5139c5dd1b8f614460c20d88.jpg" class="h-[350px] w-full" alt="">
@@ -44,9 +44,9 @@
 			</button>
 		</div>
 	</div>
-{/if}
+{/if} -->
 
-<style>
+<!-- <style>
 	.popup {
 		position: fixed;
 		top: 0;
@@ -70,4 +70,4 @@
 		overflow: hidden;
 		height: 100vh;
 	}
-</style>
+</style> -->
