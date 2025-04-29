@@ -22,7 +22,7 @@
 									academia, and rural communities, our alliance leverages India’s agricultural
 									strengths and technological expertise to drive decarbonisation, enhance energy
 									security, and create opportunities, transforming air travel into a greener future.
-									Click here to know more
+								
 								</p>
                                 <button class="rounded-lg bg-white px-6 py-2 text-dblue font-bold hover:bg-gray-200 mt-5">Know More</button>
 

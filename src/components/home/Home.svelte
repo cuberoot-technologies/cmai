@@ -15,7 +15,6 @@
 
 <div>
 	<script>
-		// You can add dynamic data if needed
 	</script>
 
 	<div class="container mx-auto mt-5 p-4">
