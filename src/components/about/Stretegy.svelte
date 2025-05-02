@@ -107,11 +107,7 @@
 				>
 					<img src="/images/cma.png" alt="" class=" w-[230px] rounded-lg" />
 				</div>
-				<div
-					class="relative flex items-center justify-center bg-gradient-to-r from-blue-100 via-blue-200 to-blue-100 shadow"
-				>
-					<img src="/images/cma.png" alt="" class=" w-[230px] rounded-lg" />
-				</div>
+				
 			</div>
 		</div>
 	</div>

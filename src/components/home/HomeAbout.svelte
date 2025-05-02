@@ -7,12 +7,12 @@
 				About CMAI
 			</h2>
 
-			<p class="mt-2 px-4 text-sm leading-relaxed text-gray-700">
+			<p class="mt-2 px-4 text-base leading-relaxed text-gray-700">
 				The Carbon Markets Association of India (CMAI) works to accelerate the Net Zero Transition of India and the World by facilitating collaboration among stakeholders, including the government, industry, and civil society.
 
 			</p>
 			<a
-				href="#"
+				href="/about"
 				class="group relative inline-flex w-full items-center justify-end p-4 pt-0 text-sm text-gray-700 transition-all duration-300 hover:text-orange-600"
 			>
 				read more

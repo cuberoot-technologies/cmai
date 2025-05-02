@@ -74,7 +74,7 @@
                         <div class="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
                             <div>
                                 <img
-                                    src="https://www.southpole.com/uploads/thumbs/mission-hero_1180x640.jpeg.webp"
+                                    src="/images/sustain.jpg"
                                     alt="Mission Image"
                                     class="h-[270px] w-full rounded-lg object-cover shadow-lg"
                                 />
@@ -101,7 +101,7 @@
                             </div>
                             <div>
                                 <img
-                                    src="https://www.southpole.com/uploads/thumbs/home-hero-alternate_600x400.jpg.webp"
+                                    src="/images/inmission.webp"
                                     alt="Mission Image"
                                     class="h-[270px] w-full rounded-lg object-cover shadow-lg"
                                 />

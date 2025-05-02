@@ -12,7 +12,7 @@
 	};
 </script>
 
-<header class="relative z-10">
+<header class="sticky top-0 bg-white z-10">
 	<!-- Header Container -->
 	<div class="bg-dblue">
 		<div class="relative mx-auto flex h-[5rem] max-w-screen-xl items-center justify-between px-4 lg:px-0">
@@ -51,7 +51,7 @@
 	<!-- Navigation -->
 	<div class="mx-auto flex max-w-screen-xl justify-center px-4 py-2 sm:px-6 lg:px-8">
 		<nav class="w-full">
-			<ul class={`transition-all duration-300 md:flex md:space-x-6 ${menuOpen ? 'block' : 'hidden'}`}>
+			<ul class={`transition-all duration-300 md:flex md:space-x-6 md:justify-center ${menuOpen ? 'block' : 'hidden'}`}>
 				<!-- Reusable Dropdown Item -->
 				{#each [
 					{
@@ -83,7 +83,7 @@
 							{ href: '/networking-opportunities-with-corporate-leaders', label: 'Networking Opportunities with Corporate Leaders, Government Authorities and International Fora' },
 							{ href: '/capacity-building-workshops', label: 'Capacity Building Workshops and Training Programs for Stakeholders' },
 							{ href: '/international-delegations', label: 'National & International Delegations for Fostering Climate Action' },
-							{ href: '/knowledge-papersevents', label: 'Knowledge Papers and Research Reports' },
+							{ href: '/knowledge-papers', label: 'Knowledge Papers and Research Reports' },
 							{ href: '/regular-industry', label: 'Regular Industry Updates on Policy Development' },
 							{ href: '/explore-collaboration', label: 'Explore Collaboration Opportunities with our Strategic Partners' },
 							{ href: '/establish-brand', label: 'Establish Brand Image through various Conferences & Events' },
@@ -121,6 +121,7 @@
 							on:click={() => menuOpen && toggleDropdown(item.id)}
 						>
 							{item.title}
+							<span class="ml-2 text-sm text-gray-500">▼</span>
 						</a>
 
 						<!-- Dropdown -->
@@ -131,6 +132,7 @@
 										<a href={link.href} class="hover:bg-dblue block px-4 py-2 hover:text-white text-sm">
 											{link.label}
 										</a>
+										
 									</li>
 								{/each}
 							</ul>
