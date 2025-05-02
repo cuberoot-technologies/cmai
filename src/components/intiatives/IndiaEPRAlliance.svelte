@@ -1,4 +1,18 @@
 <script>
+	import FormModal from "../home/FormModal.svelte";
+
+		let isModalOpen = false;
+  let modalSource = '';
+
+  function openModal(source) {
+    modalSource = source;
+    isModalOpen = true;
+  }
+
+  function closeModal() {
+    isModalOpen = false;
+    modalSource = '';
+  }
 </script>
 
 <div>
@@ -22,7 +36,7 @@
                                     The India EPR Alliance is a pioneering initiative dedicated to transforming waste management in India through Extended Producer Responsibility. Bringing together producers, recyclers, policymakers, and environmental organisations, the Alliance champions sustainable waste practices, drives circular economy innovation, and sets benchmarks for reducing environmental impact while creating economic opportunities across diverse sectors. 
 
 								</p>
-                                <button class="rounded-lg bg-white px-6 py-2 text-dblue font-bold hover:bg-gray-200 mt-5">Know More</button>
+                                <button class="rounded-lg bg-white px-6 py-2 text-dblue font-bold hover:bg-gray-200 mt-5" on:click={() => openModal('India SAF Alliance - Know More (Intitiatives)')}>Know More</button>
 
 							</section>
 						</div>
@@ -35,7 +49,7 @@
 				<div class=" relative flex items-center justify-center ">
 					<img src="/images/epr.png" alt="" class=" w-[350px] rounded-lg" />
 					<a
-						href="#"
+					on:click={() => openModal('India EPR Alliance - (Intitiatives)')}
 						class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
 					>
 						Join Now
@@ -45,4 +59,6 @@
 			</div>
 		</div>
 	</div>
+	<FormModal isOpen={isModalOpen} onClose={closeModal} source={modalSource} />
+
 </div>

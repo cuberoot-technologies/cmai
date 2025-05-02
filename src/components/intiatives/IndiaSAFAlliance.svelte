@@ -1,4 +1,18 @@
 <script>
+	import FormModal from "../home/FormModal.svelte";
+
+	let isModalOpen = false;
+  let modalSource = '';
+
+  function openModal(source) {
+    modalSource = source;
+    isModalOpen = true;
+  }
+
+  function closeModal() {
+    isModalOpen = false;
+    modalSource = '';
+  }
 </script>
 
 <div>
@@ -9,7 +23,7 @@
 				<h2
 					class="text-dblue relative mb-2 inline-block w-full border-b-1 border-solid border-gray-200 px-4 py-2 text-xl font-bold"
 				>
-					India SAF Alliance
+					 SAF association
 				</h2>
 				<div class=" ">
 					<div class="mx-auto   py-6 ">
@@ -17,14 +31,14 @@
 							<!-- Short Term Strategy -->
 							<section class="bg-dblue  p-6">
 								<p class="text-2xl text-white">
-									The India SAF Alliance is dedicated to revolutionising the aviation sector by
+									The SAF association is dedicated to revolutionising the aviation sector by
 									advancing sustainable aviation fuel (SAF) solutions. Uniting government, industry,
 									academia, and rural communities, our alliance leverages India’s agricultural
 									strengths and technological expertise to drive decarbonisation, enhance energy
 									security, and create opportunities, transforming air travel into a greener future.
 								
 								</p>
-                                <button class="rounded-lg bg-white px-6 py-2 text-dblue font-bold hover:bg-gray-200 mt-5">Know More</button>
+                                <button class="rounded-lg bg-white px-6 py-2 text-dblue font-bold hover:bg-gray-200 mt-5" on:click={() => openModal('India SAF Alliance - Know More (Intitiatives)')}>Know More</button>
 
 							</section>
 						</div>
@@ -39,7 +53,7 @@
 				>
 					<img src="/images/saf.png" alt="" class=" w-[350px] rounded-lg" />
 					<a
-						href="#"
+					on:click={() => openModal('India SAF Alliance - (Intitiatives)')}
 						class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
 					>
 						Join Now
@@ -49,4 +63,6 @@
 			</div>
 		</div>
 	</div>
+	<FormModal isOpen={isModalOpen} onClose={closeModal} source={modalSource} />
+
 </div>

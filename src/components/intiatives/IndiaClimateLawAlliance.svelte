@@ -1,4 +1,17 @@
 <script>
+	import FormModal from "../home/FormModal.svelte";
+	let isModalOpen = false;
+  let modalSource = '';
+
+  function openModal(source) {
+    modalSource = source;
+    isModalOpen = true;
+  }
+
+  function closeModal() {
+    isModalOpen = false;
+    modalSource = '';
+  }
 </script>
 
 <div>
@@ -128,7 +141,7 @@
 			>
 				<img src="/images/icla.webp" alt="" class=" w-[350px] " />
 				<a
-					href="#"
+				on:click={() => openModal('India Climate Law Alliance - (Intitiatives)')}
 					class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
 				>
 					Join Now
@@ -138,4 +151,6 @@
 			</div>
 		</div>
 	</div>
+	<FormModal isOpen={isModalOpen} onClose={closeModal} source={modalSource} />
+
 </div>
