@@ -5,7 +5,7 @@
 				<button class="text-dblue rounded-lg bg-white px-6 py-2 font-bold hover:bg-gray-200">
 					Contact Us
 				</button>
-				<div class="mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+				<div class="mt-4 flex gap-4">
 					<a
 						class="flex items-center justify-center text-base gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
 						href="mailto:Secretary@cma-india.in"
