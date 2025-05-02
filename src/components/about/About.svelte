@@ -110,7 +110,7 @@
 				</p>
 				<p class="mb-4 text-lg text-gray-800">
 					Beyond carbon markets, CMAI champions initiatives like the India SAF Alliance, India EPR
-					Alliance, India Clean Cooking Alliance, India Climate Law Alliance and
+					Alliance, India Clean Cooking Alliance, India Climate Law Alliance and Centre of Excellence ANT. CMAI continues to lead efforts toward global decarbonization and serves as a key reference point for both Indian industries and the international business community.
 				</p>
 			</div>
 
