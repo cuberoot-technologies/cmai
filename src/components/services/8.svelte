@@ -68,12 +68,12 @@
 					<div class="mx-auto max-w-lg text-center">
 						<h1 class="text-dblue mb-5 text-2xl font-bold">Become a member now!</h1>
 
-						<button
+						<a href="/about-membership"><button
 							type="submit"
 							class="border-text-secondary w-4xs border-text-dblue bg-dblue w-full cursor-pointer px-2 py-2 text-base text-xl text-white transition-all duration-300 ease-in-out hover:border-orange-700 hover:bg-orange-700 hover:text-white"
 						>
 							Join Now
-						</button>
+						</button></a>
 					</div>
 				</div>
 			</div>

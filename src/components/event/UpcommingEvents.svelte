@@ -1,4 +1,6 @@
 <div class="container mx-auto mt-5 p-4">
+  <h3 class="text-dblue relative mb-4 inline-block w-full border-b-1 border-solid border-gray-200 px-4 py-2 text-xl font-bold">Upcomming Events</h3>
+
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
     
       <!-- Card Start -->

@@ -41,7 +41,6 @@
 		},
 		{
 			name: 'Members',
-			videos: ['https://www.youtube.com/embed/XHOmBV4js_E']
 		}
 	];
 </script>

@@ -1,16 +1,27 @@
 <script>
-	import HomeTestimonial from './HomeTestimonial.svelte';
 	import HomePartner from './HomePartner.svelte';
 	import HomeMembers from './HomeMembers.svelte';
-	import HomeServices from './HomeServices.svelte';
+	import HomeServices from './HomeServices.svelte';  import FormModal from './FormModal.svelte';
 	import HomeHightlights from './HomeHightlights.svelte';
-	import HomeUpcommingEvents from './HomeUpcommingEvents.svelte';
 	import HomePolicy from './HomePolicy.svelte';
 	import HomeAbout from './HomeAbout.svelte';
 	import HoemStrength from './HoemStrength.svelte';
 	import HomeCmaiIndia from './HomeCmaiIndia.svelte';
 	import HomeVideo from './HomeVideo.svelte';
 	import HomeResearch from './HomeResearch.svelte';
+
+	let isModalOpen = false;
+  let modalSource = '';
+
+  function openModal(source) {
+    modalSource = source;
+    isModalOpen = true;
+  }
+
+  function closeModal() {
+    isModalOpen = false;
+    modalSource = '';
+  }
 </script>
 
 <div>
@@ -22,9 +33,9 @@
 			<!-- Left Sidebar (smaller) -->
 			<div class="space-y-3 md:col-span-3">
 				<div class=" shadow"><HomeAbout /></div>
-				<div class="bg-dblue rounded-lg p-4 text-center text-lg font-bold text-white shadow">
+				<a href="/about-membership"><div class="bg-dblue mb-2 rounded-lg p-4 text-center text-lg font-bold text-white shadow">
 					Become a Member
-				</div>
+				</div></a>
 				<div
 					class="relative flex items-center justify-center bg-gradient-to-r from-blue-100 via-blue-200 to-blue-100 shadow"
 				>
@@ -42,34 +53,25 @@
 							<!-- Event 1 -->
 							<div class="mt-2 flex items-center justify-between p-2 shadow-sm">
 								<p class="text-base text-lg text-gray-800">➢ India Climate Week 2026</p>
-								<a
-									href="#"
-									class="bg-dblue rounded-md px-2 py-2 text-xs text-white transition hover:bg-blue-700"
-								>
+								<a on:click={() => openModal('India Climate Week 2026')} class="bg-dblue rounded-md px-2 py-2 text-xs text-white transition hover:bg-blue-700 cursor-pointer">
 									Register Now
-								</a>
+								  </a>
 							</div>
 
 							<!-- Event 2 -->
 							<div class="flex items-center justify-between p-2 shadow-sm">
 								<p class="text-base text-lg text-gray-800">➢ India SAF Conclave 2025</p>
-								<a
-									href="#"
-									class="bg-dblue rounded-md px-2 py-2 text-xs text-white transition hover:bg-blue-700"
-								>
+								<a on:click={() => openModal('India SAF Conclave 2025')} class="bg-dblue rounded-md px-2 py-2 text-xs text-white transition hover:bg-blue-700 cursor-pointer">
 									Register Now
-								</a>
+								  </a>
 							</div>
 
 							<!-- Event 3 -->
 							<div class="flex items-center justify-between p-2 shadow-sm">
 								<p class="text-base text-lg text-gray-800">➢ India EPR Conclave 2025</p>
-								<a
-									href="#"
-									class="bg-dblue rounded-md px-2 py-2 text-xs text-white transition hover:bg-blue-700"
-								>
+								<a on:click={() => openModal('India EPR Conclave 2025')} class="bg-dblue rounded-md px-2 py-2 text-xs text-white transition hover:bg-blue-700 cursor-pointer">
 									Register Now
-								</a>
+								  </a>
 							</div>
 
 							<!-- Event 4 -->
@@ -77,12 +79,9 @@
 								<p class="text-base text-lg text-gray-800">
 									➢ India Carbon Policy <br /> Development Conclave 2025
 								</p>
-								<a
-									href="#"
-									class="bg-dblue rounded-md px-2 py-2 text-xs text-white transition hover:bg-blue-700"
-								>
+								<a on:click={() => openModal('India Carbon Policy Conclave 2025')} class="bg-dblue rounded-md px-2 py-2 text-xs text-white transition hover:bg-blue-700 cursor-pointer">
 									Register Now
-								</a>
+								  </a>
 							</div>
 						</div>
 					</div>
@@ -90,7 +89,7 @@
 				<div class="shadow"><HomeVideo /></div>
 
 				<div class="bg-light mt-5 p-5 shadow"><HomePolicy /></div>
-				<div class="relative flex h-[120px] items-center justify-center shadow">
+				<div class=" flex h-[120px] items-center justify-center shadow">
 					<img src="/images/center.png" alt="" class=" w-[350px] rounded-lg" />
 				</div>
 			</div>
@@ -115,44 +114,32 @@
 					class="relative flex items-center justify-center bg-gradient-to-r from-blue-100 via-blue-200 to-blue-100 shadow"
 				>
 					<img src="/images/saf.png" alt="" class=" w-[180px] rounded-lg" />
-					<a
-						href="#"
-						class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
-					>
+					<a on:click={() => openModal('SAF Strategic Partner')} class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white cursor-pointer">
 						Join Now
-					</a>
+					  </a>
 				</div>
 
 				<div class="bg-light relative flex items-center justify-center shadow">
 					<img src="/images/epr.png" alt="" class=" w-[150px] rounded-lg" />
-					<a
-						href="#"
-						class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
-					>
+					<a on:click={() => openModal('EPR Strategic Partner')} class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white cursor-pointer">
 						Join Now
-					</a>
+					  </a>
 				</div>
 				<div
 					class="relative flex h-[140px] items-center justify-center bg-gradient-to-r from-stone-100 via-stone-200 to-stone-200 shadow"
 				>
 					<img src="/images/icca.png" alt="" class=" w-[280px] rounded-lg" />
-					<a
-						href="#"
-						class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
-					>
+					<a on:click={() => openModal('India Clean Cooking Alliance Strategic Partner')} class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white cursor-pointer">
 						Join Now
-					</a>
+					  </a>
 				</div>
 				<div
 					class="relative flex h-[140px] items-center justify-center bg-gradient-to-r from-zinc-200 via-zinc-200 to-zinc-100 shadow"
 				>
 					<img src="/images/icla.webp" alt="" class=" w-[140px] rounded-lg" />
-					<a
-						href="#"
-						class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
-					>
+					<a on:click={() => openModal('India Climate Law Alliance Strategic Partner')} class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white cursor-pointer">
 						Join Now
-					</a>
+					  </a>
 				</div>
 				<div class="mt-2  items-center justify-between p-2 shadow-sm bg-dblue">
 					<p class="text-base text-lg text-white text-center">Be A CMAI Member & Visit COP 30</p>
@@ -162,12 +149,9 @@
 					class="relative flex h-[140px] items-center justify-center bg-gradient-to-r from-slate-200 via-slate-100 to-slate-100 shadow"
 				>
 					<img src="/images/cop.png" alt="" class=" w-[150px] rounded-lg" />
-					<a
-						href="#"
-						class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
-					>
+					<a on:click={() => openModal('COP 30 Strategic Partner')} class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white cursor-pointer">
 						Join Now
-					</a>
+					  </a>
 				</div>
 				<div class=""><HomeServices /></div>
 				<div class=""><HomeMembers /></div>
@@ -194,4 +178,5 @@
 			</div>
 		</div>
 	</div>
+	<FormModal isOpen={isModalOpen} onClose={closeModal} source={modalSource} />
 </div>
