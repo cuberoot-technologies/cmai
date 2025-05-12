@@ -109,8 +109,8 @@
 					and State Water and Sanitation Mission, UP.
 				</p>
 				<p class="mb-4 text-lg text-gray-800">
-					Beyond carbon markets, CMAI champions initiatives like the SAF Association, India EPR
-					Alliance, India Clean Cooking Alliance, Climate Law Association and Centre of Excellence ANT. CMAI continues to lead efforts toward global decarbonization and serves as a key reference point for both Indian industries and the international business community.
+					Beyond carbon markets, CMAI champions initiatives like the SAF Association, EPR
+					Association, India Clean Cooking Alliance, Climate Law Association and Centre of Excellence ANT. CMAI continues to lead efforts toward global decarbonization and serves as a key reference point for both Indian industries and the international business community.
 				</p>
 			</div>
 

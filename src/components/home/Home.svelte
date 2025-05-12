@@ -177,12 +177,12 @@
 					<p class="text-center text-base text-lg text-white">Be A CMAI Member & Visit COP 30</p>
 				</div>
 				<div
-					class="relative flex h-[140px] items-center justify-center bg-gradient-to-r from-slate-200 via-slate-100 to-slate-100 shadow"
+					class="relative flex h-[170px] items-center justify-center bg-gradient-to-r from-slate-200 via-slate-100 to-slate-100 shadow"
 				>
-					<img src="/images/cop.png" alt="" class=" w-[150px] rounded-lg" />
+					<img src="/images/copp.jpg" alt="" class=" w-full h-[170px] rounded-lg" />
 					<a
 						on:click={() => openModal('COP 30 Strategic Partner')}
-						class="text-dblue hover:bg-light absolute top-2 right-3 cursor-pointer rounded-md px-2 py-2 text-base font-bold text-white underline transition hover:text-white"
+						class="text-white hover:bg-light absolute top-2 right-3 cursor-pointer rounded-md px-2 py-2 text-base font-bold text-white underline transition hover:text-white"
 					>
 						Join Now
 					</a>
