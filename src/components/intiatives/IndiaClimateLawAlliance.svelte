@@ -23,11 +23,11 @@
 					<h2
 						class="border-text-dblue text-dblue relative inline-block w-full border-b-2 border-dotted px-4 py-2 text-lg font-bold"
 					>
-						India Climate Law Alliance
+						Climate Law Association
 					</h2>
 					<h2 class="mt-4 mb-4 px-4 text-2xl font-semibold">Introduction</h2>
 					<p class="mt-2 px-4 pb-4 text-lg leading-relaxed text-gray-700">
-						The India Climate Law Alliance is a pioneering collaborative platform dedicated to
+						The Climate Law Association is a pioneering collaborative platform dedicated to
 						advancing robust legal frameworks that address climate change in India. Bringing
 						together legal experts, policymakers, industry leaders, and civil society, the alliance
 						strives to craft progressive climate legislation that supports sustainable development,
@@ -96,7 +96,7 @@
 							<div class="text-left">
 								<h2 class="text-3xl font-bold text-gray-900">Vision</h2>
 								<p class="mt-4 text-lg text-gray-700">
-									The India Climate Law Alliance envisions a future where robust, progressive
+									The Climate Law Association envisions a future where robust, progressive
 									climate legislation underpins sustainable growth and positions India as a global
 									leader in climate action. We aim to create an integrated legal framework that
 									guarantees environmental justice, empowers communities, and drives transformative
@@ -139,9 +139,9 @@
 				<div
 				class="relative flex h-[190px] items-center justify-center "
 			>
-				<img src="/images/icla.webp" alt="" class=" w-[350px] " />
+				<img src="/images/icla.png" alt="" class=" w-[350px] " />
 				<a
-				on:click={() => openModal('India Climate Law Alliance - (Intitiatives)')}
+				on:click={() => openModal('Climate Law Association - (Intitiatives)')}
 					class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
 				>
 					Join Now

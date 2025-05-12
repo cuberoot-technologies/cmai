@@ -32,14 +32,14 @@
 						<!-- Event 1 -->
 						<div class="    mb-0 border-b-2 border-dotted border-gray-200 p-3">
 							<p class="text-xl text-gray-600">
-								1. <b>India SAF Alliance</b> – Advancing sustainable aviation fuel solutions for a low-carbon aviation sector
+								1. <b>SAF Association</b> – Advancing sustainable aviation fuel solutions for a low-carbon aviation sector
 							</p>
 						</div>
 
 						<!-- Event 2 -->
 						<div class="   mb-0 border-b-2 border-dotted border-gray-200 p-3">
 							<p class="text-xl text-gray-600">
-								2. <b>India EPR Alliance</b> – Strengthening Extended Producer Responsibility frameworks for circular economy and resource efficiency
+								2. <b> EPR Association</b> – Strengthening Extended Producer Responsibility frameworks for circular economy and resource efficiency
 							</p>
 						</div>
 
@@ -52,7 +52,7 @@
 						</div>
                         <div class="   mb-0 border-b-2 border-dotted border-gray-200 p-3">
 							<p class="text-xl text-gray-600">
-								4. <b>India Climate Law Alliance</b> – Supporting the development of a robust legal and policy framework for climate action in India
+								4. <b> Climate Law Association</b> – Supporting the development of a robust legal and policy framework for climate action in India
 
 							</p>
 						</div>

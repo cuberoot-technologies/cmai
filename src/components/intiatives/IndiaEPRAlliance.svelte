@@ -23,7 +23,7 @@
 				<h2
 					class="text-dblue relative mb-2 inline-block w-full border-b-1 border-solid border-gray-200 px-4 py-2 text-xl font-bold"
 				>
-                India EPR Alliance
+                EPR Association
 				</h2>
 				<div class="  ">
 					<div class="mx-auto  rounded-xl bg-white py-6 ">
@@ -33,10 +33,10 @@
                           <h2 class="text-2xl font-semibold mb-4 text-white">Introduction</h2>
 
 								<p class="text-2xl text-white">
-                                    The India EPR Alliance is a pioneering initiative dedicated to transforming waste management in India through Extended Producer Responsibility. Bringing together producers, recyclers, policymakers, and environmental organisations, the Alliance champions sustainable waste practices, drives circular economy innovation, and sets benchmarks for reducing environmental impact while creating economic opportunities across diverse sectors. 
+                                    The EPR Association is a pioneering initiative dedicated to transforming waste management in India through Extended Producer Responsibility. Bringing together producers, recyclers, policymakers, and environmental organisations, the Alliance champions sustainable waste practices, drives circular economy innovation, and sets benchmarks for reducing environmental impact while creating economic opportunities across diverse sectors. 
 
 								</p>
-                                <button class="rounded-lg bg-white px-6 py-2 text-dblue font-bold hover:bg-gray-200 mt-5" on:click={() => openModal('India SAF Alliance - Know More (Intitiatives)')}>Know More</button>
+                                <button class="rounded-lg bg-white px-6 py-2 text-dblue font-bold hover:bg-gray-200 mt-5" on:click={() => openModal(' SAF Association - Know More (Intitiatives)')}>Know More</button>
 
 							</section>
 						</div>
@@ -49,7 +49,7 @@
 				<div class=" relative flex items-center justify-center ">
 					<img src="/images/epr.png" alt="" class=" w-[350px] rounded-lg" />
 					<a
-					on:click={() => openModal('India EPR Alliance - (Intitiatives)')}
+					on:click={() => openModal('EPR Association - (Intitiatives)')}
 						class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
 					>
 						Join Now

@@ -41,7 +41,7 @@
       };
   
       try {
-        const res = await fetch(`${apiURL}/collections/joi_register_form/records`, {
+        const res = await fetch(`https://cms.cmai.wat-s.app/api/collections/joi_register_form/records`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(formData)

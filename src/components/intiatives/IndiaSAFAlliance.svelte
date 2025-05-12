@@ -38,7 +38,7 @@
 									security, and create opportunities, transforming air travel into a greener future.
 								
 								</p>
-                                <button class="rounded-lg bg-white px-6 py-2 text-dblue font-bold hover:bg-gray-200 mt-5" on:click={() => openModal('India SAF Alliance - Know More (Intitiatives)')}>Know More</button>
+                                <button class="rounded-lg bg-white px-6 py-2 text-dblue font-bold hover:bg-gray-200 mt-5" on:click={() => openModal('SAF Association - Know More (Intitiatives)')}>Know More</button>
 
 							</section>
 						</div>
@@ -53,7 +53,7 @@
 				>
 					<img src="/images/saf.png" alt="" class=" w-[350px] rounded-lg" />
 					<a
-					on:click={() => openModal('India SAF Alliance - (Intitiatives)')}
+					on:click={() => openModal('SAF Association - (Intitiatives)')}
 						class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
 					>
 						Join Now
