@@ -2,10 +2,24 @@
 	import { onMount, onDestroy } from 'svelte';
 	import KeenSlider from 'keen-slider';
 	import 'keen-slider/keen-slider.min.css';
+	import { API_BASE_URL } from '$lib/api';
 
 	let keenSliderEl;
 	let keenSlider;
 	let interval;
+	let associates = [];
+
+	const BASE_URL = 'https://your-api-url.com/api/files'; // <-- change this to your base URL
+
+	async function fetchAssociates() {
+		try {
+			const response = await fetch(`${API_BASE_URL}/collections/associates/records`);
+			const data = await response.json();
+			associates = data.items || [];
+		} catch (error) {
+			console.error('Error fetching associates:', error);
+		}
+	}
 
 	function startAutoSlide() {
 		interval = setInterval(() => {
@@ -17,8 +31,9 @@
 		clearInterval(interval);
 	}
 
-	onMount(() => {
-		// Ensure keenSliderEl is defined before using it
+	onMount(async () => {
+		await fetchAssociates();
+
 		if (!keenSliderEl) return;
 
 		keenSlider = new KeenSlider(keenSliderEl, {
@@ -35,9 +50,8 @@
 			}
 		});
 
-		startAutoSlide(); // Start auto-slide
+		startAutoSlide();
 
-		// Add event listeners only if keenSliderEl exists
 		keenSliderEl.addEventListener('mouseenter', stopAutoSlide);
 		keenSliderEl.addEventListener('mouseleave', startAutoSlide);
 		window.addEventListener('resize', () => keenSlider.resize());
@@ -45,8 +59,6 @@
 
 	onDestroy(() => {
 		clearInterval(interval);
-
-		// Ensure keenSliderEl exists before removing event listeners
 		if (keenSliderEl) {
 			keenSliderEl.removeEventListener('mouseenter', stopAutoSlide);
 			keenSliderEl.removeEventListener('mouseleave', startAutoSlide);
@@ -61,6 +73,7 @@
 		keenSlider.next();
 	}
 </script>
+
 
 <section class="">
 	<h2
@@ -112,20 +125,22 @@
 			</button>
 		</div>
 
-		<div class="">
-			<div bind:this={keenSliderEl} class="keen-slider w-full">
-				{#each ['/images/life.png', '/images/indian.png', '/images/pa.png', '/images/pb.png', '/images/pc.png', '/images/area.png', '/images/vcmi.png'] as imageSrc}
-					<div class="keen-slider__slide">
-						<article
-							class="flex h-[150px] flex-col items-center justify-around bg-white shadow-xs transition hover:shadow-lg"
-						>
-							<span class="flex w-full items-center justify-center p-2">
-								<img src={imageSrc} alt={imageSrc} class="h-[90px]" />
-							</span>
-						</article>
-					</div>
-				{/each}
-			</div>
+		<div bind:this={keenSliderEl} class="keen-slider w-full">
+			{#each associates as associate}
+				<div class="keen-slider__slide">
+					<article class="flex h-[150px] flex-col items-center justify-around bg-white shadow-xs transition hover:shadow-lg">
+						<span class="flex w-full items-center justify-center p-2">
+							<img
+							src={`https://cms.cmai.wat-s.app/api/files/${associate.collectionId}/${associate.id}/${associate.logo}`}
+							alt="logo"
+							class="h-[90px]"
+						/>
+						
+						</span>
+					</article>
+				</div>
+			{/each}
 		</div>
+		
 	</div>
 </section>
