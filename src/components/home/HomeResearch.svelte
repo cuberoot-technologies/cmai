@@ -14,20 +14,24 @@ import { onMount, onDestroy } from 'svelte';
 	const associates = [
 		{
 			img: '/images/ra.png',
+			href:"https://drive.google.com/file/d/1W3w9xm4DpuxyHv32293Pxw7lfTp17Yig/view?usp=drive_link",
 			title:
 				'Report on Carbon Credit & Accelerating Global Climate Action with IEEMA for the MSME sector and preparing the industry for CBAM'
 		},
 		{
+			href:"https://drive.google.com/file/d/1_f2Ak5q-LggVDWZsMYaPNifHhW8fqREd/view?usp=drive_link",
 			img: '/images/rc.png',
 			title:
 				'Report on Carbon Credits for Logistics with Transportation Corporation India Limited (TCIL) for decarbonizing the transport sector'
 		},
 		{
+			href:"https://drive.google.com/file/d/1YvIkV6nfVzPJ0juZhgeDWXLf6304yh_1/view?usp=drive_link",
 			img: '/images/rb.png',
 			title:
 				'Report on Advancing the Indian Carbon Market Toward a Net-Zero Future with the U.S.-India Business Council (US-IBC) for advancing net zero through green technology adoption'
 		},
 		{
+			href:"https://drive.google.com/file/d/1t9kj-gGyBuHQGLBiyubXOgoPp_NA_bmO/view?usp=drive_link",
 			img: '/images/rd.png',
 			title:'Report on Carbon Markets As a Tool for Climate Financing: India Story with Invest India for educating the industry about carbon markets'				
 		}
@@ -143,12 +147,14 @@ import { onMount, onDestroy } from 'svelte';
 		<div class="keen-slider w-full" bind:this={keenSliderEl}>
 			{#each associates as associate}
 				<div class="keen-slider__slide">
-					<article
+					<a href={associate.href} target="_blank">
+						<article
 						class="flex h-[290px] flex-col items-center justify-around bg-white p-4 shadow-xs transition hover:shadow-lg"
 					>
 						<img src={associate.img} alt={associate.title} class="h-[195px] border border-gray-300" />
 						<p class="text-base text-center text-gray-800">{associate.title}</p>
 					</article>
+					</a>
 				</div>
 			{/each}
 		</div>
