@@ -14,7 +14,7 @@
 	e.preventDefault();
 
 	// Validation
-	if (!name || !email || !policy || !brief_description || !key_benifit || !file) {
+	if (!name || !email || !policy ) {
 		errorMessage = 'Please fill in all required fields.';
 		successMessage = '';
 		return;
@@ -35,7 +35,9 @@
 	formData.append('policy', policy);
 	formData.append('brief_description', brief_description);
 	formData.append('key_benifit', key_benifit);
+	if (file) {
 	formData.append('file', file);
+}
 
 	try {
 		const res = await fetch(`${API_BASE_URL}/collections/policy_form/records`, {
