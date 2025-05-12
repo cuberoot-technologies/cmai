@@ -1,5 +1,5 @@
 <script>
-    const apiURL = import.meta.env.VITE_API_URL;
+      import { API_BASE_URL } from '$lib/api';
   
     export let isOpen = false;
     export let onClose = () => {};
@@ -41,7 +41,7 @@
       };
   
       try {
-        const res = await fetch(`https://cms.cmai.wat-s.app/api/collections/joi_register_form/records`, {
+        const res = await fetch(`${API_BASE_URL}/collections/joi_register_form/records`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(formData)
