@@ -116,7 +116,6 @@
 			<textarea
 				bind:value={brief_description}
 				placeholder="Brief Description of Your Policy Recommendation"
-				required
 				rows="2"
 				class="w-full border-gray-200 p-3 text-sm shadow-xs"
 			></textarea>
@@ -133,7 +132,6 @@
 			<!-- File Upload -->
 			<input
 				type="file"
-				required
 				on:change={(e) => file = e.target.files[0]}
 				class="w-full border-gray-200 bg-white p-3 text-sm shadow-xs"
 			/>
