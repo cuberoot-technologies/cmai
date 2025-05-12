@@ -68,7 +68,7 @@
 	>
 		Associates
 	</h2>
-	<a
+	<!-- <a
 		href="#"
 		class="group hover:text-dblue relative inline-flex w-full items-center justify-end p-4 pt-0 text-base text-gray-700 transition-all duration-300"
 	>
@@ -78,7 +78,7 @@
 		>
 			→
 		</span>
-	</a>
+	</a> -->
 	<div class=" relative mx-auto max-w-screen-xl">
 		<div class="absolute top-[40%] z-10 flex w-[100%] items-center justify-between gap-4 p-2">
 			<button
