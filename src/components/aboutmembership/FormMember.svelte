@@ -6,8 +6,9 @@
 	let organization = '';
 	let successMessage = '';
 	let errorMessage = '';
+	import { API_BASE_URL } from '$lib/api';
 
-	const API_URL = `${import.meta.env.VITE_API_URL}/collections/member_form/records`;
+	const API_URL = `${API_BASE_URL}/collections/member_form/records`;
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
