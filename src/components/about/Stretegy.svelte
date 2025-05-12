@@ -70,7 +70,7 @@
                           <h2 class="text-2xl font-semibold text-white">Short Term Strategy</h2>
                           <ul class="list-disc pl-5 mt-2 text-white ">
                             <li>Develop structured governance frameworks to ensure transparency, accountability, and alignment with India’s climate objectives.</li>
-                            <li>Initiate pilot projects through ICCA, India EPR Alliance, and India SAF Alliance to explore innovative carbon market mechanisms.</li>
+                            <li>Initiate pilot projects through ICCA, EPR Association, and SAF Association to explore innovative carbon market mechanisms.</li>
                             <li>Collaborate with policymakers, industries, and civil society to synchronize efforts in leveraging the carbon market for sustainable growth.</li>
                           </ul>
                         </section>
