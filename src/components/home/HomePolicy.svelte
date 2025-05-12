@@ -124,7 +124,6 @@
 			<textarea
 				bind:value={key_benifit}
 				placeholder="Key Benefits of Your Policy Recommendations"
-				required
 				rows="2"
 				class="w-full border-gray-200 p-3 text-sm shadow-xs"
 			></textarea>
