@@ -8,8 +8,8 @@
 	let successMessage = '';
 	let errorMessage = '';
 	
-	const API_BASE_URL = import.meta.env.VITE_API_URL;
-	const API_URL = `${API_BASE_URL}/collections/policy_form/records`;
+	import { API_BASE_URL } from '$lib/api';
+
 	const handleSubmit = async (e) => {
 	e.preventDefault();
 
@@ -38,7 +38,7 @@
 	formData.append('file', file);
 
 	try {
-		const res = await fetch(API_URL, {
+		const res = await fetch(`${API_BASE_URL}/collections/policy_form/records`, {
 			method: 'POST',
 			body: formData
 		});
