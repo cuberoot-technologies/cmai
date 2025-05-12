@@ -49,7 +49,7 @@
   
         if (!res.ok) throw new Error('Failed to submit form');
   
-        successMessage = 'Once registered our team will contact you in the next 24 hours.';
+        successMessage = 'Form successfully submitted. Our team will contact you in the next 24 hours.';
         resetForm();
       } catch (err) {
         console.error('Submission failed:', err);
