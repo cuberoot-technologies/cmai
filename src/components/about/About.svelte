@@ -182,7 +182,7 @@
 	<div class="container mx-auto mb-10">
 		<div class="flex justify-center">
 			<a
-				href="#"
+				href="/images/CMAI Brochure may 2025.pdf.pdf" target="_blank"
 				class="flex items-center gap-2 rounded-full bg-blue-800 px-6 py-3 font-semibold text-white shadow-md transition hover:bg-gray-700"
 			>
 				Click here to download the brochure <span>⬇️</span>

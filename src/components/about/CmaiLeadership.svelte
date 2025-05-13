@@ -47,7 +47,7 @@
 					<img
 						src={`https://cms.cmai.wat-s.app/api/files/${person.collectionId}/${person.id}/${person.field}`}
 						alt={person.name}
-						class="h-80 w-full rounded-t-lg object-cover"
+						class="h-90 w-full rounded-t-lg object-cover"
 					/>
 					<div class="p-4 text-center">
 						<h3 class="text-lg font-semibold">{person.name || 'No Name'}</h3>
