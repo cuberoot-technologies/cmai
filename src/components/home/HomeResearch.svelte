@@ -1,45 +1,30 @@
-
-
-
 <script>
-import { onMount, onDestroy } from 'svelte';
+	import { onMount, onDestroy } from 'svelte';
 	import KeenSlider from 'keen-slider';
 	import 'keen-slider/keen-slider.min.css';
+	import { API_BASE_URL } from '$lib/api';
 
 	let keenSliderEl;
 	let keenSlider;
 	let interval;
+	let researchReports = [];
 
+	async function fetchResearchReports() {
+		try {
+			const res = await fetch(`${API_BASE_URL}/collections/research_reports/records`);
+			const data = await res.json();
 
-	const associates = [
-		{
-			img: '/images/ra.png',
-			href:"https://drive.google.com/file/d/1W3w9xm4DpuxyHv32293Pxw7lfTp17Yig/view?usp=drive_link",
-			title:
-				'Report on Carbon Credit & Accelerating Global Climate Action with IEEMA for the MSME sector and preparing the industry for CBAM'
-		},
-		{
-			href:"https://drive.google.com/file/d/1_f2Ak5q-LggVDWZsMYaPNifHhW8fqREd/view?usp=drive_link",
-			img: '/images/rc.png',
-			title:
-				'Report on Carbon Credits for Logistics with Transportation Corporation India Limited (TCIL) for decarbonizing the transport sector'
-		},
-		{
-			href:"https://drive.google.com/file/d/1YvIkV6nfVzPJ0juZhgeDWXLf6304yh_1/view?usp=drive_link",
-			img: '/images/rb.png',
-			title:
-				'Report on Advancing the Indian Carbon Market Toward a Net-Zero Future with the U.S.-India Business Council (US-IBC) for advancing net zero through green technology adoption'
-		},
-		{
-			href:"https://drive.google.com/file/d/1t9kj-gGyBuHQGLBiyubXOgoPp_NA_bmO/view?usp=drive_link",
-			img: '/images/rd.png',
-			title:'Report on Carbon Markets As a Tool for Climate Financing: India Story with Invest India for educating the industry about carbon markets'				
+			researchReports = data.items || [];
+		} catch (error) {
+			console.error('Error fetching research reports:', error);
 		}
-	];
+	}
 
 	function startAutoSlide() {
 		interval = setInterval(() => {
-			keenSlider.moveToIdx(keenSlider.track.details.abs + 1, true);
+			if (keenSlider?.track?.details) {
+				keenSlider.moveToIdx(keenSlider.track.details.abs + 1, true);
+			}
 		}, 3000);
 	}
 
@@ -47,8 +32,9 @@ import { onMount, onDestroy } from 'svelte';
 		clearInterval(interval);
 	}
 
-	onMount(() => {
-		// Ensure keenSliderEl is defined before using it
+	onMount(async () => {
+		await fetchResearchReports();
+
 		if (!keenSliderEl) return;
 
 		keenSlider = new KeenSlider(keenSliderEl, {
@@ -65,9 +51,7 @@ import { onMount, onDestroy } from 'svelte';
 			}
 		});
 
-		startAutoSlide(); // Start auto-slide
-
-		// Add event listeners only if keenSliderEl exists
+		startAutoSlide();
 		keenSliderEl.addEventListener('mouseenter', stopAutoSlide);
 		keenSliderEl.addEventListener('mouseleave', startAutoSlide);
 		window.addEventListener('resize', () => keenSlider.resize());
@@ -75,8 +59,6 @@ import { onMount, onDestroy } from 'svelte';
 
 	onDestroy(() => {
 		clearInterval(interval);
-		
-		// Ensure keenSliderEl exists before removing event listeners
 		if (keenSliderEl) {
 			keenSliderEl.removeEventListener('mouseenter', stopAutoSlide);
 			keenSliderEl.removeEventListener('mouseleave', startAutoSlide);
@@ -84,11 +66,11 @@ import { onMount, onDestroy } from 'svelte';
 	});
 
 	function prevSlide() {
-		keenSlider.prev();
+		keenSlider?.prev();
 	}
 
 	function nextSlide() {
-		keenSlider.next();
+		keenSlider?.next();
 	}
 </script>
 
@@ -99,23 +81,11 @@ import { onMount, onDestroy } from 'svelte';
 		Research Reports
 	</h2>
 
-	<!-- <a
-		href="#"
-		class="group hover:text-dblue relative inline-flex w-full items-center justify-end p-4 pt-0 text-base text-gray-700 transition-all duration-300"
-	>
-		More
-		<span
-			class="ml-1 translate-x-0 transform text-sm opacity-100 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100"
-		>
-			→
-		</span>
-	</a> -->
-
 	<div class="relative mx-auto max-w-screen-xl">
 		<div class="absolute top-[40%] z-10 flex w-[100%] items-center justify-between gap-4 p-2">
 			<button
 				on:click={prevSlide}
-				class="rounded-full border border-blue-800  text-blue-800 transition hover:bg-blue-700 hover:text-white"
+				class="rounded-full border border-blue-800 text-blue-800 transition hover:bg-blue-700 hover:text-white"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +100,7 @@ import { onMount, onDestroy } from 'svelte';
 			</button>
 			<button
 				on:click={nextSlide}
-				class="rounded-full border border-blue-800  text-blue-800 transition hover:bg-blue-700 hover:text-white"
+				class="rounded-full border border-blue-800 text-blue-800 transition hover:bg-blue-700 hover:text-white"
 			>
 				<svg
 					class="size-5 rtl:rotate-180"
@@ -144,16 +114,20 @@ import { onMount, onDestroy } from 'svelte';
 			</button>
 		</div>
 
-		<div class="keen-slider w-full" bind:this={keenSliderEl}>
-			{#each associates as associate}
+		<div bind:this={keenSliderEl} class="keen-slider w-full">
+			{#each researchReports as report}
 				<div class="keen-slider__slide">
-					<a href={associate.href} target="_blank">
+					<a href={report.link || '#'} target="_blank">
 						<article
-						class="flex h-[290px] flex-col items-center justify-around bg-white p-4 shadow-xs transition hover:shadow-lg"
-					>
-						<img src={associate.img} alt={associate.title} class="h-[195px] border border-gray-300" />
-						<p class="text-base text-center text-gray-800">{associate.title}</p>
-					</article>
+							class="flex h-[290px] flex-col items-center justify-around bg-white p-4 shadow-xs transition hover:shadow-lg"
+						>
+							<img
+								src={`https://cms.cmai.wat-s.app/api/files/${report.collectionId}/${report.id}/${report.image}`}
+								alt={report.title}
+								class="h-[195px] border border-gray-300 object-contain"
+							/>
+							<p class="text-center text-base text-gray-800">{report.title || 'Untitled'}</p>
+						</article>
 					</a>
 				</div>
 			{/each}

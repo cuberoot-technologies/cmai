@@ -61,7 +61,7 @@
 							{ href: '/about', label: 'About Us' },
 							{ href: '/mission-vision', label: 'Mission & Vision' },
 							{ href: '/strategy', label: 'Strategy' },
-							{ href: '/strategy', label: 'CMAI Leadership' }
+							{ href: '/cmai-leadership', label: 'CMAI Leadership' }
 						]
 					},
 					{
