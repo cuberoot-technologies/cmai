@@ -2,7 +2,7 @@
 	<div class="mx-auto max-w-screen-xl">
 		<div class="bg-light max-w-full">
 			<h2
-				class="relative inline-block w-full border-b-2 border-dotted border-text-dblue  px-4 py-2 text-xl font-bold text-dblue-light"
+				class="relative inline-block w-full border-b-2 border-dotted border-text-dblue  px-4 py-2 text-xl font-bold text-dblue"
 			>
 				About CMAI
 			</h2>

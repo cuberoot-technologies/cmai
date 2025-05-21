@@ -41,12 +41,26 @@
 						Become a Member
 					</div></a
 				>
-				<div
-					class="relative flex items-center justify-center bg-gradient-to-r from-blue-100 via-blue-200 to-blue-100 shadow"
-				>
+				<div class="bg-light relative flex h-[220px] items-center justify-center shadow">
 					<img src="/images/cma.png" alt="" class=" w-[230px] rounded-lg" />
+					<a
+						href="https://forms.office.com/pages/responsepage.aspx?id=zfBz1sJw-0ql0phkJ8st_dNkz-HpRABNsyEgu9SdqldUNVg3TUtFR1pLRU9HQVBINENKSUlEMFlTVC4u&route=shorturl"
+						target="_blank"
+						class="text-dblue hover:bg-light absolute right-3 flex h-[100%] cursor-pointer items-end rounded-md px-2 py-2 text-base font-bold text-white underline transition hover:text-white"
+					>
+						Click now to register
+					</a>
 				</div>
-
+				<div class="relative flex h-[170px] items-center justify-center shadow">
+					<img src="/images/copp.jpg" alt="" class=" h-[170px] w-full rounded-lg" />
+					<a
+						href="https://forms.office.com/Pages/ResponsePage.aspx?id=zfBz1sJw-0ql0phkJ8st_dNkz-HpRABNsyEgu9SdqldUNlEzVEE4WE5TSkFYRzlMOEJWMEQ5SkE2Mi4u&origin=QRCode"
+						target="_blank"
+						class="hover:bg-light absolute right-3 flex h-[100%] cursor-pointer items-end rounded-md px-2 py-2 text-base font-bold text-white text-white underline transition hover:text-white"
+					>
+						Click now to register
+					</a>
+				</div>
 				<div class=" shadow">
 					<div class="mx-auto max-w-2xl rounded-lg bg-white shadow-md">
 						<h2
@@ -105,9 +119,6 @@
 				<div class="shadow"><HomeVideo /></div>
 
 				<div class="bg-light mt-5 p-5 shadow"><HomePolicy /></div>
-				<div class=" flex h-[120px] items-center justify-center shadow">
-					<img src="/images/center.png" alt="" class=" w-[350px] rounded-lg" />
-				</div>
 			</div>
 
 			<!-- Main Content (larger) -->
@@ -130,69 +141,68 @@
 						Services through Strategic Partners
 					</p>
 				</div>
-				<div
-					class="relative flex items-center justify-center bg-gradient-to-r from-blue-100 via-blue-200 to-blue-100 shadow"
-				>
-					<img src="/images/saf.png" alt="" class=" w-[180px] rounded-lg" />
+				<div class="bg-light relative flex items-center justify-center shadow">
+					<img src="/images/saf.png" alt="" class=" w-[240px] rounded-lg" />
 					<a
-						on:click={() => openModal('SAF Strategic Partner')}
-						class="text-dblue hover:bg-light absolute top-2 right-3 cursor-pointer rounded-md px-2 py-2 text-base font-bold text-white underline transition hover:text-white"
+						href="https://forms.office.com/pages/responsepage.aspx?id=zfBz1sJw-0ql0phkJ8st_dNkz-HpRABNsyEgu9SdqldUMFZUSUZYMFFaM1VYM1BIV0xEVlYzMFUyWC4u&origin=QRCode&route=shorturl"
+						target="_blank"
+						class="text-dblue hover:bg-light absolute right-3 flex h-[100%] h-[100%] cursor-pointer items-end rounded-md px-2 py-2 text-base font-bold text-white underline transition hover:text-white"
 					>
-						Join Now
+						Click now to register
 					</a>
 				</div>
 
 				<div class="bg-light relative flex items-center justify-center shadow">
-					<img src="/images/epr.png" alt="" class=" w-[150px] rounded-lg" />
+					<img src="/images/epr.png" alt="" class=" w-[180px] rounded-lg" />
 					<a
-						on:click={() => openModal('EPR Strategic Partner')}
-						class="text-dblue hover:bg-light absolute top-2 right-3 cursor-pointer rounded-md px-2 py-2 text-base font-bold text-white underline transition hover:text-white"
+						href="https://forms.office.com/pages/responsepage.aspx?id=zfBz1sJw-0ql0phkJ8st_dNkz-HpRABNsyEgu9SdqldUNjVBVEJRUktPWjZIMktQUk5ZT0VMWVI4TS4u&route=shorturl"
+						target="_blank"
+						class="text-dblue hover:bg-light absolute right-3 flex h-[100%] cursor-pointer items-end rounded-md px-2 py-2 text-base font-bold text-white underline transition hover:text-white"
 					>
-						Join Now
+						Click now to register
 					</a>
 				</div>
-				<div
-					class="relative flex h-[140px] items-center justify-center bg-gradient-to-r from-stone-100 via-stone-200 to-stone-200 shadow"
-				>
-					<img src="/images/icca.png" alt="" class=" w-[280px] rounded-lg" />
+				<div class=" bg-light relative flex flex h-[150px] items-center shadow">
+					<img src="/images/center.png" alt="" class=" w-[350px] rounded-lg" />
 					<a
-						on:click={() => openModal('India Clean Cooking Alliance Strategic Partner')}
-						class="text-dblue hover:bg-light absolute top-2 right-3 cursor-pointer rounded-md px-2 py-2 text-base font-bold text-white underline transition hover:text-white"
+						href="https://forms.office.com/pages/responsepage.aspx?id=zfBz1sJw-0ql0phkJ8st_dNkz-HpRABNsyEgu9SdqldUQUtKTDBTMkpUUjFRV1lWQlJVMjBSNk1OWC4u&route=shorturl"
+						target="_blank"
+						class="text-dblue hover:bg-light absolute right-3 flex h-[100%] cursor-pointer items-end rounded-md px-2 py-2 text-base font-bold text-white underline transition hover:text-white"
 					>
-						Join Now
+						Click now to register
 					</a>
 				</div>
-				<div
-					class="relative flex h-[140px] items-center justify-center bg-gradient-to-r from-zinc-200 via-zinc-200 to-zinc-100 shadow"
-				>
+				<div class="bg-light relative flex h-[220px] items-center justify-center shadow">
 					<img src="/images/icla.png" alt="" class=" w-[140px] rounded-lg" />
 					<a
-						on:click={() => openModal('Climate Law Association Strategic Partner')}
-						class="text-dblue hover:bg-light absolute top-2 right-3 cursor-pointer rounded-md px-2 py-2 text-base font-bold text-white underline transition hover:text-white"
+						href="https://forms.office.com/pages/responsepage.aspx?id=zfBz1sJw-0ql0phkJ8st_dNkz-HpRABNsyEgu9SdqldUQ09KM0VZTU4wWFU5VzI1TEhBNTFVU0owQy4u&route=shorturl"
+						target="_blank"
+						class="text-dblue hover:bg-light absolute right-3 flex h-[100%] cursor-pointer items-end rounded-md px-2 py-2 text-base font-bold text-white underline transition hover:text-white"
 					>
-						Join Now
+						Click now to register
 					</a>
 				</div>
+				<div class="bg-light relative flex h-[180px] items-center justify-center shadow">
+					<img src="/images/icca.png" alt="" class=" w-[280px] rounded-lg" />
+					<a
+						href="https://forms.office.com/pages/responsepage.aspx?id=zfBz1sJw-0ql0phkJ8st_dNkz-HpRABNsyEgu9SdqldUM1VZTVYyUzg0RFVVTEdIWVQxS0E1UUdGTy4u&route=shorturl"
+						target="_blank"
+						class="text-dblue hover:bg-light absolute right-3 flex h-[100%] cursor-pointer items-end rounded-md px-2 py-2 text-base font-bold text-white underline transition hover:text-white"
+					>
+						Click now to register
+					</a>
+				</div>
+
 				<div class="bg-dblue mt-2 items-center justify-between p-2 shadow-sm">
 					<p class="text-center text-base text-lg text-white">Be A CMAI Member & Visit COP 30</p>
 				</div>
-				<div
-					class="relative flex h-[170px] items-center justify-center bg-gradient-to-r from-slate-200 via-slate-100 to-slate-100 shadow"
-				>
-					<img src="/images/copp.jpg" alt="" class=" w-full h-[170px] rounded-lg" />
-					<a
-						on:click={() => openModal('COP 30 Strategic Partner')}
-						class="text-white hover:bg-light absolute top-2 right-3 cursor-pointer rounded-md px-2 py-2 text-base font-bold text-white underline transition hover:text-white"
-					>
-						Join Now
-					</a>
-				</div>
+
 				<div class=""><HomeServices /></div>
 				<div class=""><HomeMembers /></div>
 				<!-- <div class=" shadow">
 					<div class="mx-auto max-w-2xl rounded-lg bg-white shadow-md">
 						<h2
-							class="relative inline-block w-full border-b-2 border-dotted border-sky-800 bg-gradient-to-r from-blue-100 via-blue-200 to-blue-100 px-4 py-2 text-xl font-bold text-sky-800"
+							class="relative inline-block w-full border-b-2 border-dotted border-sky-800 bg-light px-4 py-2 text-xl font-bold text-sky-800"
 						>
 							Contact Us
 						</h2>

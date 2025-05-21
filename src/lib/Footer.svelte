@@ -2,9 +2,9 @@
 	<div class="mx-auto max-w-screen-xl px-4 pt-6 pb-6">
 		<div class="flex flex-wrap justify-between gap-4">
 			<div>
-				<button class="text-dblue rounded-lg bg-white px-6 py-2 font-bold hover:bg-gray-200">
+				<a href="mailto:Secretary@cma-india.in" class="text-dblue rounded-lg bg-white px-6 py-2 font-bold hover:bg-gray-200">
 					Contact Us
-				</button>
+				</a>
 				<div class="mt-4 flex gap-4">
 					<a
 						class="flex items-center justify-center text-base gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"

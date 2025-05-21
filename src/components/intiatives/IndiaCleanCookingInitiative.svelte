@@ -19,20 +19,23 @@
 		<div class="grid grid-cols-1 md:grid-cols-12">
 			<!-- Left Sidebar (smaller) -->
 			<div class="space-y-9 md:col-span-9">
-				<div class="bg-light max-w-full">
+				<div class="bg-dblue max-w-full pb-4">
 					<h2
-						class="border-text-dblue text-dblue relative inline-block w-full border-b-2 border-dotted px-4 py-2 text-lg font-bold"
+						class="border-text-dblue text-white relative inline-block w-full border-b-2 border-dotted px-4 py-2 text-lg font-bold"
 					>
 						India Clean Cooking Initiative
 					</h2>
-					<h2 class="mt-4 mb-4 px-4 text-2xl font-semibold">Introduction</h2>
-					<p class="mt-2 px-4 pb-4 text-lg leading-relaxed text-gray-700">
+					<h2 class="mt-4 mb-4 px-4 text-2xl font-semibold text-white">Introduction</h2>
+					<p class="mt-2 px-4  text-lg leading-relaxed text-white">
 						The India Clean Cooking Alliance is a transformative initiative dedicated to
 						revolutionising cooking practices across India. By uniting government bodies, industry
 						experts, NGOs, and community leaders, the Alliance promotes smoke-free, low-emission
 						cooking technologies. It aims to reduce health hazards and environmental degradation
 						while advancing sustainable energy practices at the grassroots level.
 					</p>
+					<div class="mt-5 ml-4">
+                                <a class="rounded-lg bg-white px-6 py-2 text-dblue font-bold hover:bg-gray-200 mt-5 p-4" href="https://forms.office.com/pages/responsepage.aspx?id=zfBz1sJw-0ql0phkJ8st_dNkz-HpRABNsyEgu9SdqldUM1VZTVYyUzg0RFVVTEdIWVQxS0E1UUdGTy4u&route=shorturl" target="_blank">Know More</a></div>
+
 				</div>
 
 				<div class="mx-auto bg-white shadow-md">
@@ -85,7 +88,7 @@
 						<div class="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
 							<div>
 								<img
-									src="/images/cook.jpg"
+									src="/images/vis.jpg"
 									alt="Mission Image"
 									class="h-[270px] w-full rounded-lg object-cover shadow-lg"
 								/>
@@ -122,7 +125,7 @@
 							</div>
 							<div>
 								<img
-									src="/images/solar.jpg"
+									src="/images/mis.jpeg"
 									alt="Mission Image"
 									class="h-[270px] w-full rounded-lg object-cover shadow-lg"
 								/>

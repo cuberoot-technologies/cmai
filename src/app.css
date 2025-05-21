@@ -16,7 +16,7 @@
     color: var(--color-dblue);
 }
 .text-dblue-light{
-    color: var(--color-dblue-light);
+    color: var(--color-dblue);
 }
 .bg-light{
     background-color: var(--bg-light);
@@ -25,5 +25,5 @@
     background-color: var(--color-dblue);
 }
 .bg-dblue-light{
-    background-color: var(--color-dblue-light);
+    background-color: var(--color-dblue);
 }

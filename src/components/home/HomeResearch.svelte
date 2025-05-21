@@ -74,7 +74,7 @@
 	}
 </script>
 
-<section class="py-8">
+<section class="">
 	<h2
 		class="bg-light text-dblue relative inline-block w-full border-b-2 border-dotted border-sky-800 px-4 py-2 text-xl font-bold"
 	>

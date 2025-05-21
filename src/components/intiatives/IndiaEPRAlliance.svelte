@@ -36,7 +36,8 @@
                                     The EPR Association is a pioneering initiative dedicated to transforming waste management in India through Extended Producer Responsibility. Bringing together producers, recyclers, policymakers, and environmental organisations, the Alliance champions sustainable waste practices, drives circular economy innovation, and sets benchmarks for reducing environmental impact while creating economic opportunities across diverse sectors. 
 
 								</p>
-                                <button class="rounded-lg bg-white px-6 py-2 text-dblue font-bold hover:bg-gray-200 mt-5" on:click={() => openModal(' SAF Association - Know More (Intitiatives)')}>Know More</button>
+                               <div class="mt-5">
+                                <a class="rounded-lg bg-white px-6 py-2 text-dblue font-bold hover:bg-gray-200 mt-5 p-4" href="https://forms.office.com/pages/responsepage.aspx?id=zfBz1sJw-0ql0phkJ8st_dNkz-HpRABNsyEgu9SdqldUNjVBVEJRUktPWjZIMktQUk5ZT0VMWVI4TS4u&route=shorturl" target="_blank">Know More</a></div>
 
 							</section>
 						</div>

@@ -9,7 +9,6 @@
 	let interval;
 	let associates = [];
 
-	const BASE_URL = 'https://your-api-url.com/api/files'; // <-- change this to your base URL
 
 	async function fetchAssociates() {
 		try {
