@@ -1,17 +1,17 @@
 <script>
-	import FormModal from "../home/FormModal.svelte";
+	import FormModal from '../home/FormModal.svelte';
 	let isModalOpen = false;
-  let modalSource = '';
+	let modalSource = '';
 
-  function openModal(source) {
-    modalSource = source;
-    isModalOpen = true;
-  }
+	function openModal(source) {
+		modalSource = source;
+		isModalOpen = true;
+	}
 
-  function closeModal() {
-    isModalOpen = false;
-    modalSource = '';
-  }
+	function closeModal() {
+		isModalOpen = false;
+		modalSource = '';
+	}
 </script>
 
 <div>
@@ -19,20 +19,27 @@
 		<div class="grid grid-cols-1 md:grid-cols-12">
 			<!-- Left Sidebar (smaller) -->
 			<div class="space-y-9 md:col-span-9">
-				<div class="bg-light max-w-full">
+				<div class="bg-dblue max-w-full pb-4">
 					<h2
-						class="border-text-dblue text-dblue relative inline-block w-full border-b-2 border-dotted px-4 py-2 text-lg font-bold"
+						class="border-text-dblue relative inline-block w-full border-b-2 border-dotted px-4 py-2 text-lg font-bold text-white"
 					>
 						Climate Law Association
 					</h2>
-					<h2 class="mt-4 mb-4 px-4 text-2xl font-semibold">Introduction</h2>
-					<p class="mt-2 px-4 pb-4 text-lg leading-relaxed text-gray-700">
+					<h2 class="mt-4 mb-4 px-4 text-2xl font-semibold text-white">Introduction</h2>
+					<p class="mt-2 px-4 pb-4 text-lg leading-relaxed text-white">
 						The Climate Law Association is a pioneering collaborative platform dedicated to
 						advancing robust legal frameworks that address climate change in India. Bringing
 						together legal experts, policymakers, industry leaders, and civil society, the alliance
 						strives to craft progressive climate legislation that supports sustainable development,
 						climate justice, and a resilient, low-carbon future for the nation.
 					</p>
+					<div class="mt-5 ml-4">
+						<a
+							class="text-dblue mt-5 rounded-lg bg-white p-4 px-6 py-2 font-bold hover:bg-gray-200"
+							href="https://forms.office.com/pages/responsepage.aspx?id=zfBz1sJw-0ql0phkJ8st_dNkz-HpRABNsyEgu9SdqldUQ09KM0VZTU4wWFU5VzI1TEhBNTFVU0owQy4u&route=shorturl"
+							target="_blank">Know More</a
+						>
+					</div>
 				</div>
 
 				<div class="mx-auto bg-white shadow-md">
@@ -96,11 +103,11 @@
 							<div class="text-left">
 								<h2 class="text-3xl font-bold text-gray-900">Vision</h2>
 								<p class="mt-4 text-lg text-gray-700">
-									The Climate Law Association envisions a future where robust, progressive
-									climate legislation underpins sustainable growth and positions India as a global
-									leader in climate action. We aim to create an integrated legal framework that
-									guarantees environmental justice, empowers communities, and drives transformative
-									policies, ensuring a resilient, net-zero future for all.
+									The Climate Law Association envisions a future where robust, progressive climate
+									legislation underpins sustainable growth and positions India as a global leader in
+									climate action. We aim to create an integrated legal framework that guarantees
+									environmental justice, empowers communities, and drives transformative policies,
+									ensuring a resilient, net-zero future for all.
 								</p>
 							</div>
 						</div>
@@ -136,21 +143,17 @@
 
 			<!-- Main Content (larger) -->
 			<div class="space-y-3 border-l-1 border-solid border-gray-200 pl-3 md:col-span-3">
-				<div
-				class="relative flex h-[190px] items-center justify-center "
-			>
-				<img src="/images/icla.png" alt="" class=" w-[350px] " />
-				<a
-				on:click={() => openModal('Climate Law Association - (Intitiatives)')}
-					class="text-dblue font-bold rounded-md absolute top-2 right-3 underline px-2 py-2 text-base text-white transition hover:bg-light hover:text-white"
-				>
-					Join Now
-				</a>
-			</div>
-			
+				<div class="relative flex h-[190px] items-center justify-center">
+					<img src="/images/icla.png" alt="" class=" w-[350px]" />
+					<a
+						on:click={() => openModal('Climate Law Association - (Intitiatives)')}
+						class="text-dblue hover:bg-light absolute top-2 right-3 rounded-md px-2 py-2 text-base font-bold text-white underline transition hover:text-white"
+					>
+						Join Now
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
 	<FormModal isOpen={isModalOpen} onClose={closeModal} source={modalSource} />
-
 </div>
