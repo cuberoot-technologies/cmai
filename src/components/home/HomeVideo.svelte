@@ -9,7 +9,6 @@
 
 			<blockquote class="">
 				<div class="relative mx-auto w-full max-w-md">
-					<!-- <video class="h-auto w-full" src="/images/cmai.mp4" autoplay muted loop></video> -->
 
 					<!-- <div class="absolute inset-0 flex items-center justify-center">
 					  <svg class="w-16 h-16 text-white opacity-75" fill="currentColor" viewBox="0 0 24 24">
