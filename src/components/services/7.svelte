@@ -6,6 +6,8 @@
 		<div class="grid grid-cols-1 md:grid-cols-12">
 			<!-- Left Sidebar (smaller) -->
 			<div class="space-y-9 md:col-span-9">
+			 <img src="/images/service9.jpg" alt=""class="mx-auto" >
+
 				<div class="bg-white">
 					<h2 class="text-dblue mb-4 text-2xl font-semibold">
 						Explore Collaboration Opportunities with our Strategic Partners
@@ -31,9 +33,9 @@
 					<div class="space-y-4">
 						<!-- Event 1 -->
 						<div class="    mb-0 border-b-2 border-dotted border-gray-200 p-3">
-							<p class="text-xl text-gray-600">
+							<a href="https://safassociation.com/" class="text-xl text-gray-600">
 								1. <b>SAF Association</b> – Advancing sustainable aviation fuel solutions for a low-carbon aviation sector
-							</p>
+							</a>
 						</div>
 
 						<!-- Event 2 -->

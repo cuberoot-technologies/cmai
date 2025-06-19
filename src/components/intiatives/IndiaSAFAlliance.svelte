@@ -39,7 +39,7 @@
 								
 								</p>
 								<div class="mt-5">
-                                <a class="rounded-lg bg-white px-6 py-2 text-dblue font-bold hover:bg-gray-200 mt-5 p-4" href="https://forms.office.com/pages/responsepage.aspx?id=zfBz1sJw-0ql0phkJ8st_dNkz-HpRABNsyEgu9SdqldUMFZUSUZYMFFaM1VYM1BIV0xEVlYzMFUyWC4u&origin=QRCode&route=shorturl" target="_blank">Know More</a></div>
+                                <a class="rounded-lg bg-white px-6 py-2 text-dblue font-bold hover:bg-gray-200 mt-5 p-4" href="https://safassociation.com/" target="_blank">Know More</a></div>
 
 							</section>
 						</div>

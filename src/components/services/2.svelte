@@ -4,9 +4,12 @@
 
 <div>
 	<div class="container mx-auto mt-5 p-4">
+
 		<div class="grid grid-cols-1 md:grid-cols-12">
 			<!-- Left Sidebar (smaller) -->
 			<div class="space-y-9 md:col-span-9">
+			 <img src="/images/service4.png" alt="" >
+
 				<div class="bg-white">
 					<h2 class="text-dblue mb-4 text-2xl font-semibold">
 						Networking Opportunities with Corporate Leaders, Government Authorities and International Fora

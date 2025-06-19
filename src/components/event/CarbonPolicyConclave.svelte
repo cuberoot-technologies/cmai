@@ -2,12 +2,14 @@
 	class=" inset-0 bg-[url('https://www.assocham.org/assets/images/event-detail-banner-bg.jpg')] bg-cover bg-center"
 >
 	<!-- Image Content -->
-	<div class="relative  flex justify-center p-6">
+	<div class="relative  flex justify-center flex-col items-center p-6">
 		<img
-			src="/images/policy.jpg"
+			src="/images/carbon1.png"
 			alt="India Climate Week 2025"
 			class="h-[500px] w-[60%] object-contain"
 		/>
+		<a href="https://forms.office.com/pages/responsepage.aspx?id=zfBz1sJw-0ql0phkJ8st_dNkz-HpRABNsyEgu9SdqldUMFZUSUZYMFFaM1VYM1BIV0xEVlYzMFUyWC4u&origin=QRCode&route=shorturl" class="mb-4 text-4xl font-bold text-gray-800 underline mt-5"> Register Now</a>
+
 	</div>
 </div>
 

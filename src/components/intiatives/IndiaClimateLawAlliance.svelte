@@ -142,6 +142,25 @@
 			</div>
 
 			<!-- Main Content (larger) -->
+<div class="space-y-3 border-l-1 border-solid border-gray-200 pl-3 md:col-span-3">
+				<div
+					class=" relative flex h-[280px] items-center justify-center border-1 border-solid border-gray-200 "
+				>
+					<img src="/images/icla.png" alt="" class=" w-[220px] rounded-lg" />
+					<a
+						href="https://forms.office.com/pages/responsepage.aspx?id=zfBz1sJw-0ql0phkJ8st_dNkz- HpRABNsyEgu9SdqldUQ09KM0VZTU4wWFU5VzI1TEhBNTFVU0owQy4u&route=shorturl"
+						target="_blank"
+						class="text-dblue hover:bg-light absolute right-3 flex h-[100%] h-[100%] cursor-pointer items-end rounded-md px-2 py-2 text-base font-bold text-white underline transition hover:text-white"
+					>
+						Click now to register
+					</a>
+				</div>
+				<div class=" relative flex items-center justify-center">
+					<img src="/images/iclaqr.jpg" alt="" class=" w-[180px] rounded-lg" />
+				</div>
+			</div>
+
+
 			<div class="space-y-3 border-l-1 border-solid border-gray-200 pl-3 md:col-span-3">
 				<div class="relative flex h-[190px] items-center justify-center">
 					<img src="/images/icla.png" alt="" class=" w-[350px]" />

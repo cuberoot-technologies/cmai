@@ -58,6 +58,8 @@
 		<div class="grid grid-cols-1 md:grid-cols-12">
 			<!-- Left Sidebar (smaller) -->
 			<div class="space-y-9 md:col-span-9">
+			 <img src="/images/service5.png" alt="" class="mx-auto" >
+
 				<div class="bg-white">
 					<h2 class="text-dblue mb-4 text-2xl font-semibold">
 						Capacity Building Workshops and Training Programs for Stakeholders

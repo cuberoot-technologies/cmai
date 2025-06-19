@@ -162,6 +162,10 @@
 			  </p>
 			</div>
 	  
+		
+		  </div>
+		</div>
+		<div class="flex  items-center justify-center gap-15">
 			<!-- Global & Local Impact -->
 			<div class="flex flex-col items-center text-center">
 			  <div class="mb-4 text-5xl">🌍</div>
@@ -179,8 +183,7 @@
 				CMAI works closely with key ministries, thought leaders, and international organizations, driving climate innovation and policy alignment for lasting change.
 			  </p>
 			</div>
-		  </div>
-		</div>
+			</div>
 	  </section>
 	  
 	<div class="container mx-auto mb-10">

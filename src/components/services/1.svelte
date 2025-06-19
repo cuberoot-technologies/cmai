@@ -7,6 +7,8 @@
 		<div class="grid grid-cols-1 md:grid-cols-12">
 			<!-- Left Sidebar (smaller) -->
 			<div class="space-y-9 md:col-span-9">
+				<div class="flex w-full"> <img src="/images/service1.jpeg" alt=""  width="50%" class="object-cover">
+					<img src="/images/service2.jpg" alt="" width="50%" class="object-cover"></div>
 				<div class="bg-white">
 					<h2 class="text-dblue mb-4 text-2xl font-semibold">
 						Policy Advocacy to Government and Regulators
@@ -94,7 +96,9 @@
 
 			<!-- Main Content (larger) -->
 			<div class="space-y-3 border-l-1 border-solid border-gray-200 pl-3 md:col-span-3">
+				
 				<div class="relative flex w-full items-center justify-center border border-gray-200 p-4">
+					
 					<div class="mx-auto max-w-lg text-center">
 						<h1 class="text-dblue mb-5 text-2xl font-bold">Become a member now!</h1>
 

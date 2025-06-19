@@ -69,7 +69,7 @@
 						title: 'Initiatives',
 						links: [
 							{ href: '/saf-association', label: 'SAF Association' },
-							{ href: '/epr-association', label: 'EPR Association' },
+							// { href: '/epr-association', label: 'EPR Association' },
 							{ href: '/ant-Initiative', label: 'ANT Initiative' },
 							{ href: '/india-clean-cooking-initiative', label: 'India Clean Cooking Initiative' },
 							{ href: '/climate-law-association', label: 'Climate Law Association' }

@@ -7,6 +7,8 @@
 		<div class="grid grid-cols-1 md:grid-cols-12">
 			<!-- Left Sidebar (smaller) -->
 			<div class="space-y-9 md:col-span-9">
+			 <img src="/images/service7.jpg" alt=""class="mx-auto" >
+
 				<div class="bg-white">
 					<h2 class="text-dblue mb-4 text-2xl font-semibold">
 						National & International Delegations for Fostering Climate Action

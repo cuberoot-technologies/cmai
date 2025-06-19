@@ -1,4 +1,6 @@
 <script>
+	import HomePolicy from "../home/HomePolicy.svelte";
+
 </script>
 
 <div>
@@ -25,18 +27,8 @@
 
 			<!-- Main Content (larger) -->
 			<div class="space-y-3 border-l-1 border-solid border-gray-200 pl-3 md:col-span-3">
-				<div class="relative flex w-full items-center justify-center border border-gray-200 p-4">
-					<div class="mx-auto max-w-lg text-center">
-						<h1 class="text-dblue mb-5 text-2xl font-bold">Become a member now!</h1>
-
-						<a href="/about-membership"><button
-							type="submit"
-							class="border-text-secondary w-4xs border-text-dblue bg-dblue w-full cursor-pointer px-2 py-2 text-base text-xl text-white transition-all duration-300 ease-in-out hover:border-orange-700 hover:bg-orange-700 hover:text-white"
-						>
-							Join Now
-						</button></a>
-					</div>
-				</div>
+				<HomePolicy/>
+				
 			</div>
 		</div>
 	</div>
