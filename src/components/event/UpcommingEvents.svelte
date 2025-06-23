@@ -83,7 +83,7 @@
 					
 				</a>
 					<a href="">
-					<p class=" mb-5 text-xl text-gray-500">Venue- February 2026</p>
+					<p class=" mb-5 text-xl text-gray-500">Venue- New Delhi</p>
 					
 				</a>
 				<a href="" class="bg-dblue mt-5 cursor-pointer rounded-md px-2 py-2 text-md text-white transition hover:bg-blue-700"> See more</a>
