@@ -7,16 +7,19 @@
 				CMAI Video
 			</h2>
 
-			<blockquote class="">
-				<div class="relative mx-auto w-full max-w-md">
+		<blockquote class="">
+    <div class="relative mx-auto w-full max-w-md">
+        <video 
+            src="/images/CMAIFILM-2.mp4" 
+            autoplay 
+            muted 
+            loop 
+            playsinline 
+            class="w-full h-auto ">
+        </video>
+    </div>
+</blockquote>
 
-					<!-- <div class="absolute inset-0 flex items-center justify-center">
-					  <svg class="w-16 h-16 text-white opacity-75" fill="currentColor" viewBox="0 0 24 24">
-						<path d="M8 5v14l11-7z" />
-					  </svg>
-					</div> -->
-				</div>
-			</blockquote>
 			<a
 				href="/videos"
 				class="group hover:text-dblue relative inline-flex w-full items-center justify-end p-4 text-base text-gray-700 transition-all duration-300"
