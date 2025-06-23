@@ -15,7 +15,7 @@
 			</a>
 			<div class="p-4">
 				<div class="flex justify-between">
-					<h2 class="mb-1 text-xl font-semibold">SAF Conclave</h2>
+					<h2 class="mb-1 text-xl font-semibold">India SAF Conclave and Awards 2025</h2>
 
 					<a
 						href="https://forms.office.com/pages/responsepage.aspx?id=zfBz1sJw-0ql0phkJ8st_dNkz-HpRABNsyEgu9SdqldUMFZUSUZYMFFaM1VYM1BIV0xEVlYzMFUyWC4u&origin=QRCode&route=shorturl"
@@ -27,9 +27,7 @@
 				<a href="/india-climate-week-2026">
 					<p class=" mb-1 text-base text-gray-500">📅 October 2025</p>
 					<p class="text-xl text-gray-600">
-						The India Carbon Policy Conclave 2025, convened by the Carbon Market Association of
-						India (CMAI), will serve as a pivotal forum for steering the evolution of India’s carbon
-						market...
+						The India Carbon Policy Conclave 2025, convened by the Carbon Market Association of India (CMAI), will serve as a pivotal forum for steering the evolution of India’s carbon...
 					</p>
 				</a>
 			</div>
@@ -70,29 +68,25 @@
 		<div
 			class="overflow-hidden rounded-2xl bg-white shadow-md transition-shadow duration-300 hover:shadow-xl"
 		>
-			<a href="/icw-2026">
+			<a href="">
 				<img src="/images/icwf.jpg" alt="Card Image" class="h-78 w-full object-cover" />
 			</a>
 
 			<div class="p-4">
 				<div class="flex justify-between">
-					<h2 class="mb-1 text-xl font-semibold">India Climate Week 2026</h2>
+					<h2 class="mb-1 text-2xl font-semibold">India Climate Week 2026</h2>
 
-					<a
-						href="https://forms.office.com/pages/responsepage.aspx?id=zfBz1sJw-0ql0phkJ8st_dNkz-HpRABNsyEgu9SdqldUNVg3TUtFR1pLRU9HQVBINENKSUlEMFlTVC4u&route=shorturl"
-						class="underline"
-					>
-						Register now
-					</a>
+					
 				</div>
-				<a href="/icw-2026">
-					<p class=" mb-1 text-base text-gray-500">📅 February 2026</p>
-					<p class="text-xl text-gray-600">
-						The Carbon Policy Development Conclave 2025, convened by the Carbon Market Association
-						of India (CMAI), will serve as a pivotal forum for steering the evolution of India’s
-						carbon market policy...
-					</p>
+				<a href="">
+					<p class=" mb-1 text-xl text-gray-500">Date- February 2026</p>
+					
 				</a>
+					<a href="">
+					<p class=" mb-5 text-xl text-gray-500">Venue- February 2026</p>
+					
+				</a>
+				<a href="" class="bg-dblue mt-5 cursor-pointer rounded-md px-2 py-2 text-md text-white transition hover:bg-blue-700"> See more</a>
 			</div>
 		</div>
 		<!-- Card End -->

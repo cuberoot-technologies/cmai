@@ -19,7 +19,7 @@
       <!-- Card Start -->
       <a href="/cop-29">
         <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-          <img src="/images/cop29.jpg" alt="Card Image" class="w-full h-78 object-cover">
+          <img src="/images/c2.jpeg" alt="Card Image" class="w-full h-78 object-cover">
           <div class="p-4">
             <h2 class="text-xl font-semibold mb-1">COP29</h2>
             <p class="text-sm text-gray-500 mb-1">📅 11th - 22nd November 2024</p>

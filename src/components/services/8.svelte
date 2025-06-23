@@ -6,6 +6,10 @@
 		<div class="grid grid-cols-1 md:grid-cols-12">
 			<!-- Left Sidebar (smaller) -->
 			<div class="space-y-9 md:col-span-9">
+				<div class="flex w-full">
+					<img src="/images/est.jpeg" alt="" width="50%">
+					<img src="/images/est1.jpeg" alt="" width="50%">
+				</div>
 				<div class="bg-white">
 					<h2 class="text-dblue mb-4 text-2xl font-semibold">
 						Establish Brand Image through various Conferences & Events

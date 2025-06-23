@@ -32,52 +32,52 @@
 					<div class="space-y-4">
 						<!-- Event 1 -->
 						<div class="    mb-0 border-b-2 border-dotted border-gray-200 p-3">
-							<p class="text-xl text-gray-600">
+							<a href="https://drive.google.com/file/d/1V3n2NfBzQNEkke-RxFgI56Q1u1tnIwY2/view" class="text-xl text-gray-600">
 								1. <b>Carbon Credit Projects for the Railway Sector</b>
 								Supporting Indian Railways in achieving Net Zero by 2030, this report explores carbon
 								credit mechanisms and project opportunities across the transport and infrastructure value
-							</p>
+							</a>
 						</div>
 
 						<!-- Event 2 -->
 						<div class="   mb-0 border-b-2 border-dotted border-gray-200 p-3">
-							<p class="text-xl text-gray-600">
+							<a href="https://drive.google.com/file/d/1t9kj-gGyBuHQGLBiyubXOgoPp_NA_bmO/view" class="text-xl text-gray-600">
 								2. <b
 									>Carbon Markets as a Tool for Climate Financing: India Story (with Invest India)</b
 								>
 								Designed to educate industry stakeholders, this report demystifies carbon markets and
 								highlights how they can serve as powerful tools for unlocking climate finance.
-							</p>
+							</a>
 						</div>
 
 						<!-- Event 3 -->
 						<div class="   mb-0 border-b-2 border-dotted border-gray-200 p-3">
-							<p class="text-xl text-gray-600">
+							<a href="https://drive.google.com/file/d/1_f2Ak5q-LggVDWZsMYaPNifHhW8fqREd/view" class="text-xl text-gray-600">
 								3. <b
 									>Carbon Credits and Green Logistics (with Transportation Corporation of India Ltd.
 									- TCIL)</b
 								>
 								Focused on decarbonizing the transport and logistics sector, this report outlines strategies
 								to generate carbon credits and integrate sustainable mobility practices.
-							</p>
+							</a>
 						</div>
 						<div class="   mb-0 border-b-2 border-dotted border-gray-200 p-3">
-							<p class="text-xl text-gray-600">
+							<a href="https://drive.google.com/file/d/1YvIkV6nfVzPJ0juZhgeDWXLf6304yh_1/view" class="text-xl text-gray-600">
 								4. <b
 									>Advancing the Indian Carbon Market Toward a Net-Zero Future (with U.S.-India
 									Business Council - USIBC)</b
 								>
 								This paper emphasizes the role of green technology adoption and market-based solutions
 								in accelerating India’s Net Zero ambitions.
-							</p>
+							</a>
 						</div>
 						<div class="   mb-0 border-b-2 border-dotted border-gray-200 p-3">
-							<p class="text-xl text-gray-600">
+							<a href="https://drive.google.com/file/d/1W3w9xm4DpuxyHv32293Pxw7lfTp17Yig/view" class="text-xl text-gray-600">
 								5. <b>Accelerating Global Climate Action (with IEEMA)</b>
 								Targeted at the MSME sector, this report highlights opportunities for carbon credit generation
 								and prepares Indian industry for global compliance mechanisms like CBAM (Carbon Border
 								Adjustment Mechanism).
-							</p>
+							</a>
 						</div>
 						<div class="   mb-0 border-b-2 border-dotted border-gray-200 p-3">
 							<a
@@ -85,9 +85,8 @@
 								class="text-xl text-gray-600"
 							>
 								6. <b
-									>Report on Unlocking the Carbon Market Potential in the Live Stock Sector in
-									India.</b
-								>
+									>Unlocking the Carbon Market Potential in the Livestock Sector in India (with Global Dairy Platform)</b >
+									to drive sectoral decarbonization as India hosts the largest livestock population in the world.
 							</a>
 						</div>
 					</div>

@@ -1,21 +1,90 @@
+<script>
+	import { API_BASE_URL } from '$lib/api';
+
+	let email = '';
+	let message = '';
+	let isError = false;
+
+	async function handleSubmit(event) {
+		event.preventDefault();
+
+		if (!email) {
+			message = 'Please enter an email address.';
+			isError = true;
+			return;
+		}
+
+		try {
+			const response = await fetch(`${API_BASE_URL}/collections/cmai_newsletter/records`, {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify({
+					email: email
+				})
+			});
+
+			if (response.ok) {
+				message = 'Thank you for subscribing!';
+				isError = false;
+				email = ''; // Clear input
+			} else {
+				const err = await response.json();
+				console.error(err);
+				message = 'Failed to subscribe. Please try again.';
+				isError = true;
+			}
+		} catch (error) {
+			console.error('Error submitting:', error);
+			message = 'An error occurred. Please try again.';
+			isError = true;
+		}
+	}
+</script>
+
 <footer class=" bg-gray-900">
-	
 	<div class="mx-auto max-w-screen-xl px-4 pt-6 pb-6">
 		<div class="flex flex-wrap justify-between gap-4">
 			<div>
-				<div class="mx-auto max-w-screen-xl  pt-6 pb-6 d-flex justify-end">
-		<h1 class="text-white mb-3 text-xl font-bold">Subscribe to our monthly newsletter </h1>
-		<form action="">
-			<input type="text" placeholder="Enter Your Email" class="text-dblue rounded-lg bg-white px-6 py-2 font-bold ">
-			<button class="text-dblue rounded-lg bg-white px-6 py-2 font-bold hover:bg-gray-200 ">Subscribe</button>
-		</form>
-	</div>
-				<a href="mailto:Secretary@cma-india.in" class="text-dblue rounded-lg bg-white px-6 py-2 font-bold hover:bg-gray-200">
+				<div class="d-flex mx-auto max-w-screen-xl justify-end pt-6 pb-6">
+					<h1 class="mb-3 text-xl font-bold text-white">Subscribe to our monthly newsletter</h1>
+					<form
+						on:submit|preventDefault={handleSubmit}
+						class="flex w-full max-w-md flex-col space-y-2"
+					>
+						<div class="flex space-x-2">
+							<input
+								type="email"
+								placeholder="Enter Your Email"
+								bind:value={email}
+								class="text-dblue flex-1 rounded-lg border border-gray-300 bg-white px-6 py-2 font-bold focus:ring focus:ring-sky-300"
+								required
+							/>
+							<button
+								type="submit"
+								class="text-dblue rounded-lg border border-gray-300 bg-white px-6 py-2 font-bold hover:bg-gray-200"
+							>
+								Subscribe
+							</button>
+						</div>
+
+						{#if message}
+							<p class={`text-sm font-semibold ${isError ? 'text-red-600' : 'text-green-600'}`}>
+								{message}
+							</p>
+						{/if}
+					</form>
+				</div>
+				<a
+					href="mailto:Secretary@cma-india.in"
+					class="text-dblue rounded-lg bg-white px-6 py-2 font-bold hover:bg-gray-200"
+				>
 					Contact Us
 				</a>
 				<div class="mt-4 flex gap-4">
 					<a
-						class="flex items-center justify-center text-base gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
+						class="flex items-center justify-center gap-1.5 text-base ltr:sm:justify-start rtl:sm:justify-end"
 						href="mailto:Secretary@cma-india.in"
 					>
 						<svg
@@ -57,14 +126,24 @@
 						<span class="flex-1 text-white">+91 9811779580</span>
 					</a>
 				</div>
-				<p class="text-base text-white mt-4 tracking-wider">
+				<p class="mt-4 text-base tracking-wider text-white">
 					<b>CMAI Office Address:</b> 511, 5th floor, World Trade Centre, Barakhamba Road, New Delhi
 					- 110001
 				</p>
-				<p class="text-base text-white mt-4 tracking-wider"><b> CMAI Registered Address: </b> A-65, Sec-62, Noida, Uttar Pradesh</p>
+				<p class="mt-4 text-base tracking-wider text-white">
+					<b> CMAI Registered Address: </b> A-65, Sec-62, Noida, Uttar Pradesh
+				</p>
 			</div>
 			<div>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3501.9278950569337!2d77.22443257550081!3d28.631923075664986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDM3JzU0LjkiTiA3N8KwMTMnMzcuMiJF!5e0!3m2!1sen!2sin!4v1746206843358!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3501.9278950569337!2d77.22443257550081!3d28.631923075664986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDM3JzU0LjkiTiA3N8KwMTMnMzcuMiJF!5e0!3m2!1sen!2sin!4v1746206843358!5m2!1sen!2sin"
+					width="100%"
+					height="300"
+					style="border:0;"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
 			</div>
 		</div>
 	</div>
