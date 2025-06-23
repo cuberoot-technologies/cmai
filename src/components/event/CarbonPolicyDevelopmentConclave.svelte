@@ -2,9 +2,9 @@
 <div class="bg-[url('https://www.assocham.org/assets/images/event-detail-banner-bg.jpg')] bg-cover bg-center bg-no-repeat rounded-xl ">
     <div class="flex justify-center p-6">
       <img 
-        src="/images/past.png" 
+        src="/images/past.jpeg" 
         alt="Carbon Policy Conclave" 
-        class="w-[60%] h-[400px] "
+        class="w-[60%] h-[500px] "
       />
     </div>
   </div>

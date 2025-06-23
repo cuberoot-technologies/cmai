@@ -1,5 +1,53 @@
-<script>
-	import FormMember from '../aboutmembership/FormMember.svelte';
+	<script>
+	import { onMount, tick } from 'svelte';
+	import KeenSlider from 'keen-slider';
+	import 'keen-slider/keen-slider.min.css';
+
+	let keenSlider;
+	let interval;
+
+	onMount(async () => {
+		await tick(); // Ensure DOM is fully updated before initializing
+
+		keenSlider = new KeenSlider('#keen-slider', {
+			loop: true,
+			slides: {
+				perView: 1,
+				spacing: 12
+			},
+			breakpoints: {
+				'(min-width: 640px)': { slides: { perView: 1, spacing: 16 } },
+				'(min-width: 1022px)': { slides: { perView: 1, spacing: 24 } }
+			}
+		});
+
+		// Ensure slider resizes properly
+		setTimeout(() => keenSlider.resize(), 100);
+
+		// Navigation buttons
+		document
+			.getElementById('keen-slider-previous')
+			?.addEventListener('click', () => keenSlider.prev());
+		document.getElementById('keen-slider-next')?.addEventListener('click', () => keenSlider.next());
+
+		// Function to start auto-slide
+		const startAutoSlide = () => {
+			interval = setInterval(() => keenSlider.next(), 5000);
+		};
+
+		// Function to stop auto-slide
+		const stopAutoSlide = () => {
+			clearInterval(interval);
+		};
+
+		// Start auto-slide
+		startAutoSlide();
+
+		// Stop auto-slide on hover and resume on leave
+		const sliderElement = document.getElementById('keen-slider');
+		sliderElement?.addEventListener('mouseenter', stopAutoSlide);
+		sliderElement?.addEventListener('mouseleave', startAutoSlide);
+	});
 </script>
 
 <div>
@@ -7,8 +55,67 @@
 		<div class="grid grid-cols-1 md:grid-cols-12">
 			<!-- Left Sidebar (smaller) -->
 			<div class="space-y-9 md:col-span-9">
-				<div class="flex w-full"> <img src="/images/service1.jpeg" alt=""  width="50%" class="object-cover">
-					<img src="/images/service2.jpg" alt="" width="50%" class="object-cover"></div>
+		
+
+	<section>
+		<div class="relative mx-auto mb-10 max-w-screen-xl">
+			<div class="absolute top-[42%] z-10 flex w-[100%] items-center justify-between gap-4 px-5">
+				<button
+					id="keen-slider-previous"
+					class="rounded-full border border-white text-white transition hover:bg-blue-700 hover:text-white"
+				>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="size-5 rtl:rotate-180"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="1.5"
+					>
+						<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+					</svg>
+				</button>
+				<button
+					id="keen-slider-next"
+					class="rounded-full border border-white text-white transition hover:bg-blue-700 hover:text-white"
+				>
+					<svg
+						class="size-5 rtl:rotate-180"
+						fill="none"
+						stroke="currentColor"
+						viewBox="0 0 24 24"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							d="M9 5l7 7-7 7"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+						/>
+					</svg>
+				</button>
+			</div>
+			<div id="keen-slider" class="keen-slider w-full">
+				<div class="keen-slider__slide relative w-full">
+					<div class="group relative overflow-hidden">
+						<img alt="" src="/images/lighc.jpg" class="inset-0 h-[550px] w-[100%]  w-full" />
+					</div>
+				</div>
+        	<div class="keen-slider__slide relative w-full">
+					<div class="group relative overflow-hidden">
+						<img alt="" src="/images/service2.jpg" class="inset-0 h-[550px] w-[100%]  w-full" />
+					</div>
+				</div>
+        
+        
+        	
+        
+      
+
+				
+			</div>
+		</div>
+	</section>
 				<div class="bg-white">
 					<h2 class="text-dblue mb-4 text-2xl font-semibold">
 						Policy Advocacy to Government and Regulators
