@@ -102,7 +102,7 @@
 							</div> -->
 
 							<!-- Event 4 -->
-							<div class="flex items-center justify-between p-2 shadow-sm">
+							<!-- <div class="flex items-center justify-between p-2 shadow-sm">
 								<p class="text-base text-lg text-gray-800">
 									➢ India Carbon Policy <br /> Development Conclave 2025
 								</p>
@@ -112,7 +112,7 @@
 								>
 									Register Now
 								</a>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
