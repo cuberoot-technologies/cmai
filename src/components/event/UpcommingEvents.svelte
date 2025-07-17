@@ -27,7 +27,7 @@
 				<a href="/india-climate-week-2026">
 					<p class=" mb-1 text-base text-gray-500">📅 October 2025</p>
 					<p class="text-xl text-gray-600">
-						The India Carbon Policy Conclave 2025, convened by the Carbon Market Association of India (CMAI), will serve as a pivotal forum for steering the evolution of India’s carbon...
+						India stands at a pivotal juncture in its aviation journey. As the world’s third-largest domestic aviation market by passenger numbers—trailing only the United States and...
 					</p>
 				</a>
 			</div>

@@ -72,7 +72,7 @@
 										and alignment with India’s climate objectives.
 									</li>
 									<li>
-										Initiate pilot projects through ICCA, EPR Association, and SAF Association to
+										Initiate pilot projects through ICCA, CLA and SAF Association to
 										explore innovative carbon market mechanisms.
 									</li>
 									<li>

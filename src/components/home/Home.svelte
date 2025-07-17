@@ -91,7 +91,7 @@
 								</a>
 							</div>
 							<!-- Event 3 -->
-							<div class="flex items-center justify-between p-2 shadow-sm">
+							<!-- <div class="flex items-center justify-between p-2 shadow-sm">
 								<p class="text-base text-lg text-gray-800">➢ India EPR Conclave 2025</p>
 								<a
 									on:click={() => openModal('India EPR Conclave 2025')}
@@ -99,7 +99,7 @@
 								>
 									Register Now
 								</a>
-							</div>
+							</div> -->
 
 							<!-- Event 4 -->
 							<div class="flex items-center justify-between p-2 shadow-sm">
@@ -152,7 +152,7 @@
 					</a>
 				</div>
 
-				<div class="bg-light relative flex items-center justify-center shadow">
+				<!-- <div class="bg-light relative flex items-center justify-center shadow">
 					<img src="/images/epr.png" alt="" class=" w-[180px] rounded-lg" />
 					<a
 						href="https://forms.office.com/pages/responsepage.aspx?id=zfBz1sJw-0ql0phkJ8st_dNkz-HpRABNsyEgu9SdqldUNjVBVEJRUktPWjZIMktQUk5ZT0VMWVI4TS4u&route=shorturl"
@@ -161,7 +161,7 @@
 					>
 						Click now to register
 					</a>
-				</div>
+				</div> -->
 				<div class=" bg-light relative flex flex h-[150px] items-center shadow">
 					<img src="/images/center.png" alt="" class=" w-[350px] rounded-lg" />
 					<a

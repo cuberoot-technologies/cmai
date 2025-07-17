@@ -39,22 +39,18 @@
 						</div>
 
 						<!-- Event 2 -->
-						<div class="   mb-0 border-b-2 border-dotted border-gray-200 p-3">
-							<p class="text-xl text-gray-600">
-								2. <b> EPR Association</b> – Strengthening Extended Producer Responsibility frameworks for circular economy and resource efficiency
-							</p>
-						</div>
+						
 
 						<!-- Event 3 -->
 						<div class="   mb-0 border-b-2 border-dotted border-gray-200 p-3">
 							<p class="text-xl text-gray-600">
-								3. <b>India Clean Cooking Alliance</b> – Promoting clean, affordable, and sustainable cooking solutions to improve health and reduce emissions
+								2. <b>India Clean Cooking Alliance</b> – Promoting clean, affordable, and sustainable cooking solutions to improve health and reduce emissions
 
 							</p>
 						</div>
                         <div class="   mb-0 border-b-2 border-dotted border-gray-200 p-3">
 							<p class="text-xl text-gray-600">
-								4. <b> Climate Law Association</b> – Supporting the development of a robust legal and policy framework for climate action in India
+								3. <b> Climate Law Association</b> – Supporting the development of a robust legal and policy framework for climate action in India
 
 							</p>
 						</div>
