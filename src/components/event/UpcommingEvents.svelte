@@ -7,7 +7,7 @@
 
 	<div class="grid grid-cols-1 gap-6 md:grid-cols-3">
 		<!-- Card Start -->
-		<div
+		<!-- <div
 			class="overflow-hidden rounded-2xl bg-white shadow-md transition-shadow duration-300 hover:shadow-xl"
 		>
 			<a href="/india-climate-week-2026">
@@ -31,11 +31,11 @@
 					</p>
 				</a>
 			</div>
-		</div>
+		</div> -->
 		<!-- Card End -->
 
 		<!-- Card Start -->
-		<div
+		<!-- <div
 			class="overflow-hidden rounded-2xl bg-white shadow-md transition-shadow duration-300 hover:shadow-xl"
 		>
 			<a href="/cop30-upcomming">
@@ -61,7 +61,7 @@
 					</p>
 				</a>
 			</div>
-		</div>
+		</div> -->
 		<!-- Card End -->
 
 		<!-- Card Start -->
