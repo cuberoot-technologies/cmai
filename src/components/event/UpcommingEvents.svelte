@@ -79,11 +79,11 @@
 					
 				</div>
 				<a href="">
-					<p class=" mb-1 text-xl text-gray-500">Date- February 2026</p>
+					<p class=" mb-1 text-xl text-gray-500">Date- 12 - 17th March 2026</p>
 					
 				</a>
 					<a href="">
-					<p class=" mb-5 text-xl text-gray-500">Venue- New Delhi</p>
+					<p class=" mb-5 text-xl text-gray-500">Venue- Bharat Mandapam, New Delhi</p>
 					
 				</a>
 				<a href="" class="bg-dblue mt-5 cursor-pointer rounded-md px-2 py-2 text-md text-white transition hover:bg-blue-700"> See more</a>
