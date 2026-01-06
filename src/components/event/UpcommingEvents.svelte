@@ -68,7 +68,7 @@
 		<div
 			class="overflow-hidden rounded-2xl bg-white shadow-md transition-shadow duration-300 hover:shadow-xl h-full"
 		>
-			<a href="">
+			<a href="https://cma-india-event.netlify.app/" target="_blank">
 				<img src="/images/up.jpg" alt="Card Image" class="h-[700px] w-full object-cover border-b border-gray-300" />
 			</a>
 
@@ -78,15 +78,15 @@
 
 					
 				</div>
-				<a href="">
+				<a href="https://cma-india-event.netlify.app/" target="_blank">
 					<p class=" mb-1 text-xl text-gray-500">Date- 12 - 17th March 2026</p>
 					
 				</a>
-					<a href="">
+					<a href="https://cma-india-event.netlify.app/" target="_blank">
 					<p class=" mb-5 text-xl text-gray-500">Venue- Bharat Mandapam, New Delhi</p>
 					
 				</a>
-				<a href="" class="bg-dblue mt-5 cursor-pointer rounded-md px-2 py-2 text-md text-white transition hover:bg-blue-700"> See more</a>
+				<a href="https://cma-india-event.netlify.app/" target="_blank" class="bg-dblue mt-5 cursor-pointer rounded-md px-2 py-2 text-md text-white transition hover:bg-blue-700"> See more</a>
 			</div>
 		</div>
 		<!-- Card End -->
