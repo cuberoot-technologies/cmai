@@ -66,10 +66,10 @@
 
 		<!-- Card Start -->
 		<div
-			class="overflow-hidden rounded-2xl bg-white shadow-md transition-shadow duration-300 hover:shadow-xl"
+			class="overflow-hidden rounded-2xl bg-white shadow-md transition-shadow duration-300 hover:shadow-xl h-full"
 		>
 			<a href="">
-				<img src="/images/icwf.jpg" alt="Card Image" class="h-78 w-full object-cover" />
+				<img src="/images/up.jpg" alt="Card Image" class="h-[700px] w-full object-cover border-b border-gray-300" />
 			</a>
 
 			<div class="p-4">
