@@ -131,7 +131,7 @@
 					- 110001
 				</p>
 				<p class="mt-4 text-base tracking-wider text-white">
-					<b> CMAI Registered Address: </b> A-65, Sec-62, Noida, Uttar Pradesh
+					<b> CMAI Registered Address: </b> A-65, Sec-71, Noida, Uttar Pradesh
 				</p>
 			</div>
 			<div>

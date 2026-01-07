@@ -44,11 +44,11 @@
 				<div class="bg-light relative flex h-[220px] items-center justify-center shadow">
 					<img src="/images/cma.png" alt="" class=" w-[230px] rounded-lg" />
 					<a
-						href="https://forms.office.com/pages/responsepage.aspx?id=zfBz1sJw-0ql0phkJ8st_dNkz-HpRABNsyEgu9SdqldUNVg3TUtFR1pLRU9HQVBINENKSUlEMFlTVC4u&route=shorturl"
+						href="https://cma-india-event.netlify.app/"
 						target="_blank"
 						class="text-dblue hover:bg-light absolute right-3 flex h-[100%] cursor-pointer items-end rounded-md px-2 py-2 text-base font-bold text-white underline transition hover:text-white"
 					>
-						Click now to register
+						See more
 					</a>
 				</div>
 				<div class="relative flex h-[170px] items-center justify-center shadow">

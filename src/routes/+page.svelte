@@ -33,8 +33,9 @@
 
 {#if showPopup}
 	<div class="popup relative">
-		<div class="popup-content">
-			<a href="https://www.indiaenergyweek.com/" target="_blank" rel="noopener noreferrer"><img src="/images/pop.jpeg" class=" w-full" alt=""></a>
+		<div class="popup-content flex gap-3">
+			<a href="https://www.indiaenergyweek.com/" target="_blank" rel="noopener noreferrer"><img src="/images/pop.jpeg" class=" w-full" alt=""> </a>
+			<a href="https://cma-india-event.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="/images/eve.jpg" class=" w-full h-68" alt=""> </a>
 			<button on:click={closePopup} class="bg-light w-[40px] h-[40px] p-2 absolute rounded-full text-dblue top-10 right-10 flex items-center justify-center cursor-pointer text-xl">
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
 					<path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" width="20px" height="20px" />
