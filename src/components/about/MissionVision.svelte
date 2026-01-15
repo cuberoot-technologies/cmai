@@ -11,7 +11,7 @@
 					<div class="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
 						<div>
 							<img
-								src="/images/vission.jpg"
+								src="/images/vission.png"
 								alt="Mission Image"
 								class="h-[270px] w-full rounded-lg object-cover shadow-lg"
 							/>
