@@ -21,7 +21,7 @@
 						<div class="text-left">
 							<h2 class="text-3xl font-bold text-gray-900">Vision</h2>
 							<p class="mt-4 text-lg text-gray-600">
-								To be a catalyst towards building India as a Developed Nation
+								To accelerate the journey towards a net zero world.
 							</p>
 						</div>
 					</div>
@@ -34,12 +34,10 @@
 							<h2 class="text-3xl font-bold text-gray-900">Mission</h2>
 
 							<ul class="mt-4 list-inside list-decimal text-lg text-gray-600">
-								<li>One-stop platform for services to industry & society</li>
-								<li>Customer-focused organization</li>
-								<li>World-class services</li>
-								<li>Global thinking and local action</li>
-								<li>Learning and caring organization</li>
-								<li>Partnership approach</li>
+								<li>To drive collaboration among governments, industries, and civil society</li>
+								<li>To enable stakeholders to take actionable steps in emissions reduction, carbon offset management, and climate resilience</li>
+								<li>To equip stakeholders with the knowledge and skills needed for sustainable practices through workshops and training.
+</li>
 							</ul>
 						</div>
 						<div>
