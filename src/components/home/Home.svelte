@@ -81,7 +81,7 @@
 							</div>
 
 							<!-- Event 2 -->
-							<div class="flex items-center justify-between p-2 shadow-sm">
+							<!-- <div class="flex items-center justify-between p-2 shadow-sm">
 								<p class="text-base text-lg text-gray-800">➢ India SAF Conclave 2025</p>
 								<a
 									on:click={() => openModal('India SAF Conclave 2025')}
@@ -89,7 +89,7 @@
 								>
 									Register Now
 								</a>
-							</div>
+							</div> -->
 							<!-- Event 3 -->
 							<!-- <div class="flex items-center justify-between p-2 shadow-sm">
 								<p class="text-base text-lg text-gray-800">➢ India EPR Conclave 2025</p>
@@ -141,7 +141,7 @@
 						Services through Strategic Partners
 					</p>
 				</div>
-				<div class="bg-light relative flex items-center justify-center shadow">
+				<!-- <div class="bg-light relative flex items-center justify-center shadow">
 					<img src="/images/saf.png" alt="" class=" w-[240px] rounded-lg" />
 					<a
 						href="https://forms.office.com/pages/responsepage.aspx?id=zfBz1sJw-0ql0phkJ8st_dNkz-HpRABNsyEgu9SdqldUMFZUSUZYMFFaM1VYM1BIV0xEVlYzMFUyWC4u&origin=QRCode&route=shorturl"
@@ -150,7 +150,7 @@
 					>
 						Click now to register
 					</a>
-				</div>
+				</div> -->
 
 				<!-- <div class="bg-light relative flex items-center justify-center shadow">
 					<img src="/images/epr.png" alt="" class=" w-[180px] rounded-lg" />
