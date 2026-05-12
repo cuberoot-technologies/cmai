@@ -51,19 +51,19 @@
 
 	const socialLinks = [
 		{
-			name: 'Facebook',
-			url: 'https://cii.in/facebook',
-			icon: 'fa-facebook',
-			color: 'text-blue-600'
+			name: 'Instagram',
+			url: 'https://www.instagram.com/cmai_carbonmarkets/',
+			icon: 'fa-instagram',
+			color: 'text-red-600'
 		},
-		{ name: 'Twitter', url: 'https://cii.in/twitter', icon: 'fa-x-twitter', color: 'text-black' }, // X (Twitter) in black
+		{ name: 'Twitter', url: 'https://x.com/official_cmai', icon: 'fa-x-twitter', color: 'text-black' }, // X (Twitter) in black
 		{
 			name: 'LinkedIn',
-			url: 'https://cii.in/linkedin',
+			url: 'https://www.linkedin.com/company/carbon-markets-association-of-india/',
 			icon: 'fa-linkedin',
 			color: 'text-blue-500'
 		},
-		{ name: 'YouTube', url: 'https://cii.in/youtube', icon: 'fa-youtube', color: 'text-red-600' }
+		{ name: 'YouTube', url: 'https://www.youtube.com/@OfficialCMAI', icon: 'fa-youtube', color: 'text-red-600' }
 	];
 </script>
 
@@ -202,7 +202,7 @@
 				<a href={link.url} target="_blank" rel="noopener noreferrer">
 					<i class="fab {link.icon} {link.color} text-3xl"></i>
 				</a>
-				<a href={link.url} class="mt-2 text-sm text-gray-600">{link.url}</a>
+				<a href={link.url} class="mt-2 text-sm text-gray-600">{link.name}</a>
 			</div>
 		{/each}
 	</div>
