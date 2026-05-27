@@ -116,7 +116,7 @@
 
 				<div>
 					<h1 class="text-dblue text-2xl font-bold mt-9 mb-3">FOR MEMBERSHIP DETAILS REACH OUT TO :</h1>
-					<a href="mailto:ayushi.gaur@cma-india.in" class="flex items-center gap-3 text-xl text-gray-600">
+					<!-- <a href="mailto:ayushi.gaur@cma-india.in" class="flex items-center gap-3 text-xl text-gray-600">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="size-5 shrink-0 text-black"
@@ -131,7 +131,7 @@
 								d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
 							/>
 						</svg>ayushi.gaur@cma-india.in</a
-					>
+					> -->
 					<a href="mailto:secretary@cma-india.in" class="flex items-center gap-3 text-xl text-gray-600">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
